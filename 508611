@@ -1,0 +1,425 @@
+/* jester commission template
+yes we're lazy and this is an edited version of katie and i's v3 free template
+sue me
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+
+there are a lot of other codes at use here randomly strewn throughout
+below is a list of ids credited with other pieces/inspiration for various things in this template
+just because a user is credited it does not mean their code is used in one specific css.
+Pandora #144118
+Kat .:Red Lion of Voltron:. #94329
+tawny #251887
+Austin #43750 */
+ 
+/* FONTS - Import from Google Fonts */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ 
+body {  font-family: "Quantico", sans-serif;}
+ 
+.topbar {  font-family: "Quantico", sans-serif;}
+ 
+.navbar {  font-family: "Quantico", sans-serif;}
+
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://images2.imgbox.com/1b/42/YEqW3sTp_o.jpeg') center center fixed;
+background-size: 100%;
+color: #d0e0e4; } }
+
+@media screen and (max-width: 600px){
+body {
+background: #0D0D0E;
+background-size: cover;
+color: #d0e0e4; } }
+ 
+ 
+/* HEADERS */
+ 
+h1 {
+color: #d0e0e4 !important;
+font-size: 64px;
+    text-shadow: 3px 3px 3px #1B2C3A !important;
+text-align: center !important;
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;}
+
+h2 {
+color: #d0e0e4 !important;
+font-size: 24px;}
+
+h3 {
+color: #d0e0e4 !important;
+font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+color: #d0e0e4 !important;
+background: none !important; }
+   
+a:hover {
+color: #HEX !important;
+    text-shadow: 1px 1px 2px #1B2C3A !important;}
+ 
+/* MAIN PANEL */
+   
+.container.main {
+background: rgba(13, 13, 14, 0.4);
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+background: rgba(208, 224, 228, 0.7) !important;
+color: #1E1F20 !important;
+border: none !important;
+border-radius: 0px !important;  }
+.topbar a, .topbar a:visited {
+color: #1E1F20 !important;
+}
+.topbar a:hover {
+    text-shadow: 1px 1px 2px #d0e0e4 !important;
+}
+ 
+.navbar {
+background: rgba(30, 31, 32, 0.7) !important;
+color: #d0e0e4 !important;
+border: 3px double #6B8391 !important;
+border-radius: 0px !important; }
+
+.navbar li a:hover {
+background: #HEX !important;
+color: #6B8391 !important; }
+
+.navbar-toggle {
+border: none !important;
+background: rgba(30, 31, 32, 0.7) !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+.breadcrumb {
+background: rgba(208, 224, 228, 0.7) !important;
+color: #1E1F20 !important;
+border: none !important;
+border-radius: 0px !important; } 
+.breadcrumb .active {
+color: #1E1F20; }
+
+.breadcrumb a, .breadcrumb a:hover {
+color: #1E1F20 !important; }
+ 
+/* ALERTS */
+ 
+.alert {
+background: rgba(208, 224, 228, 0.7) !important;
+color: #1E1F20 !important;
+border: none !important;
+border-radius: 0px !important; 
+text-align: center !important;  }
+.alert a, .alert a:visited {
+    color: #1E1F20 !important; }
+.alert a:hover {
+    text-shadow: 1px 1px 2px #d0e0e4 !important;
+}
+ 
+
+/* COMMENT BOX */
+
+div#commentBox {
+background: rgba(30, 31, 32, 0.6) !important;
+border: none !important;
+border-radius: 0px !important;
+color: #d0e0e4 !important;}
+	
+.comment {     
+background: #HEX !important;
+border: none !important;
+border-bottom: none !important;
+border-radius: 0px !important;
+color: #HEX !important;
+text-align: center !important;}
+.text-muted { 
+color: #d0e0e4 !important; }
+
+input.bad {
+background: #d0e0e4 !important;
+color: #1E1F20 !important;}
+input.bad a {
+color: #1E1F20 !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
+ 
+/* SIDE PANELS */
+ 
+.panel {
+background: rgba(30, 31, 32, 0.7) !important;
+color: #d0e0e4 !important;
+border: 3px double #6B8391 !important;
+border-radius: 0px !important; 
+box-shadow: none !important;  }
+   
+.progress-bar {
+background: #384B58 !important; 
+border-radius: 0px !important; }
+
+.progress div {
+color: #0D0D0E !important; }
+
+.progress {
+background:  #d0e0e4;
+color: #HEX !important;
+border-radius: 0px !important;  }
+ 
+/* CHAT */
+
+button#label_currentChannel {
+border: none !important;
+background: #HEX !important; }
+
+div#chatMessageContainer {
+border: none !important; }
+
+.s-chat-message_timestamp {
+color: #HEX !important; }
+
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+    background: #HEX !important;
+color: #HEX !important;	
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+.s-chat-message__pinned {
+background-color: #d0e0e4 !important;
+color: #0D0D0E !important;
+border: none !important; }
+.s-chat-message__pinned a {
+    color: #0D0D0E !important; }
+}
+
+.s-chat-message {
+background: rgba(30, 31, 32, 0.7) !important;
+color: #d0e0e4 !important;
+border: 3px double #6B8391 !important;
+border-radius: 0px !important;
+border-bottom: 1px solid #d0e0e4 !important; }
+
+div#lblCharacterCounter {
+color: #d0e0e4 !important; }
+
+html.nolayout {
+background: none !important; }
+
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+background: rgba(30, 31, 32, 0.7) !important;
+color: #d0e0e4 !important;
+border: 3px double #6B8391 !important;
+border-radius: 0px !important;  }
+
+div.left {
+background: rgba(30, 31, 32, 0.7) !important;
+color: #d0e0e4 !important;
+border: 3px double #6B8391 !important;
+border-radius: 0px !important;  }
+
+.xsmall {
+font-size: 14px !important; }
+ 
+/* LION INFO */
+ 
+.table {
+background: rgba(0, 0, 0, 0.0);
+border: none !important;
+border-collapse: separate;
+border-radius: 0px; }
+
+.top, .bottom, th {
+background: rgba(30, 31, 32, 0.7) !important;
+color: #d0e0e4 !important;
+border: 3px double #6B8391 !important;
+border-radius: 0px !important;  }
+ 
+.table .left {
+background: rgba(208, 224, 228, 0.7) !important;
+color: #1E1F20 !important;
+border: none !important;
+border-radius: 0px !important;  }
+
+.inner-table .left {
+background: rgba(208, 224, 228, 0.7) !important;
+color: #1E1F20 !important;
+border: none !important;
+border-radius: 0px !important;  }
+
+.inner-table .right {
+background: rgba(208, 224, 228, 0.7) !important;
+color: #1E1F20 !important;
+border: none !important;
+border-radius: 0px !important;  } 
+.inner-table .right a, .inner-table .right a:visited {
+    color: #1E1F20 !important;
+}
+
+.right_odd {
+background: none !important; }
+
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+opacity: 1.0;
+border-radius: 0px;
+overflow: hidden; }   
+table#player img {
+opacity: 1.0;
+border-radius: 0px; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: rgba(30, 31, 32, 0.7) !important;
+color: #d0e0e4 !important;
+border: 3px double #6B8391 !important;
+border-radius: 0px !important;
+text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+background: rgba(30, 31, 32, 0.7) !important;
+color: #d0e0e4 !important;
+border: 3px double #6B8391 !important;
+border-radius: 0px !important; }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #1E1F20;}
+::-webkit-scrollbar-thumb {
+background: #d0e0e4; }
+
+/* first number is thumb, second is track, firefox only */
+:root {
+scrollbar-color: #d0e0e4 #1E1F20 !important;
+scrollbar-width: auto;}
+
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+content: "css by jester (#187561)";
+color: #HEX;
+position: absolute;
+right: 13%;
+z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* CAVE COVERS
+width: 240
+height: 120 (60 for half size - like the nesting banner)*/
+
+a[href$="539751"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/57/cf/014INhE7_o.gif')!important;
+width: 258px !important;
+height: 120px !important; }
+a[href$="541849"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/57/cf/014INhE7_o.gif')!important; 
+width: 258px !important;
+height: 120px !important; }
+a[href$="450617"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/d7/91/rOcGtsQa_o.gif')!important;
+width: 258px !important;
+height: 120px !important; }
+a[href$="476225"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/d7/91/rOcGtsQa_o.gif')!important; 
+width: 258px !important;
+height: 120px !important; }
+a[href$="542516"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/f1/28/SOAEo2RG_o.gif')!important; 
+width: 258px !important;
+height: 120px !important; }
+a[href$="476226"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/f1/28/SOAEo2RG_o.gif')!important; 
+width: 258px !important;
+height: 120px !important; }
+a[href$="542517"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/d6/86/uYaSgqj5_o.gif')!important; 
+width: 258px !important;
+height: 120px !important; }
+a[href$="475042"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/d6/86/uYaSgqj5_o.gif')!important; 
+width: 258px !important;
+height: 120px !important; }
+
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('https://images2.imgbox.com/0a/c3/dhm5jJtV_o.gif')!important;
+    width: 258px !important;
+height: 120px !important;
+}
+a[href$="unsorted.php?id=508611"]>div.cave-grid>img{
+content: url('https://images2.imgbox.com/c0/1d/EYFDqc6t_o.gif')!important;
+width: 258px !important;
+height: 120px !important;}
+a[href*="lionoverview.php?id=508611"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/c0/1d/EYFDqc6t_o.gif')!important;
+width: 258px !important;
+height: 120px !important; }
+
+/* badge */
+
+.badge {
+background: #264D38 !important;
+color: #e0dace !important; }
+	
+/ * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
+and removes link underlines from edit your details */
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+td.bottom a, th a {
+border-bottom: none !important; }
