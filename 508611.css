@@ -193,19 +193,21 @@ border-radius: 0px !important;  }
 
 button#label_currentChannel {
 border: none !important;
-background: #HEX !important; }
+background: #1E1F20 !important;
+color: #d0e0e4 !important; }
 
 div#chatMessageContainer {
-border: none !important; }
+border: none !important;
+border-radius: 0px !important;}
 
 .s-chat-message_timestamp {
-color: #HEX !important; }
+color: #d0e0e4 !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
-    background: #HEX !important;
-color: #HEX !important;	
-border: none !important;
+background: #1E1F20 !important;
+color: #d0e0e4 !important;
+border: 1px solid #6B8391 !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
 
@@ -218,7 +220,7 @@ border: none !important; }
 }
 
 .s-chat-message {
-background: rgba(30, 31, 32, 0.7) !important;
+background: #1E1F20 !important;
 color: #d0e0e4 !important;
 border: 3px double #6B8391 !important;
 border-radius: 0px !important;
