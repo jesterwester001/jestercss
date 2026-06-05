@@ -281,7 +281,7 @@ background: rgba(208, 224, 228, 0.7) !important;
 color: #1E1F20 !important;
 border: none !important;
 border-radius: 0px !important;  } 
-.inner-table .right a, .inner-table .right a:visited {
+.inner-table .right a, .inner-table .right a:visited, .table .left a, .table .left a:visited {
     color: #1E1F20 !important;
 }
 
