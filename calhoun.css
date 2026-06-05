@@ -52,3 +52,6 @@
     background-position: -2000px 0;
   }
 }
+.smoke:hover {
+    display: none !important;
+    visibility: none !important; }
