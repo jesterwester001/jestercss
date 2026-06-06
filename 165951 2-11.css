@@ -1,0 +1,536 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me
+
+there are a lot of other codes at use here randomly strewn throughout
+below is a list of ids credited with other pieces/inspiration for various things in this template
+just because a user is credited it does not mean their code is used in one specific css.
+Pandora #144118
+Kat .:Red Lion of Voltron:. #94329
+tawny #251887
+Austin #43750 */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Smooch&family=Smooch+Sans:wght@100..900&display=swap');
+ 
+body {  font-family: "Smooch Sans", sans-serif;}
+ 
+.topbar {  font-family: "Smooch Sans", sans-serif;}
+ 
+.navbar {  font-family: "Smooch Sans", sans-serif;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {
+color: #4A3131 !important;
+font-size: 64px;
+text-align: center !important;
+text-transform: uppercase !important;
+font-family: "Smooch Sans", sans-serif;
+  text-shadow: 3px 3px 5px #895639 !important;}
+  h1 small {
+	  color: #4A3131 !important;
+  text-transform: lowercase !important;
+text-shadow: none !important;  }
+h1 a, h1 a:visited {
+color: #4A3131 !important; }
+
+h2 {
+color: #4A3131 !important;
+font-size: 24px;}
+
+h3 {
+color: #4A3131 !important;
+font-size: 18px;
+text-shadow: 3px 3px 5px #E5BA90 !important;}
+table h3 {
+	color: #4A3131 !important;
+font-size: 36px !important;
+  text-shadow: 3px 3px 3px #895639 !important; }
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+color: #E5BA90 !important;
+background: none !important; }
+   
+a:hover {
+color: #HEX !important;
+text-shadow: 2px 2px 3px #895639 !important;}
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 801px) { 
+body {
+background: url('https://images2.imgbox.com/7e/b9/xvxyD8DL_o.png') top center fixed;
+background-size: 100%;
+color: #4A3131; } }
+
+@media screen and (max-width: 800px){
+body {
+background: #8B5E47;
+background-size: cover;
+color: #4A3131; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+background: rgba(55, 58, 39, 0.0);
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+background: rgba(139, 94, 71, 0.8) !important;
+color: #4A3131 !important;
+border: none !important;
+border-radius: 0px !important;  }
+.topbar a, .topbar a:visited {
+color: #4A3131 !important; }
+ 
+.navbar {
+background: rgba(74, 49, 49, 0.8) !important;
+color: #E5BA90 !important;
+border: none !important;
+border-radius: 0px !important; }
+.navbar a, .navbar a:visited {
+color: #E5BA90 !important; }
+
+.navbar li a:hover {
+background: #HEX !important;
+color: #E5BA90 !important;
+text-shadow: 3px 3px 3px #895639 !important; }
+
+.navbar-toggle {
+border: none !important;
+background: #HEX !important;
+}
+
+.navbar-collapse {
+border-color: #958384 !important;
+}
+ 
+.breadcrumb {
+background: rgba(139, 94, 71, 0.8) !important;
+color: #4A3131 !important;
+border: none !important;
+border-radius: 0px !important;} 
+.breadcrumb .active {
+color: #4A3131; }
+
+.breadcrumb a {
+color: #4A3131 !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger, .alert-success {
+background: #E5BA90 !important;
+color: #4A3131 !important;
+border: none !important;
+border-radius: 0px !important;
+text-align: center !important;  }
+.alert a, .alert-warning a, .alert-success a, .alert-danger a {
+color: #4A3131 !important; }
+ .alert a:hover, .alert-warning a:hover, .alert-danger a:hover, .alert-success a:hover {
+ text-shadow: 2px 2px 3px #895639 !important; }
+
+/*COMMENT BOX */
+
+div#commentBox {
+background: #8B5E47 !important;
+border: none !important;
+border-radius: 0px !important;
+color: #HEX !important;}
+div#comment {
+text-align: center !important; }
+
+div#commentBox, div#makeComment, div#commentErrors {
+border: 1px solid #HEX !important;
+border-radius: 0px !important;
+text-align: center;}
+div#commentBox {
+background: #HEX !important; }
+div#makeComment, div#commentErrors {
+border: none !important; }
+
+img.floatleft.commentTag.clear {
+border-radius: 0px !important;}
+	
+.comment {     
+background: #8B5E47 !important;
+border: none !important;
+border-bottom: 1px solid #E5BA90 !important;
+border-radius: 0px !important;
+color: #E5BA90 !important;
+text-align: center !important;}
+.text-muted { 
+color: #E5BA90 !important; }
+.comment a:hover {
+text-shadow: 2px 2px 3px #E5BA90 !important; }
+
+input.bad {
+background: #E5BA90 !important;
+color: #4A3131 !important;}
+input.bad a {
+color: #4A3131 !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+background: rgba(74, 49, 49, 0.8) !important;
+color: #E5BA90 !important;
+border: none !important;
+border-radius: 0px !important;  }
+.feature,
+div.left {
+background: rgba(74, 49, 49, 0.8) !important;
+color: #E5BA90 !important;
+border: none !important;
+border-radius: 0px !important;  }
+.feature h3 {
+color: #E5BA90 !important; }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+background: rgba(74, 49, 49, 0.8) !important;
+color: #E5BA90 !important;
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important;  }
+.panel a, .panel a:visited {
+color: #E5BA90 !important; }
+   
+.progress {
+background:  #E5BA90;
+color: #HEX !important;
+border-radius: 0px !important;  }
+   
+.progress div {
+color: #4A3131 !important; }
+
+.progress-bar {
+background: #8B5E47 !important; 
+border-radius: 0px !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+background: #E5BA90 !important;
+border: none !important;
+color: #4A3131 !important;
+font-size: 16px !important;}
+.s-chat-message:nth-child(even) a, .s-chat-message:nth-child(even) a:visited,
+.s-chat-message:nth-child(odd) a, .s-chat-message:nth-child(odd) a:visited {
+color: #4A3131 !important; }
+	
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #E5BA90 !important;
+border-left: 6px solid #4A3131 !important;
+color: #4A3131 !important; }
+
+.s-chat-message__pinned {
+background: #4A3131 !important;
+color: #E5BA90 !important;
+border: none !important;
+font-size: 16px !important; }
+.s-chat-message__pinned a, .s-chat-message__pinned a:visited {
+color: #E5BA90 !important; }
+
+.s-chat-message_timestamp {
+color: #8B5E47 !important; }
+   
+div#chatMessageContainer {
+border: none !important; }
+button#label_currentChannel {
+border: none !important;
+background: #4A3131 !important; }
+
+div#lblCharacterCounter {
+color: #E5BA90 !important; }
+
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+    background: #4A3131 !important;
+color: #E5BA90 !important;	
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+html.nolayout {
+background: none !important; }
+ 
+/* LION INFO */
+ 
+.table {
+background: rgba(229, 186, 144, 0.8);
+border: none !important;
+border-collapse: separate;
+border-radius: 0px;
+color: #4A3131 !important; }
+.table#player.table a, .table#player.table a:visited,
+.table#allies.table a, .table#allies.table a:visited,
+.table#clans.table a, .table#clans.table a:visited,
+.table#attack.table a, .table#attack.table a:visited,
+.table#pride.table a, .table#pride.table a:visited {
+    color: #4A3131 !important;
+}
+
+.container.main {
+font-size: 16px !important; }
+
+#pride > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1) a,
+#pride > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(2) a,
+#pride > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1) a:visited
+#pride > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(2) a:visited {
+    color: #E5BA90 !important;
+}
+.top, .bottom, th {
+background: rgba(74, 49, 49, 0.8) !important;
+color: #E5BA90 !important;
+border: none !important;
+border-radius: 0px !important; }
+.top a, .top a:visited,
+.bottom a, .bottom a:visited,
+th a, th a:visited {
+color: #E5BA90 !important;
+text-decoration: none !important; }
+
+hr {
+border-color: #4A3131 !important;
+border-bottom: 2px solid;}
+ 
+.table .left {
+background: rgba(113, 73, 57, 0.8);
+border-radius: 0px !important;
+color: #E5BA90 !important; }
+.left a, .left a:visited {
+color: #C79365 !important; }
+.inner-table .left {
+background: rgba(113, 73, 57, 0.8) !important;
+border-radius: 0px !important; 
+color: #E5BA90 !important; }
+.inner-table .right {
+background: rgba(139, 94, 71, 0.8) !important;
+border-radius: 0px !important; 
+color: #E5BA90 !important; } 
+.inner-table .right a, .inner-table .right a:visited {
+color: #E5BA90 !important; }
+.right_odd {
+background: none !important; }
+
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+opacity: 0.85;
+border-radius: 10px;
+overflow: hidden; }   
+table#player img {
+opacity: 0.85;
+border-radius: 10px; }
+
+/* LIODEN LOGO REPLACER 192x120 */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+content: url('https://images2.imgbox.com/91/af/WdTE360B_o.png'); }
+		
+/ * NO LINK UNDERLINE */
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+td.bottom a, th a {
+border-bottom: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: #E5BA90 !important;
+color: #4A3131 !important;
+border: none !important;
+border-radius: 0px !important;
+text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+background: rgba(74, 49, 49, 0.8) !important;
+color: #E5BA90 !important;
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important;  }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #E5BA90;}
+::-webkit-scrollbar-thumb {
+background: #4A3131; }
+
+/* first number is thumb, second is track, firefox only */
+:root {
+scrollbar-color: #4A3131 #E5BA90 !important;
+scrollbar-width: auto;}
+
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+content: "css by jester (#187561)";
+color: #HEX;
+position: absolute;
+right: 13%;
+z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+
+/* CAVE COVERS
+width: 240
+height: 120 (60 for half size)
+first one controls all cave slots */
+
+
+div.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png')!important;
+width: 75px;
+height: 75px; }
+
+a[href$="323193"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/82/80/dpc69CWw_o.png')!important;
+width: 258px !important;
+height: auto !important; }
+a[href$="160641"] > div.cave-grid > img {
+content: url('https://images2.imgbox.com/bf/73/DUFHszjK_o.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="445980"] > div.cave-grid > img {
+content: url('https://images2.imgbox.com/5b/56/Zix8YQQF_o.png')!important;
+width: 258px !important;
+height: auto !important; }
+a[href$="165929"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/75/9d/OWVQXqhl_o.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="101516"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/67/a0/NpTl6Lya_o.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="160829"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/c7/55/pmAdHcKb_o.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="165533"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/a4/32/klOrXR23_o.png')!important;
+width: 258px !important;
+height: auto !important; }
+a[href$="160827"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/2d/8b/KltBQHxi_o.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="132844"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/ce/de/iqUkCM8S_o.png')!important;
+width: 258px !important;
+height: auto !important; }
+a[href$="160108"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/ee/d7/ZblIDQJV_o.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="390170"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/14/90/G6VD7Zs7_o.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="177146"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/2b/38/yR62JH5K_o.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="143556"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/48/9f/rGrwbZWV_o.png')!important; 
+width: 258px !important;
+height: auto !important; }
+
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('https://images2.imgbox.com/ef/22/exRoD88k_o.png')!important;
+	width: 258px !important;
+height: 120px !important;
+}
+a[href$="unsorted.php?id=165951"]>div.cave-grid>img{
+content: url('https://images2.imgbox.com/22/4d/gBbVsAJw_o.png')!important;
+width: 258px !important;
+height: 120px !important;}
+a[href*="lionoverview.php?id=165951"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/ee/6a/V4m5HC87_o.png')!important;
+width: 258px !important;
+height: 120px !important; }
+
+
+/* CAVE COMPATIBILITY */
+
+.featured-lion {
+background: rgba(74, 49, 49, 0.8) !important;
+color: #E5BA90 !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 0;
+margin: 0 auto;
+max-width: 640px;
+font-weight: bold;
+font-size: 14px; }
+
+img[src*="cave/default"] {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/ChampionshipArchAlley.png') !important;}
+
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+/* badges (days till heat, inbox messages, etc */
+.badge {
+   background: #4A3131 !important;
+    color: #E5BA90 !important; }
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/

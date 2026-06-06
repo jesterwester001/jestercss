@@ -1,0 +1,487 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Wix+Madefor+Display&display=swap');
+ 
+body {font-family: 'Wix Madefor Display', sans-serif;}
+ 
+.topbar {font-family: 'Wix Madefor Display', sans-serif;}
+ 
+.navbar {font-family: 'Marck Script', cursive;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {color: #fff !important;
+    font-size: 72px;
+text-align: left !important;
+text-shadow: 7px 7px 4px #735151 !important;
+text-transform: lowercase !important;
+font-family: 'Marck Script', cursive;}
+
+h2 {color: #fff !important;
+    font-size: 24px;
+	font-family: 'Marck Script', cursive;}
+
+h3 {color: #fff !important;
+    font-size: 18px;
+	font-family: 'Marck Script', cursive;}
+	
+.Box1 h3, .Box2 h3, .Box3 h3 {
+	color: #fff;
+font-size: 48px;
+margin-top: 7px !important;
+margin-bottom: -10px !important; }
+
+h1.center {
+text-align: center !important;
+text-shadow: none !important; }
+h1.small {
+text-align: center !important;
+text-shadow: none !important; }
+.small {
+text-shadow: none !important; }
+.small a:hover {
+color: #fff !important; }
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+    color: #fff !important;
+background: none !important;	}
+   
+a:hover {
+    color: #49D3F2 !important;	}
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://i.imgur.com/qUNc917.png') center center fixed;
+    background-size: 100%;
+    color: #fff; } }
+
+@media screen and (max-width: 600px){
+body {
+background: #414355;
+background-size: cover;
+color: #fff; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+    background: rgba(20, 31, 38, 0.2);
+    border: none;
+    box-shadow: none;
+    border-radius: 25px; }
+.col-md-9 {
+    background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+    background: rgba(61, 57, 89, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 10px !important;  }
+ 
+.navbar {
+   background: rgba(61, 57, 89, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 25px !important; }
+ 
+.navbar li a:hover {
+    background: none !important;
+text-transform: 18px !important;
+border-radius: 10px !important; }
+ 
+.breadcrumb {
+    background: rgba(61, 57, 89, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 10px !important;} 
+.breadcrumb .active {
+    color: #fff ; }
+
+.breadcrumb a, .breadcrumb a:hover {
+color: #fff !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger, .alert-success {
+   background: rgba(140, 79, 79, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 10px !important;
+text-align: center;  }
+.alert a, .alert-warning a, .alert-success a, .alert-danger a, .alert a:hover, .alert-warning a:hover, .alert-danger a:hover, .alert-success a:hover {
+color: #fff !important; }
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+    background: rgba(61, 57, 89, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 10px !important;  }
+.feature,
+div.left {
+    background: rgba(61, 57, 89, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 10px !important;  }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+    background: rgba(61, 57, 89, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+box-shadow: none !important;
+border-radius: 10px !important;  }
+   
+.progress {
+    background:  #141F26;
+    color: #fff !important;
+border-radius: 25px !important;  }
+   
+.progress div {
+    color: #fff !important; }
+
+.progress-bar {
+    background: linear-gradient(to right, #425B8C, #3B74BF, #3F8EBF) !important; 
+border-radius: 25px !important; }
+
+/*COMMENT BOX */
+
+div#commentBox, div#makeComment, div#commentErrors {
+border: none !important;
+border-radius: 15px !important;
+text-align: center;}
+
+img.floatleft.commentTag.clear {
+border-radius: 50% !important;}
+	
+.comment {     
+background: rgba(61, 57, 89, 0.6) !important;
+border: none !important;
+border-bottom: 1px solid #fff !important;
+border-radius: 0px !important;
+color: #fff !important;
+text-align: center !important;}
+
+.text-muted { color: #fff !important; }
+
+input.bad {
+background: #8C4F4F !important;
+color: #fff !important;
+text-shadow: none !important;}
+input.bad a {
+color: #fff !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #735151 !important;
+    border: none !important; }
+.s-chat-message__mod {
+background: #141F26 !important;
+color: #fff !important; }
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #3D3959 !important;
+border-left: 6px solid #1E3040 !important; }
+.s-chat-message__pinned {
+    background: #3D3959 !important;
+    color: #fff !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #fff !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel {
+    border: none !important;
+    background: #3D3959 !important; }
+ 
+/* LION INFO */
+ 
+.table {
+    background: rgba(20, 31, 38, 0.2);
+    border: none !important;
+    border-collapse: separate;
+    border-radius: 10px; }
+.top,
+.bottom,
+th {
+    background: rgba(61, 57, 89, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 10px !important; }
+ 
+.table .left {
+    background: rgba(61, 57, 89, 0.6);
+border-radius: 0px !important; }
+.inner-table .left {
+    background:  rgba(61, 57, 89, 0.6) !important;
+border-radius: 0px !important;  }
+.inner-table .right {
+    background: rgba(66, 91, 140, 0.6) !important;
+border-radius: 0px !important; 
+color: #fff !important; } 
+.right_odd {
+    background: none !important; }
+
+.inner-table .right a {
+color: #fff !important; }
+ 
+/* ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: rgba(61, 57, 89, 0.6) !important;
+    color: #fff !important; } 
+.item {
+    background: rgba(66, 91, 140, 0.6) !important;
+    border: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button {
+   background: rgba(140, 79, 79, 0.6) !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+    background: rgba(61, 57, 89, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 10px !important; }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #1E3040;
+	border-radius: 10px;}
+::-webkit-scrollbar-thumb {
+    background: #425B8C;
+border-radius: 10px;	}
+	
+.Box1::-webkit-scrollbar, .Box2::-webkit-scrollbar, .Box3::-webkit-scrollbar {
+	width: 0px;
+height: 0px; }
+.Box1::-webkit-scrollbar-track, .Box2::-webkit-scrollbar-track, .Box3::-webkit-scrollbar-track {
+background: none !important; }
+.Box1::-webkit-scrollbar-thumb, .Box2::-webkit-scrollbar-thumb, .Box3::-webkit-scrollbar-thumb {
+background: none !important; }
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #fff;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 1.0;
+border-radius: 50%;
+overflow: hidden; }   
+table#player img {
+    opacity: 1.0;
+border-radius: 50%; }
+
+/* LIODEN LOGO REPLACER */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://i.imgur.com/bpRQDem.png'); }
+
+/* CAVES 
+width: 258
+height: 130 (60 for half size)
+first one controls nesting/empty cave slot looks*/ 
+
+div.cave-grid>img {
+        content: url('https://static.lioden.com/images/items/Other/dustmoonstone.png')!important;
+width: 75px;
+height: 75px; }
+
+a[href$="127496"]>div.cave-grid>img {
+        content: url('https://static.lioden.com/images/dynamic/backgrounds/zaxreflectionpool.png')!important;
+width: 258px !important;
+height: auto !important; }
+a[href$="167142"]>div.cave-grid>img {
+        content: url('https://static.lioden.com/images/dynamic/backgrounds/galaxy.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="167141"]>div.cave-grid>img {
+        content: url('https://static.lioden.com/images/dynamic/backgrounds/Wormhole.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="129209"]>div.cave-grid>img {
+        content: url('https://static.lioden.com/images/dynamic/backgrounds/thenav.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="131410"]>div.cave-grid>img {
+        content: url('https://static.lioden.com/images/dynamic/backgrounds/SwirlingGalaxy.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="167140"]>div.cave-grid>img {
+        content: url('https://static.lioden.com/images/dynamic/backgrounds/TefnutNebula.png')!important;
+width: 258px !important;
+height: auto !important; }
+
+a[href$="unsorted.php?id=187561"]>div.cave-grid>img{
+	content: url('https://static.lioden.com/images/items/Other/app_divine.png')!important;
+width: 75px;
+height: 75px;}
+a[href*="lionoverview.php?id=187561"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/items/Other/app_demiurge.png')!important;
+width: 75px;
+height: 75px; }
+
+/* CAVE OPTIMIZATION */
+.featured-lion {
+   background: rgba(140, 79, 79, 0.6) !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 10px !important;
+padding: 0;
+margin: 0 auto;
+max-width: 640px;
+font-weight: bold;
+font-size: 14px; }
+
+img[src*="cave/default"] {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/Nebula.png') !important;}
+ 
+/* BOXES */
+
+.boxcontainer {
+    background: none;
+    height: 75px;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+margin-bottom: 10px !important;
+transition: 2s	}
+.boxcontainer:hover {
+height: 300px; }
+.container2 {
+	background: none;
+	height: 290px;
+	padding: 0px !important;
+	display: block;
+justify-content: center; }
+   
+.Box1 {
+    float: left;
+   background: rgba(140, 79, 79, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 10px !important;
+    padding: 5px;
+    float: left;
+    height: 75px;
+    width: 65%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 2s }   
+.Box1:hover {
+    overflow-y: auto;
+height: 300px;	}
+   
+.Box2 {
+    float: right;
+   background: rgba(140, 79, 79, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 10px !important;
+    padding: 5px;
+    float: right;
+    height: 75px;
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 2s }   
+.Box2:hover {
+    overflow-y: auto;
+height: 300px;	}
+	
+.Box3 {
+    float: left;
+   background: rgba(140, 79, 79, 0.6) !important;
+    color: #fff !important;
+border: none !important;
+border-radius: 10px !important;
+    padding: 5px;
+    float: left;
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 2s }   
+.Box3:hover {
+    overflow-y: auto;
+height: 300px;	}
+	
+.topper {
+	float: center;
+	background: none !important;
+	color: none !important;
+	border: none !important;
+	border-radius: 0px !important;
+	float: center;
+	height: 290px;
+	width: 635px;
+	overflow: hidden;
+margin-bottom: -250px !important;
+transition: 1s }
+
+/*CURSOR GOES HERE*/
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-7/cur626.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
