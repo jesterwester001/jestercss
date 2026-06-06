@@ -51,6 +51,9 @@ font-size: 24px;}
 h3 {
 color: #f0cccb !important;
 font-size: 18px;}
+.Box1 h3, .Box2 h3, .Box3 h3{
+    font-size:28px;
+}
  
 /* LINKS */
  
@@ -369,6 +372,7 @@ background: none;
 height: 75px;
 padding: 0px;
 display: block;
+    margin-bottom: 10px;
 justify-content: center;
 transition: 1s}
 .boxcontainer:hover {
