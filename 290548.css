@@ -493,5 +493,25 @@ and removes link underlines from edit your details */
 .footer a:link, .footer a:visited, .footer a:active {
 border-bottom: none !important; }
 
+.featured-lion {
+background: rgba(55, 17, 16, 0.7) !important;
+color: #f0cccb !important;
+border: 3px ridge #872927 !important;
+border-radius: 10px !important;
+padding: 0;
+margin: 0 auto;
+max-width: 640px;
+font-weight: bold;
+font-size: 14px; }
+
+img[src*="cave/default"] {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/echosupernova.png') !important;}
+
+table#pride.table, table#pride.table a, table#pride.table a:visited {
+color: #f0cccb !important; }
+
+table#pride.table .xsmall
+{font-size: 12px !important;}
+
 td.bottom a, th a {
 border-bottom: none !important; }
