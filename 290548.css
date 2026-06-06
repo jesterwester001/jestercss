@@ -195,7 +195,7 @@ div#chatMessageContainer {
 border: none !important; }
 
 .s-chat-message_timestamp {
-color: #HEX !important; }
+color: #f0cccb !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
@@ -213,7 +213,7 @@ border: none !important; }
 .s-chat-message {
 background: #441613 !important;
 color: #f0cccb !important;
-border-bottom: #HEX !important; }
+border-bottom: #f0cccb !important; }
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
 background-color: #531918 !important;
