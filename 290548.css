@@ -15,7 +15,8 @@ Austin #43750 */
  
 @import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap');
  
-body {  font-family: "Elsie Swash Caps", serif;}
+body {  font-family: "Elsie Swash Caps", serif;
+font-size: 16px;}
  
 .topbar {  font-family: "Elsie Swash Caps", serif;}
  
@@ -43,7 +44,6 @@ color: #531918 !important;
 font-size: 64px;
 text-align: center !important;
 text-shadow: 3px 3px 5px #f0cccb !important;}
-h1 small {color: #f0cccb !important;}
 
 h2 {
 color: #f0cccb !important;
@@ -196,7 +196,7 @@ div#chatMessageContainer {
 border: none !important; }
 
 .s-chat-message_timestamp {
-color: #f0cccb !important; }
+color: #HEX !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
@@ -214,7 +214,7 @@ border: none !important; }
 .s-chat-message {
 background: #441613 !important;
 color: #f0cccb !important;
-border-bottom: #f0cccb !important; }
+border-bottom: #HEX !important; }
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
 background-color: #531918 !important;
@@ -286,10 +286,22 @@ background: none !important; }
 div#lion_image {
 opacity: 1.0;
 border-radius: 50%;
-overflow: hidden; }   
+overflow: hidden; 
+border: 3px ridge #f0cccb;}   
 table#player img {
 opacity: 1.0;
-border-radius: 50%; }
+border-radius: 50%;
+border: 3px ridge #f0cccb;}
+
+img[src$="icon_den_message.png"],
+img[src$="icon_den_gift.png"],
+img[src$="icon_den_trade.png"],
+img[src$="icon_den_wishlist.png"],
+img[src$="icon_den_viewtrade.png"],
+img[src$="icon_den_gift.png"]
+img[src$="icon_den_block.png"],
+img[src$="icon_den_friend.png"]{
+border: none !important;}
 
 /* LIODEN LOGO REPLACER
 192x120 */
@@ -493,26 +505,6 @@ and removes link underlines from edit your details */
 		
 .footer a:link, .footer a:visited, .footer a:active {
 border-bottom: none !important; }
-
-.featured-lion {
-background: rgba(55, 17, 16, 0.7) !important;
-color: #f0cccb !important;
-border: 3px ridge #872927 !important;
-border-radius: 10px !important;
-padding: 0;
-margin: 0 auto;
-max-width: 640px;
-font-weight: bold;
-font-size: 14px; }
-
-img[src*="cave/default"] {
-content: url('https://static.lioden.com/images/dynamic/backgrounds/echosupernova.png') !important;}
-
-table#pride.table, table#pride.table a, table#pride.table a:visited {
-color: #f0cccb !important; }
-
-table#pride.table .xsmall
-{font-size: 12px !important;}
 
 td.bottom a, th a {
 border-bottom: none !important; }
