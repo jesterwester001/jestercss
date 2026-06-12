@@ -416,6 +416,12 @@ height: 75px;
 padding: 0px;
 display: block;
 justify-content: center; }
+.buttoncontainer {
+	background: none;
+	height: auto;
+	width: auto;
+	display: flex;
+	justify-content: center; }
    
 .Box1 {
 float: left;
