@@ -421,7 +421,7 @@ z-index: 100; }
 
 .boxcontainer {
 background: none;
-height: 75px;
+height: 250px;
 padding: 0px;
 display: block;
 justify-content: center; }
@@ -441,7 +441,7 @@ border: 3px outset #efe5d9 !important;
 border-radius: 10px !important;
 padding: 5px;
 float: left;
-height: 75px;
+height: 250px;
 width: 49%;
 overflow: hidden;
 margin-bottom: 10px;
@@ -458,7 +458,7 @@ border: 3px outset #efe5d9 !important;
 border-radius: 10px !important;
 padding: 5px;
 float: right;
-height: 75px;
+height: 250px;
 width: 49%;
 overflow: hidden;
 margin-bottom: 10px;
@@ -475,7 +475,7 @@ border: 3px outset #efe5d9 !important;
 border-radius: 10px !important;
 padding: 5px;
 float: right;
-height: 75px;
+height: 250px;
 width: 100%;
 overflow: hidden;
 margin-bottom: 10px;
