@@ -51,11 +51,11 @@ font-size: 24px;}
 h3 {
 color: #efe5d9 !important;
 font-size: 18px;}
-.Box1 h3, .Box2 h3, .Box3 h3 {
-    font-size: 23px;
-    padding: 0px;
-    margin-top: 5px !important;
-}
+
+.Box3 h2 {
+	margin-top: 18px !important;
+  font-size: 32px;
+    padding: 0px;}
  
 /* LINKS */
  
