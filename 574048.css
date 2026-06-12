@@ -496,6 +496,11 @@ border: 1px solid #efe5d9 !important;
   -webkit-text-size-adjust: 100%;
   text-align: center;
     text-wrap: stable; }
+.topper {
+	background: none;
+	height: auto;
+	width: auto;
+	border: none !important; }
  
 /* CAVE COVERS
 width: 240
