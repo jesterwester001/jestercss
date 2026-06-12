@@ -465,7 +465,16 @@ margin-bottom: 10px;
 transition: 1s }   
 .Box2:hover {
 overflow-y: auto; }
-	
+
+.boxcontainer2 {
+background: none;
+height: 75px;
+padding: 0px;
+display: block;
+justify-content: center;
+transition: 1s}
+.boxcontainer2:hover  {
+height: 250px; }
 .Box3 {
 float: right;
 background-color: #ab7e47 !important;
@@ -475,13 +484,14 @@ border: 3px outset #efe5d9 !important;
 border-radius: 10px !important;
 padding: 5px;
 float: right;
-height: 250px;
+height: 75px;
 width: 100%;
 overflow: hidden;
 margin-bottom: 10px;
 transition: 1s }   
 .Box3:hover {
-overflow-y: auto; }
+overflow-y: auto;
+height: 250px;}
 
 .fakebutton { 
 background-color: #ab7e47 !important;
