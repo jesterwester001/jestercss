@@ -504,7 +504,9 @@ border: 1px solid #efe5d9 !important;
   line-height: 1.42857143 !important;
   -webkit-text-size-adjust: 100%;
   text-align: center;
-    text-wrap: stable; }
+    text-wrap: stable;
+margin-bottom: 10px !important;
+  margin-top: 10px !important;}
 .topper {
 	background: none;
 	height: auto;
