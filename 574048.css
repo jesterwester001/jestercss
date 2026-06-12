@@ -70,7 +70,7 @@ color: #47411f !important; }
 /* MAIN PANEL */
    
 .container.main {
-background: rgba(104, 92, 51,0.41) !important;
+background: rgba(104, 92, 51,0.0) !important;
 border: none;
 box-shadow: none;
 border-radius: 5px; }
