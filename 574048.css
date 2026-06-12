@@ -51,6 +51,11 @@ font-size: 24px;}
 h3 {
 color: #efe5d9 !important;
 font-size: 18px;}
+.Box1 h3, .Box2 h3, .Box3 h3 {
+    font-size: 23px;
+    padding: 0px;
+    margin-top: 5px !important;
+}
  
 /* LINKS */
  
@@ -192,47 +197,51 @@ border-radius: 25px !important;  }
 /* CHAT */
 
 button#label_currentChannel {
-border: none !important;
-background: #HEX !important; }
+background-color: #ab7e47 !important;
+color: #efe5d9 !important;
+border: 1px solid #efe5d9 !important;}
+div.emoteList.active {
+  background: #ab7e47 !important;
+  border: 1px solid #efe5d9 !important;
+  box-shadow: none !important;
+}
+div.emoteList.active::before {
+background: #ab7e47
+border-top: none !important;
+border: 1px solid #efe5d9 !important; }
 
 div#chatMessageContainer {
 border: none !important; }
 
 .s-chat-message_timestamp {
-color: #HEX !important; }
+color: #efe5d9 !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
-    background: #HEX !important;
-color: #HEX !important;	
+background-color: #ab7e47 !important;
+color: #efe5d9 !important;
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
 
 .s-chat-message__pinned {
-background: #HEX !important;
-color: #HEX !important;
+background: #6a612f !important;
+color: #efe5d9 !important;
 border: none !important; }
 
 .s-chat-message {
-background: #HEX !important;
-color: #HEX !important;
-border-bottom: #HEX !important; }
+background: #c1b571 !important;
+color: #efe5d9 !important;
+border-bottom: 1px solid #efe5d9 !important; }
 
-.s-chat-message:nth-child(even) {
-background: #HEX !important;
-border: none !important; }
-.s-chat-message:nth-child(odd) {
-background: #HEX !important;
-border: none !important; }
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-background-color: #HEX !important;
-border-left: 6px solid #HEX !important;
-color: #HEX !important; }
+background-color: #6a612f !important;
+border-left: 6px solid #efe5d9 !important;
+color: #efe5d9 !important; }
 
 div#lblCharacterCounter {
-color: #HEX !important; }
+color: #efe5d9 !important; }
 
 html.nolayout {
 background: none !important; }
