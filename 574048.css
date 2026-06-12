@@ -1,0 +1,535 @@
+/* jester commission template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+
+there are a lot of other codes at use here randomly strewn throughout
+below is a list of ids credited with other pieces/inspiration for various things in this template
+just because a user is credited it does not mean their code is used in one specific css.
+Pandora #144118
+Kat .:Red Lion of Voltron:. #94329
+tawny #251887
+Austin #43750 */
+ 
+/* FONTS - Import from Google Fonts */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+body {  font-family: "Grandstander", cursive;}
+ 
+.topbar {  font-family: "Grandstander", cursive;}
+ 
+.navbar {  font-family: "Grandstander", cursive;}
+
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://images2.imgbox.com/4c/e2/rW6xzZ18_o.png') top center fixed;
+background-size: 100%;
+color: #efe5d9; } }
+
+@media screen and (max-width: 600px){
+body {
+background: #C1B571;
+background-size: cover;
+color: #efe5d9; } }
+ 
+ 
+/* HEADERS */
+ 
+h1 {
+color: #efe5d9 !important;
+font-size: 64px;
+text-align: center !important;
+text-transform: uppercase !important;}
+
+h2 {
+color: #efe5d9 !important;
+font-size: 24px;}
+
+h3 {
+color: #efe5d9 !important;
+font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+color: #efe5d9 !important;
+background: none !important; }
+   
+a:hover {
+color: #47411f !important; }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+background: rgba(104, 92, 51,0.41) !important;
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+background-color: #ab7e47 !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+color: #efe5d9 !important;
+border: 3px outset #efe5d9 !important;
+    border-top: none !important;
+border-radius: 5px !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;}
+
+ 
+.navbar {
+background-color: #b1a24e !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+color: #4C3F28 !important;
+border: 5px outset #4C3F28 !important;
+border-radius: 10px !important; }
+
+.navbar li a:hover {
+background: #HEX !important;
+    border-bottom: 2px solid #4C3F28 !important;
+color: #4C3F28 !important; }
+
+.navbar-toggle {
+border: none !important;
+background: #b1a24e !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+.breadcrumb {
+background-color: #ab7e47 !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+color: #efe5d9 !important;
+border: 3px outset #efe5d9 !important;
+border-radius: 5px !important;} 
+.breadcrumb .active {
+color: #efe5d9; }
+ 
+/* ALERTS */
+ 
+.alert {
+background-color: #ab7e47 !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+color: #efe5d9 !important;
+border: 3px outset #efe5d9 !important;
+border-radius: 5px !important;
+text-align: center !important;  }
+ 
+
+/* COMMENT BOX */
+
+div#commentBox {
+background: #b1a24e !important;
+border: 5px outset #efe5d9 !important;
+border-radius: 10px !important;
+color: #efe5d9 !important;}
+	
+.comment {     
+background: #HEX !important;
+border: none !important;
+border-bottom: none !important;
+border-radius: 0px !important;
+color: #HEX !important;
+text-align: center !important;}
+.text-muted { 
+color: #efe5d9 !important; }
+
+input.bad {
+background: #efe5d9 !important;
+color: #b1a24e !important;}
+input.bad a {
+color: #b1a24e !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
+ 
+/* SIDE PANELS */
+ 
+.panel {
+background-color: #b1a24e !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png") !important;
+color: #efe5d9 !important;
+border: 5px outset #4C3F28 !important;
+    border-radius: 10px !important;
+box-shadow: none !important;  }
+   
+.progress-bar {
+background: #443c25 !important; 
+border-radius: 25px !important; }
+
+.progress-bar-warning { 
+background: #a79660 !important;
+color: #HEX !important;}
+.progress-bar-danger { 
+background: #88794b !important;
+color: #HEX !important;}
+.progress-bar-success { 
+background: #665b38 !important;
+color: #HEX !important;}
+
+.progress div {
+color: #efe5d9 !important; }
+
+.progress {
+background:  #c09868;
+color: #HEX !important;
+border-radius: 25px !important;  }
+ 
+/* CHAT */
+
+button#label_currentChannel {
+border: none !important;
+background: #HEX !important; }
+
+div#chatMessageContainer {
+border: none !important; }
+
+.s-chat-message_timestamp {
+color: #HEX !important; }
+
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+    background: #HEX !important;
+color: #HEX !important;	
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+.s-chat-message__pinned {
+background: #HEX !important;
+color: #HEX !important;
+border: none !important; }
+
+.s-chat-message {
+background: #HEX !important;
+color: #HEX !important;
+border-bottom: #HEX !important; }
+
+.s-chat-message:nth-child(even) {
+background: #HEX !important;
+border: none !important; }
+.s-chat-message:nth-child(odd) {
+background: #HEX !important;
+border: none !important; }
+	
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #HEX !important;
+border-left: 6px solid #HEX !important;
+color: #HEX !important; }
+
+div#lblCharacterCounter {
+color: #HEX !important; }
+
+html.nolayout {
+background: none !important; }
+
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+background-color: #b1a24e !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png") !important;
+color: #efe5d9 !important;
+border: 5px outset #4C3F28 !important;
+    border-radius: 10px !important; }
+
+div.left {
+background-color: #b1a24e !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png") !important;
+color: #efe5d9 !important;
+border: 5px outset #4C3F28 !important;
+    border-radius: 10px !important; }
+
+.xsmall {
+font-size: 14px !important; }
+ 
+/* LION INFO */
+ 
+.table {
+background: rgba(0, 0, 0, 0.0);
+border: 5px outset #efe5d9 !important;
+border-collapse: separate;
+border-radius: 10px !important; }
+
+.top, .bottom, th,
+.table .bottom {
+background-color: #4C3F28 !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+color: #efe5d9 !important;
+border: none !important;
+border-radius: 0px ; }
+.bottom a, .bottom a:visited{
+    text-decoration: none !important;
+}
+ 
+.table .left {
+background: #685c33;
+border-radius: 10px !important; }
+
+.inner-table .left {
+background-color: #685c33 !important;
+    background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+border-radius: 10px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;}
+
+.inner-table .right {
+background-color: #8e823e !important;
+    background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+border-radius: 10px !important; 
+color: #HEX !important;
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important;} 
+
+.right_odd {
+background: none !important; }
+
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+opacity: 1.0;
+border-radius: 25px;
+overflow: hidden; }   
+table#player img {
+opacity: 1.0;
+border-radius: 25px;
+border: 3px solid #000;}
+
+img[src$="icon_den_message.png"] {
+border: none !important; }
+
+img[src$="icon_den_gift.png"] {
+border: none !important; }
+
+img[src$="icon_den_trade.png"] {
+border: none !important; }
+
+img[src$="icon_den_wishlist.png"] {
+border: none !important; }
+
+img[src$="icon_den_viewtrade.png"] {
+border: none !important; }
+
+img[src$="icon_den_gift.png"] {
+border: none !important; }
+
+img[src$="icon_den_block.png"] {
+border: none !important;}
+
+img[src$="icon_den_friend.png"] {
+border: none !important; }
+
+/* LIODEN LOGO REPLACER
+192x120 */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+content: url('https://images2.imgbox.com/36/30/ZAfVZAVR_o.gif'); }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background-color: #ab7e47 !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png") !important;
+color: #efe5d9 !important;
+border: 1px solid #efe5d9 !important;
+border-radius: 5px !important;
+text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+background-color: #b1a24e !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png") !important;
+color: #efe5d9 !important;
+border: 5px outset #4C3F28 !important;
+border-radius: 10px !important; }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #efe5d9;}
+::-webkit-scrollbar-thumb {
+background: #b1a24e; }
+
+/* first number is thumb, second is track, firefox only */
+:root {
+scrollbar-color: #b1a24e #efe5d9 !important;
+scrollbar-width: auto;}
+
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+content: "css by jester (#187561)";
+color: #HEX;
+position: absolute;
+right: 13%;
+z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+	
+	/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+ 
+/* BOXES */
+
+
+.boxcontainer {
+background: none;
+height: 75px;
+padding: 0px;
+display: block;
+justify-content: center; }
+   
+.Box1 {
+float: left;
+background-color: #ab7e47 !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+color: #efe5d9 !important;
+border: 3px outset #efe5d9 !important;
+border-radius: 10px !important;
+padding: 5px;
+float: left;
+height: 75px;
+width: 49%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box1:hover {
+overflow-y: auto; }
+   
+.Box2 {
+float: right;
+background-color: #ab7e47 !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+color: #efe5d9 !important;
+border: 3px outset #efe5d9 !important;
+border-radius: 10px !important;
+padding: 5px;
+float: right;
+height: 75px;
+width: 49%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box2:hover {
+overflow-y: auto; }
+	
+.Box3 {
+float: right;
+background-color: #ab7e47 !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+color: #efe5d9 !important;
+border: 3px outset #efe5d9 !important;
+border-radius: 10px !important;
+padding: 5px;
+float: right;
+height: 75px;
+width: 100%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box3:hover {
+overflow-y: auto; }
+
+.fakebutton { 
+background-color: #ab7e47 !important;
+background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
+color: #efe5d9 !important;
+border: 1px solid #efe5d9 !important;
+  padding: 3px 12px;
+  margin: 2px 0;
+  font-size: 13px !important;
+  border-radius: 5px;
+  display: block;
+  width: fit-content;
+  vertical-align: middle;
+  -webkit-appearance: button;
+  cursor: pointer;
+  text-transform: none;
+  overflow: visible;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: inherit;
+  font: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  line-height: 1.42857143 !important;
+  -webkit-text-size-adjust: 100%;
+  text-align: center;
+    text-wrap: stable; }
+ 
+/* CAVE COVERS
+width: 240
+height: 120 (60 for half size - like the nesting banner)*/
+
+div.cave-grid>img {
+content: url('https://images2.imgbox.com/97/08/1CbMBFwl_o.png')!important;
+width: 258px !important;
+height: 120px; !important;  }
+
+
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('https://images2.imgbox.com/48/ce/8C7XT7ga_o.png')!important;
+}
+a[href$="unsorted.php?id=574048"]>div.cave-grid>img{
+content: url('https://images2.imgbox.com/48/ce/8C7XT7ga_o.png')!important;
+width: 258px !important;
+height: 120px; !important; }
+a[href*="lionoverview.php?id=574048"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/48/ce/8C7XT7ga_o.png')!important;
+width: 258px !important;
+height: 120px; !important;  }
+
+/* badge */
+
+.badge {
+background: #264D38 !important;
+color: #e0dace !important; }
+	
+/ * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
+and removes link underlines from edit your details */
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+td.bottom a, th a {
+border-bottom: none !important; }
