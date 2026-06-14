@@ -59,7 +59,7 @@ color: #f3ecf3; } }
 
 @media screen and (max-width: 600px){
 body {
-background: #711946;
+background: url('https://images2.imgbox.com/a9/6c/rMkGgqsO_o.jpg') center center fixed;
 color: #f3ecf3; } }
 
 /* SCROLL BOXES */
