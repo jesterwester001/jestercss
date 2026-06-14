@@ -520,13 +520,13 @@ overflow-y: auto;
 height: 250px; }
    
 .Box2 {
-float: right;
+float: left;
 background: #D2464B !important;
 color: #ffebb8 !important;
 border: 3px groove #ffebb8 !important;
 border-radius: 5px !important;
 padding: 5px;
-float: right;
+float: left;
 height: 75px;
 width: 30%;
 overflow: hidden;
