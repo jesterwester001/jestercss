@@ -356,7 +356,7 @@ rgba(0, 0, 0, 0.0) with a HEX code, or by replacing the 0.0 with a 1.0 */
 background: rgba(0, 0, 0, 0.0);
 border: none !important;
 border-collapse: separate;
-border-radius: 0px; }
+border-radius: 25px !important; }
 
 /* .top is where your king's name is displayed
 .bottom is where your number of mutations within your pride is displayed
@@ -367,7 +367,15 @@ edit details, etc. */
 background: #390F27 !important;
 color: #ffebb8 !important;
 border: 3px groove #ffebb8 !important;
-border-radius: 25px !important; }
+border-radius: 0px; }
+.top, th {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.bottom {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
 
 /* This removes the underline under the 'X mutations in your pride' link
 if you like it, you can just delete the code under this */
@@ -382,7 +390,7 @@ info about your den, like your territory, your king's stats, etc.
  
 .table .left {
 background: #682246;
-border-radius: 10px !important;
+border-radius: 0px !important;
 border: 3px groove #ffebb8 !important; }
 
 .inner-table .left {
@@ -496,8 +504,9 @@ box html should look like this
 background: none;
 height: 75px;
 padding: 0px;
-display: block;
-justify-content: center;
+display: flex;
+    
+    margin-bottom: 10px;
 transition: 1s }
 .boxcontainer:hover {
 height: 250px; }
@@ -528,8 +537,9 @@ border-radius: 5px !important;
 padding: 5px;
 float: left;
 height: 75px;
-width: 30%;
+width: 44%;
 overflow: hidden;
+    margin-right: 10px;
 margin-bottom: 10px;
 transition: 1s }   
 .Box2:hover {
@@ -545,13 +555,16 @@ border-radius: 5px !important;
 padding: 5px;
 float: right;
 height: 75px;
-width: 65%;
+width: 55%;
 overflow: hidden;
 margin-bottom: 10px;
 transition: 1s }   
 .Box3:hover {
 overflow-y: auto;
 height: 250px; }
+.Box1, .Box2, .Box3 h2 {
+    font-size: 28px;
+}
 
 	
 /* CREDIT - no touchy this part, the code will work just fine */
