@@ -367,7 +367,7 @@ edit details, etc. */
 background: #390F27 !important;
 color: #ffebb8 !important;
 border: 3px groove #ffebb8 !important;
-border-radius: 0px; }
+border-radius: 25px; }
 .top, th {
     border-bottom-left-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
