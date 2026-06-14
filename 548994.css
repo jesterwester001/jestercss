@@ -562,8 +562,8 @@ transition: 1s }
 .Box3:hover {
 overflow-y: auto;
 height: 250px; }
-.Box1, .Box2, .Box3 h2 {
-    font-size: 28px;
+.Box1 h2, .Box2 h2, .Box3 h2 {
+    font-size: 29px;
 }
 
 	
