@@ -265,32 +265,41 @@ border-radius: 25px !important;  }
 /* CHAT */
 
 button#label_currentChannel {
+background: #003643 !important;
+color: #b2e1ff !important;
+        font-size: 14px !important;
 border: none !important;
-background: #HEX !important; }
+border-radius: 0px !important;
+box-shadow: 0px 0px 5px #b2e1ff !important; }
 
 div#chatMessageContainer {
 border: none !important; }
 
 .s-chat-message_timestamp {
-color: #HEX !important; }
+color: #b2e1ff !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
-    background: #HEX !important;
-color: #HEX !important;	
+background: #003643 !important;
+color: #b2e1ff !important;
+        font-size: 14px !important;
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
 
 div.emoteList.active {
-  background: #HEX !important;
-  border: 1px solid #HEX !important;
+background: #003643 !important;
+color: #b2e1ff !important;
+        font-size: 14px !important;
+border: none !important;
+border-radius: 0px !important;
   box-shadow: none !important;
 }
 div.emoteList.active::before {
-background: #HEX
-border-top: none !important;
-border: 1px solid #HEX !important; }
+background: #003643 !important;
+color: #b2e1ff !important;
+        font-size: 14px !important;
+border: none !important; }
 
 /* PINNED MESSAGES */
 
