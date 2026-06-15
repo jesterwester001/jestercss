@@ -1,0 +1,732 @@
+/* jester's css commission template
+yes this is just katie and i's free template edited
+sue me
+
+template made by jester (#187561) & katie (#106445)
+
+there are a lot of other codes at use here randomly strewn throughout this and various other
+codes done by the both of us.
+below is a list of ids credited with other pieces/inspiration for various things in this template
+just because a user is credited it does not mean their code is used in one specific css made with this template,
+or even present in this template. however, these are all users who have made significant contributions to css coding
+and it's almost impossible to ignore what they've done. in some way or the other, they are present in this code
+Pandora #144118
+Kat  #94329
+tawny #251887
+Austin #43750 
+Bobcat (#79288)
+Tserin (#2230)
+Atticus (#198107) 
+
+bg image by Nate Makuch
+
+*/
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=WDXL+Lubrifont+TC&display=swap');
+ 
+body {font-family: "WDXL Lubrifont TC", sans-serif;
+font-size: 14px !important;}
+ 
+.topbar {font-family: "WDXL Lubrifont TC", sans-serif;}
+ 
+.navbar {font-family: "Asimovian", sans-serif;}
+
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://images2.imgbox.com/ae/f1/10EfyMkY_o.gif') center center fixed;
+background-size: 100%;
+color: #b2e1ff; } }
+
+@media screen and (max-width: 600px){
+body {
+background: url('https://images2.imgbox.com/20/6a/gEOwcbKN_o.png') center center fixed;
+background-size: cover;
+color: #b2e1ff; } }
+
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #001C2D;}
+::-webkit-scrollbar-thumb {
+background: #63DD9B; } 
+
+/* first number is thumb, second is track, firefox only */
+:root {
+scrollbar-color: #63DD9B #001C2D !important;
+scrollbar-width: auto;}
+ 
+/* HEADERS */
+ 
+h1 {
+color: #63DD9B !important;
+font-size: 64px;
+    text-shadow: 0px 0px 10px #04545D !important;
+text-align: center !important;
+    text-transform: uppercase !important;
+font-family: "Asimovian", sans-serif;}
+
+h2 {
+color: #63DD9B !important;
+font-size: 24px;}
+
+h3 {
+color: #63DD9B !important;
+font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+color: #b2e1ff !important;
+background: none !important; }
+   
+a:hover {
+text-shadow: 0px 0px 2px #63DD9B !important; }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+background: rgba(0, 28, 45, 0.9);
+border: none;
+box-shadow: 0px 0px 50px #63DD9B;
+border-radius: 10px; }
+.col-md-9 {
+background: none; } 
+@media screen and (max-width: 600px) {.container.main {box-shadow:none !important;}}
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+background: #63DD9B !important;
+color: #001C2D !important;
+border: none !important;
+border-radius: 5px !important;
+    font-size: 14px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+box-shadow: 0px 0px 5px #00708c !important;}
+ 
+.navbar {
+background: rgba(0,29,45,0.9) !important;
+color: #HEX !important;
+border: none !important;
+    border-radius: 10px !important;
+box-shadow: 0px 5px 5px #00708c !important;}
+
+.navbar li:hover {
+border-top: 5px solid #000 !important;
+background-image: linear-gradient(to bottom, rgba(99, 221, 155,1.0), rgba(255,0,0,0)) !important;}
+
+.navbar li a:hover {
+color: #04545D !important;}
+.navbar li a:hover {
+      /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.75s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+}
+
+.navbar-toggle.collapsed {
+border: none !important;
+background: #001F32 !important;
+}
+button.navbar-toggle {background: none !important;
+border: none !important;}
+span.icon-bar {background-color: #63DD9B !important;}
+.navbar-toggle:focus {
+    background: none !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+ 
+/* Bookmark Bar  */
+
+.breadcrumb {
+background: #63DD9B !important;
+color: #001C2D !important;
+        font-size: 14px !important;
+border: none !important;
+border-radius: 5px !important;
+box-shadow: 0px 0px 5px #00708c !important;} 
+.breadcrumb .active {
+color: #001C2D; }
+.topbar a, .topbar a:visited, .breadcrumb a, .breadcrumb a:visited {
+    color: #001C2D !important;
+}
+.topbar a:hover, .breadcrumb a:hover {
+    text-shadow: 0px 0px 2px #00708c !important;
+}
+ 
+/* ALERTS */
+ 
+.alert {
+background: #63DD9B !important;
+color: #001C2D !important;
+border: none !important;
+border-radius: 5px !important;
+box-shadow: 0px 0px 5px #00708c !important;
+text-align: center !important;  }
+.alert a, .alert a:visited {
+    color: #001C2D !important; 
+}
+.alert a:hover {    text-shadow: 0px 0px 2px #00708c !important;
+}
+
+/*COMMENT BOX */
+
+div#commentBox {
+background: #003643 !important;
+border: 2px solid #63DD9B !important;
+border-radius: 10px !important;
+color: #HEX !important;}
+	
+.comment {     
+background: #003643 !important;
+border: none !important;
+border-bottom: 1px solid #63DD9B !important;
+border-radius: 0px !important;
+color: #b2e1ff !important;
+text-align: center !important;}
+.text-muted { 
+color: #b2e1ff !important; }
+
+input.bad {
+background: #b2e1ff !important;
+color: #003643 !important;}
+input.bad a {
+color: #003643 !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
+ 
+/* SIDE PANELS 
+
+for texture: https://www.transparenttextures.com/ */
+ 
+.panel {
+background: #003643 !important;
+color: #b2e1ff !important;
+        font-size: 14px !important;
+border: none !important;
+border-radius: 10px !important;
+box-shadow: 0px 0px 5px #b2e1ff !important;  }
+.panel .small {        font-size: 15px !important;}
+   
+/*IMPRESSION / ALL PROGRESS Bars
+Unless you color the progress bars below, all progress bars will default
+to the colors you put here.
+Bars will also inherit the border-radius value from this one, so it's
+not needed to specify border-radius for all bars. */
+.progress-bar {
+background: #23a156 !important; 
+border-radius: 25px !important; }
+
+
+.progress div {
+color: #dff8e9 !important; }
+
+.progress {
+background:  #016A64;
+color: #HEX !important;
+border-radius: 25px !important;  }
+ 
+/* CHAT */
+
+button#label_currentChannel {
+border: none !important;
+background: #HEX !important; }
+
+div#chatMessageContainer {
+border: none !important; }
+
+.s-chat-message_timestamp {
+color: #HEX !important; }
+
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+    background: #HEX !important;
+color: #HEX !important;	
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+div.emoteList.active {
+  background: #HEX !important;
+  border: 1px solid #HEX !important;
+  box-shadow: none !important;
+}
+div.emoteList.active::before {
+background: #HEX
+border-top: none !important;
+border: 1px solid #HEX !important; }
+
+/* PINNED MESSAGES */
+
+.s-chat-message__pinned {
+background-color: #63DD9B !important;
+color: #003643 !important;
+border: none !important; }
+.s-chat-message__pinned a, .s-chat-message__pinned a:visited {
+    color: #003643 !important;
+}
+.s-chat-message__pinned a:hover {
+        text-shadow: 0px 0px 2px #00708c !important;
+}
+
+
+.s-chat-message {
+background: #003643 !important;
+border: none !important;
+border-bottom: 1px solid #63DD9B !important;
+border-radius: 0px !important;
+color: #b2e1ff !important; }
+	
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #003643 !important;
+border-left: 6px solid #63DD9B !important;
+color: #b2e1ff !important; }
+
+div#lblCharacterCounter {
+color: #b2e1ff !important; }
+
+html.nolayout {
+background: none !important; }
+
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+background: rgba(0,29,45,0.9) !important;
+color: #HEX !important;
+border: none !important;
+    border-radius: 10px !important;
+box-shadow: 0px 5px 5px #00708c !important;  }
+
+div.left {
+background: rgba(0,29,45,0.9) !important;
+color: #HEX !important;
+border: none !important;
+    border-radius: 10px !important;
+box-shadow: 0px 5px 5px #00708c !important; }
+
+.xsmall {
+font-size: 14px !important; }
+ 
+/* LION INFO */
+ 
+.table {
+background: rgba(0, 0, 0, 0.0);
+border: none !important;
+border-collapse: separate;
+border-radius: 10px; }
+
+.top, .bottom, th {
+background: rgba(0,29,45,0.9) !important;
+color: #HEX !important;
+border: none !important;
+    border-radius: 10px !important;
+box-shadow: 0px 0px 10px #00708c !important; }
+
+.bottom a:visited, .bottom a {
+text-decoration: none !important;}
+ 
+.table .left {
+background: #003643 !important;
+color: #b2e1ff !important;
+        font-size: 14px !important;
+        border-radius: 5px !important;
+box-shadow: 0px 0px 5px #b2e1ff !important;}
+
+.inner-table .left {
+background: #003643 !important;
+color: #b2e1ff !important;
+        font-size: 14px !important;
+            border-radius: 5px !important;
+            border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+box-shadow: 0px 0px 5px #b2e1ff !important;}
+
+.inner-table .right {
+background: #003643 !important;
+color: #b2e1ff !important;
+
+            border-radius: 5px !important;
+            font-size: 14px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+box-shadow: 0px 0px 5px #b2e1ff !important;} 
+
+.right_odd {
+background: none !important; }
+
+
+/* DEN ICON IMAGE REPLACEMENTS */
+
+img[src$="icon_den_message.png"] {
+box-shadow: none !important; }
+
+img[src$="icon_den_gift.png"] {
+box-shadow: none !important; }
+
+img[src$="icon_den_trade.png"] {
+box-shadow: none !important;; }
+
+img[src$="icon_den_wishlist.png"] {
+box-shadow: none !important;}
+
+img[src$="icon_den_viewtrade.png"] {
+box-shadow: none !important; }
+
+img[src$="icon_den_gift.png"] {
+box-shadow: none !important; }
+
+img[src$="icon_den_block.png"] {
+box-shadow: none !important; }
+
+img[src$="icon_den_friend.png"] {
+box-shadow: none !important; }
+
+img[src$="donator.png"] {
+box-shadow: none !important; }
+
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+opacity: 1.0;
+border-radius: 50%;
+overflow: hidden;
+box-shadow: 0px 0px 10px #63DD9B !important;}   
+table#player img {
+opacity: 1.0;
+border-radius: 50%;
+box-shadow: 0px 0px 10px #63DD9B;}
+
+/* LIODEN LOGO REPLACER
+192x120 */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+content: url('https://images2.imgbox.com/fb/6e/cFVeoXFE_o.png');}
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: rgba(0,29,45,0.9) !important;
+color: #b2e1ff !important;
+border: none !important;
+    border-radius: 10px !important;
+box-shadow: 0px 0px 10px #00708c !important;
+text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+background: rgba(0,29,45,0.9) !important;
+color: #b2e1ff !important;
+border: none !important;
+    border-radius: 10px !important;
+box-shadow: 0px 0px 10px #00708c !important;}
+
+/* CAVE & MOUND COVERS
+width: 240
+height: 120 (60 for half size - like the nesting banner) */
+
+div.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png')!important;
+width: 75px;
+height: 75px; }
+
+a[href$="183180"]>div.cave-grid>img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/Aurora_Borealis.png')!important;
+width: 258px !important;
+height: auto !important; }
+a[href$="183146"]>div.cave-grid>img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/South_African_Aurora.png')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="412576"]>div.cave-grid>img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/bowshock.png')!important;
+width: 258px !important;
+height: auto !important; }
+a[href$="184260"]>div.cave-grid>img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/zaxauroraaustralis.png')!important;
+width: 258px !important;
+height: auto !important; }
+
+
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('https://www.lioden.com/images/items/Other/app_intergalacticsplendor.png')!important;
+width: 75px;
+height: 75px;}
+a[href$="unsorted.php?id=239413"]>div.cave-grid>img{
+content: url('https://static.lioden.com/images/items/Other/app_divine.png')!important;
+width: 75px;
+height: 75px;}
+a[href*="lionoverview.php?id=239413"]>div.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Other/app_demiurge.png')!important;
+width: 75px;
+height: 75px; }
+
+
+
+/* This changes the color of the 'badge', aka what displays inbox notifications &
+days till heat for lionesses */
+
+.badge {
+background: #63DD9B !important;
+color: #001C2D !important; }
+	
+/ * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
+and removes link underlines from edit your details */
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+td.bottom a, th a {
+border-bottom: none !important; }
+
+/* BOXES
+do not give the box container a background.
+Box1, Box2, & Box3 can be repeated as many times as possible, just make sure you properly close them.
+box html should look like this
+<div class="boxcontainer"><div class="Box1">text</div></div>
+<div class="boxcontainer"><div class="Box3">text</div><div class="Box2">text</div></div> */
+
+.boxcontainer {
+background: none;
+height: 75px;
+padding: 0px;
+display: block;
+justify-content: center;
+transition: 1s }
+.boxcontainer:hover {
+height: 250px; }
+   
+.Box1 {
+float: left;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+float: left;
+height: 75px;
+width: 100%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box1:hover {
+overflow-y: auto;
+height: 250px; }
+   
+.Box2 {
+float: right;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+float: right;
+height: 75px;
+width: 30%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box2:hover {
+overflow-y: auto;
+height: 250px; }
+	
+.Box3 {
+float: right;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+float: right;
+height: 75px;
+width: 65%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box3:hover {
+overflow-y: auto;
+height: 250px; }
+
+/* MOBILE ONLY BOXES 
+- these will only display on mobile. use if you want a more simplified box for mobile.
+mobile box html should look like this
+<div class="mobilebox">text</div> 
+if you don't want mobile only boxes, delete everything from below this to above cave covers */
+
+.mobilebox {
+float: center;
+background: #HEX !important;
+border: 1px solid #HEX !important;
+border-radius: 0px !important;
+color: #HEX !important;
+margin: 10px;
+padding: 10px;
+float: center;
+height: 155px;
+width: 80%;
+overflow: auto;
+transition: 1s }
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+		.Box1, .Box2, .Box3, .boxcontainer {
+			display: none !important;
+		display: block !important; }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+		.Box1, .Box2, .Box3, .boxcontainer {
+			display: none !important;
+		}
+
+	}
+
+	@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+		.Box1, .Box2, .Box3, .boxcontainer {
+			display: none !important;
+		}
+
+	}
+
+	@media only screen and (max-width: 767px) {
+
+		.Box1, .Box2, .Box3, .boxcontainer {
+			display: none !important;
+		}
+}
+
+@media screen and (min-width: 1200px){
+
+		.mobilebox, .mobcontainer {
+			display: none !important;
+		}
+}
+
+.mobilebox, .mobcontainer {
+display: block !important; }
+.Box1, .Box2, .Box3, .boxcontainer  {
+display: none !important; }	}
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    display: block !important;
+} 
+
+@media only screen and (min-width: 1200px) {
+        div.quote {
+            width: 790px;
+        }
+    }
+
+/* These are nice little QOL codes, credit to their creators!
+
+Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+
+note from jes:
+For the members online and offline code, please only fill out one or the other.
+If you want a solid color, only fill in the 'background'
+if you want an image, only fill in the 'content' 
+or fill out both i can't stop you but it'll be a clusterfuck */
+
+/* MEMBER ONLINE */
+.member-online {
+    background: #a0eabd;
+	border-radius: 50%;
+    width:10px!important;
+    height:10px;
+	margin-left:10px; }
+	
+/* MEMBER OFFLINE */
+.member-offline {
+    background: #ea9fb3;
+	border-radius: 50%;
+    width:10px!important;
+    height:10px;
+	margin-left:10px; }
+
+	
+/* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
+AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
+DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
+
+/* Moon Lucky Charms - https://www.cursors-4u.com/cursor/moon-lucky-charms */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/moon-lucky-charms-c6f23643-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+	
+/* CREDIT - no touchy this part, the code will work just fine */
+ 
+.breadcrumb::after {
+content: "css by jester (#187561)";
+color: #HEX;
+position: absolute;
+right: 13%;
+z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
