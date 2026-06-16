@@ -2,7 +2,8 @@
 #pageSidebar{
     margin-left: -100%;
 }
-
+.xsmall {
+font-size: 14px !important; }
 .col-md-9 {
 margin-left: 25%;}
 
