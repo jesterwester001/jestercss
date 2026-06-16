@@ -5,26 +5,10 @@
 
 .col-md-9 {
 margin-left: 25%;}
-/* MOVING SMOKE - Coded by Stella #185560 for Lioden usage ONLY. Do not remove credit or claim as your own. */
 
-.smoke {
-  position: fixed;
-  inset: 0;
-  background: url("https://iili.io/flbgA6g.png") repeat;
-  background-size: cover;
-  animation: smokeDrift 100s linear infinite;
-  opacity: 0.40;
-  pointer-events: none;
-  z-index: -1;
-}
-@keyframes smokeDrift {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -2000px 0;
-  }
-}
+/* RAIN CODE - This goes into your CSS
+Optimized for use in Lioden by Austin #43750
+ANIMATED BY MARK GOLUS ON CODEPEN: https://codepen.io/mikegolus/pen/Jegvym */
 
 .containtherain{
   position: fixed;
@@ -3196,4 +3180,23 @@ margin-left: 25%;}
     top: 137%;
   }
 }
+/* MOVING SMOKE - Coded by Stella #185560 for Lioden usage ONLY. Do not remove credit or claim as your own. */
 
+.smoke {
+  position: fixed;
+  inset: 0;
+  background: url("https://iili.io/flbgA6g.png") repeat;
+  background-size: cover;
+  animation: smokeDrift 100s linear infinite;
+  opacity: 0.40;
+  pointer-events: none;
+  z-index: -1;
+}
+@keyframes smokeDrift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -2000px 0;
+  }
+}
