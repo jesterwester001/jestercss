@@ -7,6 +7,52 @@ margin-left: 25%;} }
 .xsmall {
 font-size: 14px !important; }
 
+#fraCaveList > div:nth-child(n) {
+    width: 100% !important;
+    max-width: none !important; }
+
+div.cave-grid {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+a[href$="127496"] > div.cave-grid > img {
+  content: url('https://images2.imgbox.com/71/1a/sdAupn4S_o.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="167142"] > div.cave-grid > img {
+  content: url('https://images2.imgbox.com/f1/16/ceJ5n8vv_o.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="167141"] > div.cave-grid > img {
+  content: url('https://images2.imgbox.com/c8/7d/11g6aDCk_o.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="129209"] > div.cave-grid > img {
+  content: url('https://images2.imgbox.com/3c/18/bnF9G4vw_o.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="131410"] > div.cave-grid > img {
+  content: url('https://images2.imgbox.com/d6/3a/iAICikjF_o.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="167140"] > div.cave-grid > img {
+  content: url('https://images2.imgbox.com/c5/da/TTVJvYI9_o.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+
 /* RAIN CODE - This goes into your CSS
 Optimized for use in Lioden by Austin #43750
 ANIMATED BY MARK GOLUS ON CODEPEN: https://codepen.io/mikegolus/pen/Jegvym */
