@@ -15,6 +15,8 @@ div.cave-grid {
   max-width: 100% !important;
   width: 100% !important;
 }
+div.cave-grid img:hover {
+    filter: sepia(80%); }
 
 a[href$="127496"] > div.cave-grid > img {
   content: url('https://images2.imgbox.com/71/1a/sdAupn4S_o.png') !important;
