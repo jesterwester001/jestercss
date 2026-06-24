@@ -1,0 +1,600 @@
+/* jester's css commission template
+
+template made by jester (#187561) & katie (#106445)
+
+there are a lot of other codes at use here randomly strewn throughout this and various other
+codes done by the both of us.
+below is a list of ids credited with other pieces/inspiration for various things in this template
+just because a user is credited it does not mean their code is used in one specific css made with this template,
+or even present in this template. however, these are all users who have made significant contributions to css coding
+and it's almost impossible to ignore what they've done. in some way or the other, they are present in this code
+Pandora #144118
+Kat  #94329
+tawny #251887
+Austin #43750 
+Bobcat (#79288)
+Tserin (#2230)
+Atticus (#198107) 
+*/
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Smokum&display=swap');
+ 
+body {  font-family: "Josefin Sans", sans-serif;
+cursor: url("https://i.imgur.com/m8hn0L4.png"), auto !important;}
+ 
+.topbar {  font-family: "Josefin Sans", sans-serif;}
+ 
+.navbar {  font-family: "Smokum", serif;}
+
+
+
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://images2.imgbox.com/f6/cf/6G8CZV0H_o.jpg') top center fixed;
+background-size: 100%;
+color: #F5D696 !important; 
+    cursor: url("https://i.imgur.com/m8hn0L4.png"), auto !important;} }
+
+@media screen and (max-width: 600px){
+body {
+background: #823e1c;
+background-size: cover;
+color: #F5D696 !important; } }
+
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #663315;}
+::-webkit-scrollbar-thumb {
+background: #f5d696; } 
+
+/* first number is thumb, second is track, firefox only */
+:root {
+scrollbar-color: #f5d696 #663315 !important;
+scrollbar-width: auto;}
+ 
+/* HEADERS */
+ 
+h1 {
+color: #F5D696 !important;
+font-size: 64px;
+text-align: center !important;
+  font-family: "Smokum", serif !important;}
+
+h2 {
+color: #HEX !important;
+font-size: 24px;
+  font-family: "Smokum", serif !important;}
+
+h3, .siderbar h3 {
+color: #F5D696 !important;
+font-size: 18px;
+    border-color: #D87B37 !important;
+ font-family: "Smokum", serif !important;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+color: #F5D696 !important;
+background: none !important; }
+   
+a:hover {
+color: #D87B37 !important; }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+background: rgba(131,82,40,0.8);
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; }
+
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+background-color: #58381b !important;
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    color: #F5D696 !important;
+border: none !important;
+border-radius: 0px !important;  }
+ 
+.navbar {
+background-color: #58381b !important;
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    color: #F5D696 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.navbar li a:hover {
+background: #HEX !important;
+font-size: 24px !important;
+    color: #F5D696 !important;
+border-left: none !important;
+border-right: none !important;
+border-bottom: 2px solid #F5D696 !important;}
+
+.navbar-toggle {
+border: none !important;
+background: #HEX !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+ 
+/* Bookmark Bar  */
+
+.breadcrumb {
+background-color: #58381b !important;
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    color: #F5D696 !important;
+border: none !important;
+border-radius: 0px !important;} 
+.breadcrumb .active {
+color: #F5D696; }
+ 
+/* ALERTS */
+ 
+.alert {
+background: #F5D696 !important;
+color: #58381b !important;
+border: none !important;
+border-radius: 0px !important;
+text-align: center !important;  }
+.alert a, .alert a:visited {
+    color: #58381b !important;
+}
+.alert-warning {
+background: #HEX !important;
+color: #HEX !important;}
+.alert-danger {
+background: #HEX !important;
+color: #HEX !important;}
+.alert-success {
+background: #HEX !important;
+color: #HEX !important;}
+ 
+
+/*COMMENT BOX */
+
+div#commentBox {
+background: #58381b !important;
+border: none !important;
+border-radius: 0px !important;
+color: #F5D696 !important;}
+	
+.comment {     
+background: #HEX !important;
+border: none !important;
+border-bottom: none !important;
+border-radius: 0px !important;
+color: #HEX !important;
+text-align: center !important;}
+.text-muted { 
+color: #F5D696 !important; }
+
+input.bad {
+background: #HEX !important;
+color: #HEX !important;}
+input.bad a {
+color: #HEX !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
+ 
+/* SIDE PANELS 
+
+for texture: https://www.transparenttextures.com/ */
+ 
+.panel {
+background-color: #58381b !important;
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png") !important;
+    color: #F5D696 !important;
+border: none !important;
+border-radius: 0px !important;
+box-shadow: 0px 0px 5px #F5D696 !important; 
+text-align: center !important;}
+
+   
+/*IMPRESSION / ALL PROGRESS Bars
+Unless you color the progress bars below, all progress bars will default
+to the colors you put here.
+Bars will also inherit the border-radius value from this one, so it's
+not needed to specify border-radius for all bars. */
+.progress-bar {
+background: #9B4A21 !important; 
+border-radius: 0px !important;
+}
+
+.progress div {
+color: #F5D696 !important; }
+
+.progress {
+background:  #ca8b53;
+color: #HEX !important;
+border-radius: 0px !important;
+border: 1px solid #F5D696;}
+
+ 
+/* CHAT */
+
+button#label_currentChannel {
+border: none !important;
+background: #HEX !important; }
+
+div#chatMessageContainer {
+border: none !important; }
+
+.s-chat-message_timestamp {
+color: #F5D696 !important; }
+
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+background-color: #58381b !important;
+    color: #F5D696 !important;
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+div.emoteList.active {
+background-color: #58381b !important;
+  border: 1px solid #F5D696 !important;
+  box-shadow: none !important;
+}
+div.emoteList.active::before {
+background-color: #58381b !important;
+border-top: none !important;
+border: 1px solid #F5D696 !important; }
+
+/* PINNED MESSAGES */
+
+.s-chat-message__pinned {
+background-color: #422a14 !important;
+color: #F5D696 !important;
+border: none !important; }
+
+.s-chat-message {
+background: #6f4622 !important;
+color: #F5D696 !important;
+border-bottom: 1px solid #F5D696 !important; }
+	
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #HEX !important;
+border-left: 6px solid #F5D696 !important;
+color: #F5D696 !important; }
+
+div#lblCharacterCounter {
+color: #F5D696 !important; }
+
+html.nolayout {
+background: none !important; }
+
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+background-color: #58381b !important;
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    color: #F5D696 !important;
+border: none !important;
+border-radius: 0px !important;  }
+
+div.left {
+background-color: #58381b !important;
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    color: #F5D696 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.xsmall {
+font-size: 14px !important; }
+ 
+/* LION INFO */
+ 
+.table {
+background: rgba(0, 0, 0, 0.0);
+border: 1px solid #F5D696 !important;
+border-collapse: separate;
+border-radius: 0px; }
+
+.top, .bottom, th {
+background-color: #58381b !important;
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    color: #F5D696 !important;
+border-bottom: 1px solid #F5D696 !important;
+border-radius: 0px !important; }
+
+.bottom a:visited, .bottom a {
+text-decoration: none !important;}
+ 
+.table .left {
+background-color: #58381b !important;
+border-radius: 0px !important;
+        color: #F5D696 !important;
+border: 1px solid #F5D696 !important;}
+
+.inner-table .left {
+background-color: #58381b !important;
+border-radius: 0px !important;
+        color: #F5D696 !important;
+border: 1px solid #F5D696 !important;
+border-right: none !important;}
+
+.inner-table .right {
+background-color: #58381b !important;
+border-radius: 0px !important; 
+color: #HEX !important;
+border: 1px solid #F5D696 !important;} 
+
+.right_odd {
+background: none !important; }
+
+/* CUSTOM KING TITLES
+Codes made by Pandora #144118  
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit */
+ 
+/* CUSTOM KING TITLE - AFTER */
+ 
+#about > tbody > tr:nth-child(1) > td > div::after {
+    content:', The Horse Whisperer';
+    font-size: 17px; }
+ 
+
+/* DEN ICON IMAGE REPLACEMENTS */
+
+img[src$="icon_den_message.png"] {
+border: none !important;
+    box-shadow: none !important;
+width: 24px !important;}
+
+img[src$="icon_den_gift.png"] {
+border: none !important;
+    box-shadow: none !important;
+width: 24px !important; }
+
+img[src$="icon_den_trade.png"] {
+border: none !important; 
+    box-shadow: none !important;
+width: 24px !important; }
+
+img[src$="icon_den_wishlist.png"] {
+border: none !important;
+    box-shadow: none !important;
+width: 24px !important; }
+
+img[src$="icon_den_viewtrade.png"] {
+border: none !important;
+    box-shadow: none !important;
+width: 24px !important; }
+
+img[src$="icon_den_gift.png"] {
+border: none !important;
+    box-shadow: none !important;
+width: 24px !important; }
+
+img[src$="icon_den_block.png"] {
+border: none !important;
+    box-shadow: none !important;
+width: 24px !important; }
+
+img[src$="icon_den_friend.png"] {
+border: none !important;
+    box-shadow: none !important;
+width: 24px !important; }
+
+img[src$="donator.png"] {
+border: none !important;
+width: 24px !important;
+box-shadow: none !important;
+}
+
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+opacity: 1.0;
+border-radius: 50%;
+overflow: hidden;
+border: 1px solid #F5D696 !important;
+box-shadow: 0px 0px 10px #F5D696 ; }   
+table#player img {
+opacity: 1.0;
+border-radius: 50%;
+border: 1px solid #F5D696;
+box-shadow: 0px 0px 10px #F5D696 ;}
+
+/* LIODEN LOGO REPLACER
+192x120 */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+content: url('https://images2.imgbox.com/a0/94/FMKJhjKz_o.png'); }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: #F5D696 !important;
+border: none !important;
+border-radius: 0px !important;
+color: #58381b !important;
+text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+background-color: #58381b !important;
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    color: #F5D696 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+/* CAVE & MOUND COVERS
+width: 240
+height: 120 (60 for half size - like the nesting banner) */
+
+div.cave-grid>img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/FightingHorses.png')!important;
+width: 258px !important;
+height: 200px !important;}
+
+a[href$="99860"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/3a/e2/DzfeXk3X_o.png')!important;
+width: 258px !important;
+height: 200px !important; }
+a[href$="51722"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/30/77/5TzaxrXp_o.png')!important; 
+width: 258px !important;
+height: 200px !important; }
+a[href$="47577"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/85/b9/QznCWyeK_o.png')!important;
+width: 258px !important;
+height: 200px !important; }
+a[href$="544223"]>div.cave-grid>img {
+content: url('https://images2.imgbox.com/40/b0/ZnzDIs2s_o.png')!important;
+width: 258px !important;
+height: 200px !important; }
+
+
+/* CAVE COMPATIBILITY */
+
+.featured-lion {
+background-color: #58381b !important;
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    color: #F5D696 !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 0;
+margin: 0 auto;
+max-width: 640px;
+font-weight: bold;
+font-size: 14px; }
+
+img[src*="cave/default"] {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/FightingHorses.png') !important;}
+
+table#pride.table, table#pride.table a, table#pride.table a:visited {
+color: #F5D696 !important; }
+
+table#pride.table .xsmall
+{font-size: 12px !important;}
+
+
+/* This changes the color of the 'badge', aka what displays inbox notifications &
+days till heat for lionesses */
+
+.badge {
+background: #F5D696 !important;
+color: #58381b !important; }
+	
+/ * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
+and removes link underlines from edit your details */
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+td.bottom a, th a {
+border-bottom: none !important; }
+
+/* BOXES
+do not give the box container a background.
+Box1, Box2, & Box3 can be repeated as many times as possible, just make sure you properly close them.
+box html should look like this
+<div class="boxcontainer"><div class="Box1">text</div></div>
+<div class="boxcontainer"><div class="Box3">text</div><div class="Box2">text</div></div> */
+
+.boxcontainer {
+background: none;
+height: 200px;
+padding: 0px;
+display: inline-block;
+justify-content: center;
+transition: 1s }
+   
+.Box1 {
+float: left;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+height: 200px;
+width: 33%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box1:hover {
+overflow-y: auto; }
+   
+.Box2 {
+float: right;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+float: right;
+height: 200px;
+width: 100%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+
+
+
+/* These are nice little QOL codes, credit to their creators!
+
+Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+
+note from jes:
+For the members online and offline code, please only fill out one or the other.
+If you want a solid color, only fill in the 'background'
+if you want an image, only fill in the 'content' 
+or fill out both i can't stop you but it'll be a clusterfuck */
+
+	
+/* CREDIT - no touchy this part, the code will work just fine */
+ 
+.breadcrumb::after {
+content: "css by jester (#187561)";
+color: #HEX;
+position: absolute;
+right: 13%;
+z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
