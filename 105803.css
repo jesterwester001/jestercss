@@ -278,7 +278,7 @@ color: #F5D696 !important;
 border-bottom: 1px solid #F5D696 !important; }
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-background-color: #HEX !important;
+background-color: #58381b !important;
 border-left: 6px solid #F5D696 !important;
 color: #F5D696 !important; }
 
@@ -346,17 +346,7 @@ border: 1px solid #F5D696 !important;}
 
 .right_odd {
 background: none !important; }
-
-/* CUSTOM KING TITLES
-Codes made by Pandora #144118  
-Codes may be edited, used in commissions or for personal use
-Please do not remove credit */
  
-/* CUSTOM KING TITLE - AFTER */
- 
-#about > tbody > tr:nth-child(1) > td > div::after {
-    content:', The Horse Whisperer';
-    font-size: 17px; }
  
 
 /* DEN ICON IMAGE REPLACEMENTS */
