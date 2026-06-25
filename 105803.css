@@ -523,54 +523,40 @@ box html should look like this
 .boxcontainer {
 background: none;
 height: 200px;
+    width: 100%;
 padding: 0px;
-display: inline-block;
+display: flex;
 justify-content: center;
 transition: 1s }
    
 .Box1 {
-float: left;
 background: #HEX !important;
 color: #HEX !important;
-border: none !important;
+border: 2px solid #58391c !important;
 border-radius: 0px !important;
 padding: 5px;
 height: 200px;
-width: 33%;
+    float: center;
+width: 32%;
 overflow: hidden;
+margin: 5px;
 margin-bottom: 10px;
 transition: 1s }   
 .Box1:hover {
 overflow-y: auto; }
    
 .Box2 {
-float: right;
 background: #HEX !important;
 color: #HEX !important;
-border: none !important;
+border: 2px solid #58391c !important;
 border-radius: 0px !important;
 padding: 5px;
-float: right;
 height: 200px;
-width: 100%;
+width: 98.4%;
 overflow: hidden;
+    margin-top: 10px;
 margin-bottom: 10px;
 transition: 1s }   
-
-
-
-/* These are nice little QOL codes, credit to their creators!
-
-Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
-Codes may be edited, used in commissions or for personal use
-Please do not remove credit
-
-note from jes:
-For the members online and offline code, please only fill out one or the other.
-If you want a solid color, only fill in the 'background'
-if you want an image, only fill in the 'content' 
-or fill out both i can't stop you but it'll be a clusterfuck */
-
 	
 /* CREDIT - no touchy this part, the code will work just fine */
  
