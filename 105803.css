@@ -66,19 +66,23 @@ h1 {
 color: #F5D696 !important;
 font-size: 64px;
 text-align: center !important;
+	letter-spacing: 3px !important;
   font-family: "Smokum", serif !important;}
 h1 small {
-	color: #F5D696 !important; }
+	color: #F5D696 !important;
+letter-spacing: 3px;}
 
 h2 {
 color: #HEX !important;
 font-size: 24px;
+	letter-spacing: 3px !important;
   font-family: "Smokum", serif !important;}
 
 h3, .siderbar h3 {
 color: #F5D696 !important;
 font-size: 18px;
     border-color: #D87B37 !important;
+	letter-spacing: 3px !important;
  font-family: "Smokum", serif !important;}
  
 /* LINKS */
@@ -117,6 +121,8 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3
     color: #F5D696 !important;
 border: none !important;
 border-radius: 0px !important; }
+.navbar li {
+		letter-spacing: 3px !important; }
 
 .navbar li a:hover {
 background: #HEX !important;
