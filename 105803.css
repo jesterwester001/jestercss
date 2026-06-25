@@ -67,6 +67,8 @@ color: #F5D696 !important;
 font-size: 64px;
 text-align: center !important;
   font-family: "Smokum", serif !important;}
+h1 small {
+	color: #F5D696 !important; }
 
 h2 {
 color: #HEX !important;
