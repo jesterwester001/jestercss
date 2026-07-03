@@ -69,9 +69,13 @@ color: #fffeb7; } }
 width: 7px;
 height: 7px; }
 ::-webkit-scrollbar-track {
-background: #HEX;}
+background: #322F30;}
 ::-webkit-scrollbar-thumb {
-background: #HEX; } 
+background: #fffeb7; } 
+
+:root {
+scrollbar-color: #fffeb7 #322F30 !important;
+scrollbar-width: auto;}
  
 /* HEADERS -
 H1 is the big header that says 'X's Den'
@@ -198,6 +202,14 @@ text-align: center !important;  }
  
 
 /*COMMENT BOX 
+This is a complicated one. please read carefully
+div#CommentBox is the color of the ENTIRE BOX, without comments in it. it is also the container
+.comment is the COMMENTS THEMSELVES
+If you want the flippy floppy colors, where one is a little darker than the other, DO NOT FILL IN ANYTHING FOR
+.comment ONLY FILL IN div#commentBox
+
+.input.bad is the icon to delete comments. you will be the only one to see this
+.input.bad a is the color of the x inside of it
 */
 
 div#commentBox {
@@ -530,10 +542,10 @@ table#pride.table .xsmall just puts the lion subtext back to its regular size, s
 .xsmalls earlier when fixing FAPA. you can remove this if you want the bigger text. */
 
 .featured-lion {
-background: #a55745 !important;
-color: #fffeb7 !important;
+background: #HEX !important;
+color: #HEX !important;
 border: none !important;
-border-radius: 10px !important;
+border-radius: 0px !important;
 padding: 0;
 margin: 0 auto;
 max-width: 640px;
@@ -553,8 +565,8 @@ table#pride.table .xsmall
 days till heat for lionesses */
 
 .badge {
-background: #BC705E !important;
-color: #fffeb7 !important; }
+background: #HEX !important;
+color: #HEX !important; }
 	
 / * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
 and removes link underlines from edit your details */
@@ -690,7 +702,7 @@ form > table#about > tbody > tr.right > td[style] {
 div.lion-image-block[data-image-type="headshot"] img {
     display: none !important; }
 div.lion-image-block[data-image-type="headshot"] {
-  background-image: url('https://images2.imgbox.com/11/be/OdqhqF7E_o.png') !important;
+  background-image: url('https://images2.imgbox.com/ba/51/bTV775gt_o.png') !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
