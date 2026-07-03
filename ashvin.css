@@ -198,14 +198,6 @@ text-align: center !important;  }
  
 
 /*COMMENT BOX 
-This is a complicated one. please read carefully
-div#CommentBox is the color of the ENTIRE BOX, without comments in it. it is also the container
-.comment is the COMMENTS THEMSELVES
-If you want the flippy floppy colors, where one is a little darker than the other, DO NOT FILL IN ANYTHING FOR
-.comment ONLY FILL IN div#commentBox
-
-.input.bad is the icon to delete comments. you will be the only one to see this
-.input.bad a is the color of the x inside of it
 */
 
 div#commentBox {
