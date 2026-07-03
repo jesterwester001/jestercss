@@ -35,11 +35,7 @@ color - the TEXT color of the element
 border-radius - the roundness of the borders, for circular elements, set to 50% 
 box-shadow - a shadow behind the element itself. you usually want this set to none. 
 */
- @media screen and (min-width: 1000px) {
-    #pageSidebar {
-    margin-left: -100%; }
-.col-md-9 {
-margin-left: 25%;} }
+
 /* FONTS - Import from Google Fonts */
  
 @import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
@@ -700,6 +696,12 @@ form > table#about > tbody > tr.right > td[style] #lion_image > a {
   margin: 0 !important;
   line-height: 0 !important;
 font-size: 0 !important; } }
+
+ @media screen and (min-width: 1000px) {
+    #pageSidebar {
+    margin-left: -100%; }
+.col-md-9 {
+margin-left: 25%;} }
 
 .firefly {
   position: fixed;
