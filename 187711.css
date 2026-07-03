@@ -89,7 +89,8 @@ text-align: center !important;
     text-transform: uppercase !important;
     text-shadow: 2px 3px 5px #BC705E !important;
 font-family: "Jim Nightshade", cursive;}
-h1 small { color: #fffeb7 !important;}
+h1 small { color: #fffeb7 !important;
+		 text-shadow: none !important;}
 
 h2 {
 color: #fffeb7 !important;
