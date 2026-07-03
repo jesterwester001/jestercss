@@ -593,7 +593,8 @@ img[src$="gold.png"] {
   content: url('https://static.lioden.com/images/beetles/scarabaeusaureus/male/left/glowing.png') !important;
   width: 20px !important; 
  
-}  
+} 
+
 .dynastycollection .col-md-4,
 .dynastycollection .col-sm-6,
 .dynastycollection .col-xs-6,
@@ -696,12 +697,6 @@ form > table#about > tbody > tr.right > td[style] #lion_image > a {
   margin: 0 !important;
   line-height: 0 !important;
 font-size: 0 !important; } }
-
- @media screen and (min-width: 1000px) {
-    #pageSidebar {
-    margin-left: -100%; }
-.col-md-9 {
-margin-left: 25%;} }
 
 .firefly {
   position: fixed;
