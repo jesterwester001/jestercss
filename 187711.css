@@ -53,7 +53,7 @@ BUT I recommend repeating patterns rather than full images. */
  
 @media screen and (min-width: 601px) { 
 body {
-background: url('https://images2.imgbox.com/93/65/U0jM1Wyd_o.png') top center fixed;
+background: url('https://cdn.imgchest.com/files/37c34e392cf7.png') top center fixed;
 background-size: 100%;
 color: #fffeb7; } }
 
@@ -488,7 +488,7 @@ otherwise it can make your navbar look weird.
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 display: none;}
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-content: url('https://images2.imgbox.com/3a/d6/NxJ40xma_o.png'); }
+content: url('https://cdn.imgchest.com/files/76de7e5fdd1f.png'); }
  
 /* TEXT BOXES & BUTTONS -
 all text boxes and buttons will be whatever color you put in here
@@ -626,7 +626,7 @@ form > table#about > tbody > tr.right > td[style] {
 div.lion-image-block[data-image-type="headshot"] img {
     display: none !important; }
 div.lion-image-block[data-image-type="headshot"] {
-  background-image: url('https://images2.imgbox.com/83/fb/U0dbsYot_o.png') !important;
+  background-image: url('https://cdn.imgchest.com/files/931b36946333.png') !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
@@ -671,7 +671,7 @@ form > table#about > tbody > tr.right > td[style] {
 div.lion-image-block[data-image-type="headshot"] img {
     display: none !important; }
 div.lion-image-block[data-image-type="headshot"] {
-  background-image: url('https://images2.imgbox.com/83/fb/U0dbsYot_o.png') !important;
+  background-image: url('https://cdn.imgchest.com/files/931b36946333.png') !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
