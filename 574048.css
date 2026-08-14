@@ -25,7 +25,7 @@ body {  font-family: "Grandstander", cursive;}
  
 @media screen and (min-width: 601px) { 
 body {
-background: url('https://images2.imgbox.com/4c/e2/rW6xzZ18_o.png') top center fixed;
+background: url('https://cdn.imgchest.com/files/e76a4518f7e8.png') top center fixed;
 background-size: 100%;
 color: #efe5d9; } }
 
@@ -81,7 +81,6 @@ background: none; }
  
 .topbar {
 background-color: #ab7e47 !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 color: #efe5d9 !important;
 border: 3px outset #efe5d9 !important;
     border-top: none !important;
@@ -92,7 +91,6 @@ border-top-right-radius: 0px !important;}
  
 .navbar {
 background-color: #b1a24e !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 color: #4C3F28 !important;
 border: 5px outset #4C3F28 !important;
 border-radius: 10px !important; }
@@ -114,7 +112,6 @@ border-top: none !important;
 
 .breadcrumb {
 background-color: #ab7e47 !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 color: #efe5d9 !important;
 border: 3px outset #efe5d9 !important;
 border-radius: 5px !important;} 
@@ -125,7 +122,6 @@ color: #efe5d9; }
  
 .alert {
 background-color: #ab7e47 !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 color: #efe5d9 !important;
 border: 3px outset #efe5d9 !important;
 border-radius: 5px !important;
@@ -166,7 +162,6 @@ margin-top: 10px !important; }
  
 .panel {
 background-color: #b1a24e !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png") !important;
 color: #efe5d9 !important;
 border: 5px outset #4C3F28 !important;
     border-radius: 10px !important;
@@ -250,14 +245,12 @@ background: none !important; }
  
 .feature {
 background-color: #b1a24e !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png") !important;
 color: #efe5d9 !important;
 border: 5px outset #4C3F28 !important;
     border-radius: 10px !important; }
 
 div.left {
 background-color: #b1a24e !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png") !important;
 color: #efe5d9 !important;
 border: 5px outset #4C3F28 !important;
     border-radius: 10px !important; }
@@ -276,7 +269,6 @@ border-radius: 10px !important; }
 .top, .bottom, th,
 .table .bottom {
 background-color: #4C3F28 !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 color: #efe5d9 !important;
 border: none !important;
 border-radius: 0px ; }
@@ -290,14 +282,12 @@ border-radius: 10px !important; }
 
 .inner-table .left {
 background-color: #685c33 !important;
-    background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 border-radius: 10px !important;
 border-top-right-radius: 0px !important;
 border-bottom-right-radius: 0px !important;}
 
 .inner-table .right {
 background-color: #8e823e !important;
-    background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 border-radius: 10px !important; 
 color: #HEX !important;
 border-top-left-radius: 0px !important;
@@ -350,14 +340,13 @@ border: none !important; }
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 display: none;}
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-content: url('https://images2.imgbox.com/36/30/ZAfVZAVR_o.gif'); }
+content: url('https://cdn.imgchest.com/files/bdb82d8daa86.gif'); }
  
 /* TEXT BOXES & BUTTONS */
  
 input, textarea, select, button.button,
 a.btn.btn-default.button {
 background-color: #ab7e47 !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png") !important;
 color: #efe5d9 !important;
 border: 1px solid #efe5d9 !important;
 border-radius: 5px !important;
@@ -368,7 +357,6 @@ text-shadow: none !important; }
 .cave-grid,
 .mound-grid {
 background-color: #b1a24e !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png") !important;
 color: #efe5d9 !important;
 border: 5px outset #4C3F28 !important;
 border-radius: 10px !important; }
@@ -438,7 +426,6 @@ justify-content: center; }
 .Box1 {
 float: left;
 background-color: #ab7e47 !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 color: #efe5d9 !important;
 border: 3px outset #efe5d9 !important;
 border-radius: 10px !important;
@@ -455,7 +442,6 @@ overflow-y: auto; }
 .Box2 {
 float: right;
 background-color: #ab7e47 !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 color: #efe5d9 !important;
 border: 3px outset #efe5d9 !important;
 border-radius: 10px !important;
@@ -481,7 +467,6 @@ height: 250px; }
 .Box3 {
 float: right;
 background-color: #ab7e47 !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 color: #efe5d9 !important;
 border: 3px outset #efe5d9 !important;
 border-radius: 10px !important;
@@ -498,7 +483,6 @@ height: 250px;}
 
 .fakebutton { 
 background-color: #ab7e47 !important;
-background-image: url("https://images2.imgbox.com/39/d9/bErt9irw_o.png");
 color: #efe5d9 !important;
 border: 1px solid #efe5d9 !important;
   padding: 3px 12px;
@@ -531,20 +515,20 @@ width: 240
 height: 120 (60 for half size - like the nesting banner)*/
 
 div.cave-grid>img {
-content: url('https://images2.imgbox.com/97/08/1CbMBFwl_o.png')!important;
+content: url('https://cdn.imgchest.com/files/b25d6a33f1d2.png')!important;
 width: 258px !important;
 height: 120px; !important;  }
 
 
 div.cave-grid>img[src$="nestingbanner.png"] {
-	content: url('https://images2.imgbox.com/48/ce/8C7XT7ga_o.png')!important;
+	content: url('https://cdn.imgchest.com/files/1b2ede921c46.png')!important;
 }
 a[href$="unsorted.php?id=574048"]>div.cave-grid>img{
-content: url('https://images2.imgbox.com/48/ce/8C7XT7ga_o.png')!important;
+content: url('https://cdn.imgchest.com/files/1b2ede921c46.png')!important;
 width: 258px !important;
 height: 120px; !important; }
 a[href*="lionoverview.php?id=574048"]>div.cave-grid>img {
-content: url('https://images2.imgbox.com/48/ce/8C7XT7ga_o.png')!important;
+content: url('https://cdn.imgchest.com/files/1b2ede921c46.png')!important;
 width: 258px !important;
 height: 120px; !important;  }
 
