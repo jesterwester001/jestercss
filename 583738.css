@@ -593,6 +593,7 @@ height: 75px;
 padding: 0px;
 display: block;
 justify-content: center;
+	margin-bottom: 5px !important;
 transition: 1s }
 .boxcontainer:hover {
 height: 250px; }
