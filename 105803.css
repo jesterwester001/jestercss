@@ -34,7 +34,7 @@ cursor: url("https://i.imgur.com/m8hn0L4.png"), auto !important;}
  
 @media screen and (min-width: 601px) { 
 body {
-background: url('https://images2.imgbox.com/f6/cf/6G8CZV0H_o.jpg') top center fixed;
+background: url('https://cdn.imgchest.com/files/ba1b38ee3232.png') top center fixed;
 background-size: 100%;
 color: #F5D696 !important; 
     cursor: url("https://i.imgur.com/m8hn0L4.png"), auto !important;} }
@@ -417,7 +417,7 @@ box-shadow: 0px 0px 10px #F5D696 ;}
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 display: none;}
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-content: url('https://images2.imgbox.com/a0/94/FMKJhjKz_o.png'); }
+content: url('https://cdn.imgchest.com/files/9759de00450a.png'); }
  
 /* TEXT BOXES & BUTTONS */
  
@@ -449,19 +449,19 @@ width: 258px !important;
 height: 200px !important;}
 
 a[href$="99860"]>div.cave-grid>img {
-content: url('https://images2.imgbox.com/3a/e2/DzfeXk3X_o.png')!important;
+content: url('https://cdn.imgchest.com/files/f43404962a31.png')!important;
 width: 258px !important;
 height: 200px !important; }
 a[href$="51722"]>div.cave-grid>img {
-content: url('https://images2.imgbox.com/30/77/5TzaxrXp_o.png')!important; 
+content: url('https://cdn.imgchest.com/files/0d2195508916.png')!important; 
 width: 258px !important;
 height: 200px !important; }
 a[href$="47577"]>div.cave-grid>img {
-content: url('https://images2.imgbox.com/85/b9/QznCWyeK_o.png')!important;
+content: url('https://cdn.imgchest.com/files/b0a78e2f1613.png')!important;
 width: 258px !important;
 height: 200px !important; }
 a[href$="544223"]>div.cave-grid>img {
-content: url('https://images2.imgbox.com/40/b0/ZnzDIs2s_o.png')!important;
+content: url('https://cdn.imgchest.com/files/483d614439bc.png')!important;
 width: 258px !important;
 height: 200px !important; }
 
