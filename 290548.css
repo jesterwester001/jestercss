@@ -508,3 +508,14 @@ border-bottom: none !important; }
 
 td.bottom a, th a {
 border-bottom: none !important; }
+
+@media screen and (min-width: 1000px) { div#lion_image::after {
+  content: url('https://cdn.imgchest.com/files/a90c62f54122.png');
+  position: absolute;
+margin-top: -37.5%;
+    margin-left: -35%;
+    width: 70% !important;
+    height: 70% !important;
+    scale: .59; }
+}
+
