@@ -1,0 +1,490 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+  
+body {  font-family: "Raleway", sans-serif;}
+ 
+.topbar {  font-family: "Raleway", sans-serif; }
+ 
+.navbar {font-family: "Raleway", sans-serif;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {color: #F1AC4B !important;
+    font-size: 64px;
+text-align: center !important;
+font-family: "Parisienne", cursive;
+text-shadow: 2px 2px 5px #250D0C !important; }
+h1 small {
+color: #F1AC4B !important; }
+
+h2 {color: #F1AC4B !important;
+    font-size: 24px;}
+
+h3 {color: #F1AC4B !important;
+    font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+    color: #F1AC4B !important;
+background: none !important; }
+   
+a:hover {
+    color: #D9773F !important; }
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://cdn.imgchest.com/files/4fc3f26b8e4b.png') top center fixed;
+    background-size: 100%;
+    color: #F1AC4B; } }
+
+@media screen and (max-width: 600px){
+body {
+background: #6F312C;
+background-size: cover;
+color: #F1AC4B; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+    background: rgba(58, 23, 25, 0.3);
+    border: none;
+    box-shadow: none;
+    border-radius: 5px; }
+.col-md-9 {
+    background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 3px outset #6F312C !important;
+border-radius: 10px !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;  }
+ 
+.navbar {
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 3px outset #6F312C !important;
+border-radius: 10px !important;}
+
+.navbar-toggle {
+    border: none !important;
+   background: #250D0C !important;
+}
+
+.navbar-collapse {
+border-color: #3A1719 !important;
+}
+ 
+.navbar li a:hover {
+    background: #HEX !important;
+color: #HEX !important;
+font-size: 24px !important; }
+ 
+.breadcrumb {
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 1px solid #6F312C !important;
+border-radius: 5px !important;} 
+.breadcrumb .active {
+    color: #F1AC4B; }
+
+.breadcrumb a {
+color: #F1AC4B !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger, .alert-success {
+   background: #F1AC4B !important;
+    color: #250D0C !important;
+border: 1px solid #250D0C !important;
+border-radius: 5px !important;
+text-align: center !important;  }
+.alert a, .alert-warning a, .alert-success a, .alert-danger a {
+color: #250D0C !important; }
+.alert a:hover, .alert-warning a:hover, .alert-danger a:hover, .alert-success a:hover {
+color: #3A1719 !important; }
+
+/*COMMENT BOX */
+
+div#commentBox {
+    background: #F1AC4B !important;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #250D0C !important;}
+div#comment {
+text-align: center !important; }
+
+div#commentBox, div#makeComment, div#commentErrors {
+        border: 3px outset #250D0C !important;
+		border-radius: 10px !important;
+		text-align: center;}
+div#commentBox {
+background: #HEX !important; }
+div#makeComment, div#commentErrors {
+border: none !important; }
+
+img.floatleft.commentTag.clear {
+border-radius: 0px !important;}
+	
+.comment {     background: #HEX !important;
+border: none !important;
+    border-bottom: none !important;
+    border-radius: 0px !important;
+    color: #HEX !important;
+	text-align: center !important;}
+.text-muted { color: #250D0C !important; }
+.comment a:visited, .comment a {
+color: #250D0C !important; }
+.comment a:hover {
+color: #3A1719 !important; }
+
+input.bad {
+	background: #250D0C !important;
+color: #F1AC4B !important;}
+input.bad a {
+color: #F1AC4B !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 3px outset #6F312C !important;
+border-radius: 10px !important;  }
+.feature,
+div.left {
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 3px outset #6F312C !important;
+border-radius: 10px !important; }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 3px outset #6F312C !important;
+border-radius: 10px !important;
+box-shadow: none !important; }
+   
+.progress {
+    background:  #3A1719;
+    color: #HEX !important;
+border-radius: 25px !important; 
+border: 1px solid #250D0C !important; }
+   
+.progress div {
+    color: #F1AC4B !important; }
+
+.progress-bar {
+    background: #6F312C !important; 
+border-radius: 25px !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #491F1A !important;
+    border: none !important; }
+	
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #250D0C !important;
+border-left: 6px solid #F1AC4B !important;
+color: #F1AC4B !important; }
+.s-chat-message__pinned {
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #F1AC4B !important; }
+   
+div#chatMessageContainer {
+    border: 3px outset #6F312C !important; }
+button#label_currentChannel {
+    border: none !important;
+    background: #250D0C !important; }
+
+div#lblCharacterCounter {
+color: #F1AC4B !important; }
+
+html.nolayout {
+background: none !important; }
+ 
+/* LION INFO */
+ 
+.table {
+    background: #D9773F;
+    border: 5px outset #6F312C !important;
+    border-collapse: separate;
+    border-radius: 10px; }
+.table a:hover {
+color: #6F312C !important; }
+.top,
+.bottom,
+th {
+    background: #250D0C !important;
+    color: #HEX !important;
+border: none !important;
+border-radius: 0px !important; }
+.bottom a {
+text-decoration: none !important; }
+ 
+.table .left {
+    background: #3A1719;
+border-radius: 0px !important; }
+.inner-table .left {
+    background: #3A1719 !important;
+border-radius: 10px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;  }
+.inner-table .right {
+    background: #491F1A !important;
+border-radius: 10px !important; 
+color: #F1AC4B !important;
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important;  }
+.inner-table right a:hover {
+color: #D9773F !important; }
+.right_odd {
+    background: none !important; }
+	
+table#allies.table a, table#allies.table a:visited,
+table#allies.table a, table#clans.table a:visited {
+color: #F1AC4B !important; }
+table#allies.table a:hover, table#clans.table a:hover {
+color: #6F312C !important; }
+
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 1.0;
+border-radius: 50%;
+overflow: hidden; }   
+table#player img {
+    opacity: 1.0;
+border-radius: 50%; }
+
+/* LIODEN LOGO REPLACER 192x120 */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://cdn.imgchest.com/files/ed359ab32ebd.png'); }
+		
+/ * NO LINK UNDERLINE */
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+td.bottom a, th a {
+border-bottom: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+    background: #F1AC4B !important;
+    border: 1px solid #250D0C !important;
+    border-radius: 10px !important;
+    color: #250D0C !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 3px outset #3A1719 !important;
+border-radius: 10px !important; }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #491F1A;}
+::-webkit-scrollbar-thumb {
+    background: #F1AC4B; }
+
+/* first number is thumb, second is track, firefox only */
+:root {
+scrollbar-color: #F1AC4B #491F1A !important;
+scrollbar-width: auto;}
+
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #HEX;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+ 
+/* BOXES */
+
+.boxcontainer {
+    background: none;
+    height: 75px;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+    transition: 1s	}
+.boxcontainer:hover {
+height: 200px; }
+   
+.Box1 {
+    float: left;
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 3px outset #6F312C !important;
+border-radius: 10px !important;
+    padding: 5px;
+    float: left;
+    height: 75px;
+    width: 55%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box1:hover {
+    overflow-y: auto;
+height: 200px;	}
+   
+.Box2 {
+    float: right;
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 3px outset #6F312C !important;
+border-radius: 10px !important;
+    padding: 5px;
+    float: right;
+    height: 75px;
+    width: 43%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box2:hover {
+    overflow-y: auto;
+height: 200px;	}
+	
+.Box3 {
+    float: right;
+    background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 3px outset #6F312C !important;
+border-radius: 10px !important;
+    padding: 5px;
+    float: right;
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box3:hover {
+    overflow-y: auto;
+height: 200px;	}
+
+/* CAVE COVERS
+width: 240
+height: 120 (60 for half size)
+first one controls nesting/empty cave slot looks */
+
+div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/c095ee99ac4a.png')!important; }
+
+a[href$="127496"]>div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/93c34f105405.gif')!important;
+width: 258px !important;
+height: auto !important; }
+a[href$="129209"]>div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/93c34f105405.gif')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="167140"]>div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/93c34f105405.gif')!important;
+width: 258px !important;
+height: auto !important; }
+a[href$="167141"]>div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/93c34f105405.gif')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="131410"]>div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/93c34f105405.gif')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="167142"]>div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/93c34f105405.gif')!important; 
+width: 258px !important;
+height: auto !important; }
+
+
+/* CAVE COMPATIBILITY */
+
+.featured-lion {
+   background: #250D0C !important;
+    color: #F1AC4B !important;
+border: 5px outset #6F312C !important;
+border-radius: 10px !important;
+padding: 0;
+margin: 0 auto;
+max-width: 640px;
+font-weight: bold;
+font-size: 14px; }
+
+img[src*="cave/default"] {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/gorgechampions.png') !important;}
+
+
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+/* Flying Saucer - https://www.cursors-4u.com/cursor/mec9-11 */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/flying-saucer-73199e70-32.webp') 35 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
