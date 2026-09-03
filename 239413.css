@@ -37,13 +37,13 @@ font-size: 14px !important;}
  
 @media screen and (min-width: 601px) { 
 body {
-background: url('https://images2.imgbox.com/ae/f1/10EfyMkY_o.gif') center center fixed;
+background: url('https://cdn.imgchest.com/files/0de0bd4e9ef0.gif') center center fixed;
 background-size: 100%;
 color: #b2e1ff; } }
 
 @media screen and (max-width: 600px){
 body {
-background: url('https://images2.imgbox.com/20/6a/gEOwcbKN_o.png') center center fixed;
+background: url('https://cdn.imgchest.com/files/10f685c6014f.png') center center fixed;
 background-size: cover;
 color: #b2e1ff; } }
 
@@ -451,7 +451,7 @@ box-shadow: 0px 0px 10px #63DD9B;}
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 display: none;}
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-content: url('https://images2.imgbox.com/fb/6e/cFVeoXFE_o.png');}
+content: url('https://cdn.imgchest.com/files/fb13846a5f34.png');}
  
 /* TEXT BOXES & BUTTONS */
  
