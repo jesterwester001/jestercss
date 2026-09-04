@@ -68,9 +68,15 @@ text-shadow: 2px 2px 3px #895639 !important;}
  
 @media screen and (min-width: 801px) { 
 body {
-background: url('https://images2.imgbox.com/7e/b9/xvxyD8DL_o.png') top center fixed;
+background: url('https://cdn.imgchest.com/files/a7cc7e9b9e68.png') top center fixed;
 background-size: 100%;
 color: #4A3131; } }
+/* LIODEN LOGO REPLACER 192x120 */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+content: url('https://cdn.imgchest.com/files/bf57bc732448.png'); }
 
 @media screen and (max-width: 800px){
 body {
@@ -344,13 +350,6 @@ overflow: hidden; }
 table#player img {
 opacity: 0.85;
 border-radius: 10px; }
-
-/* LIODEN LOGO REPLACER 192x120 */
-   
-div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-display: none;}
-div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-content: url('https://images2.imgbox.com/91/af/WdTE360B_o.png'); }
 		
 / * NO LINK UNDERLINE */
 		
