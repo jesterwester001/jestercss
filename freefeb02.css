@@ -1,0 +1,377 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Pinyon+Script&display=swap');
+ 
+body {font-family: 'Caudex', serif;}
+ 
+.topbar {font-family: 'Caudex', serif;}
+ 
+.navbar {font-family: 'Pinyon Script', cursive;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {color: #BFBBB7 !important;
+    font-size: 72px;
+text-align: left !important;
+text-transform: uppercase !important;
+font-family: 'Pinyon Script', cursive; }
+
+
+h2 {color: #BFBBB7 !important;
+    font-size: 24px;}
+
+
+h3 {color: #BFBBB7 !important;
+    font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+    color: #594C47 !important;
+background: none !important; }
+   
+a:hover {
+    color: #594C47 !important; }
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://cdn.imgchest.com/files/5b22c5738d23.png') center center fixed;
+    background-size: 100%;
+    color: #594C47; } }
+
+
+@media screen and (max-width: 600px){
+body {
+background: #7F7160;
+background-size: cover;
+color: #594C47; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+    background: rgba(89, 76, 71, 0.4);
+    border: none;
+    box-shadow: none;
+    border-radius: 5px; }
+.col-md-9 {
+    background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-top: none !important;
+border-radius: 5px !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;  }
+ 
+.navbar {
+   background: #594C47 !important;
+    color: #D3D9BF !important;
+border: none !important;
+border-radius: 5px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important; }
+
+
+.navbar li a {
+color: #D3D9BF !important; }
+ 
+.navbar li a:hover {
+    background: #D3D9BF !important;
+color: #594C47 !important; }
+ 
+.breadcrumb {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 3px !important;} 
+.breadcrumb .active {
+    color: #594C47; }
+
+
+.breadcrumb a, .breadcrumb a:hover {
+color: #594C47 !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger, .alert-success {
+   background: #594C47 !important;
+    color: #D3D9BF !important;
+border: 1px solid #D3D9BF !important;
+border-radius: 5px !important;  }
+.alert a, .alert-warning a, .alert-success a, .alert-danger a, .alert a:hover, .alert-warning a:hover, .alert-danger a:hover, .alert-success a:hover {
+color: #D3D9BF !important; }
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important; }
+.feature,
+div.left {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important; }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important;
+box-shadow: none !important; }
+   
+.progress {
+    background: #A69E8F !important;
+    color: #HEX !important;
+border-radius: 2px !important;  }
+   
+.progress div {
+    color: #D3D9BF !important; }
+
+
+.progress-bar {
+    background: #736D5C !important; 
+border-radius: 2px !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #D3D9BF !important;
+    border: none !important; }
+.s-chat-message__pinned {
+    background: #594C47 !important;
+    color: #D3D9BF !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #594C47 !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel {
+    border: none !important;
+    background: #919558 !important; }
+	
+	input#btnToggleSidebarChat {
+background: none !important; }
+ 
+/* LION INFO */
+ 
+.table {
+    background: rgba(211, 217, 191, 0.4);
+    border: none !important;
+    border-collapse: separate;
+    border-radius: 5px; }
+.top,
+.bottom,
+th {
+   background: #594C47 !important;
+    color: #D3D9BF !important;
+border: 1px solid #D3D9BF !important;
+border-radius: 5px !important; }
+
+
+th a, th a:hover {
+color: #D3D9BF !important; }
+
+
+.bottom {
+	border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important; }
+.top {
+	border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+
+
+.top a, .bottom a, .top a:hover, .bottom a:hover, .top a:visited, .bottom a:visited {
+color: #D3D9BF !important; }
+ 
+.table .left {
+    background: #919558;
+border-radius: 0px !important; }
+.inner-table .left {
+    background: #919558 !important;
+border-radius: 3px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;  }
+.inner-table .right {
+    background: #D3D9BF !important;
+border-radius: 3px !important; 
+color: #594C47 !important;
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important; } 
+.right_odd {
+    background: none !important; }
+
+
+.inner-table .right a {
+color: #594C47 !important; }
+ 
+/* ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: #594C47 !important;
+    color: #D3D9BF !important; } 
+.item {
+    background: #D3D9BF !important;
+    border: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button {
+   background: #594C47 !important;
+    color: #D3D9BF !important;
+border: 1px solid #D3D9BF !important;
+border-radius: 3px !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important; }
+
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #594C47;}
+::-webkit-scrollbar-thumb {
+    background: #919558; }
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #594C47;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+ 
+/* BOXES */
+
+
+.boxcontainer {
+    background: none;
+height: 150px;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+transition: 2s	}
+   
+.Box1 {
+    float: left;
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important;
+    padding: 5px;
+    float: left;
+height: 150px;
+    width: 65%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+   
+.Box2 {
+    float: right;
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important;
+    padding: 5px;
+    float: right;
+height: 150px;
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+
+	
+.Box3 {
+    float: right;
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important;
+    padding: 5px;
+    float: right;
+height: 150px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+
+
+
+ 
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 0.8;
+border-radius: 50%;
+overflow: hidden; }   
+table#player img {
+    opacity: 0.8;
+border-radius: 50%; }
+
+
+/* LIODEN LOGO REPLACER */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://cdn.imgchest.com/files/3a5da4d666b6.png'); }
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
