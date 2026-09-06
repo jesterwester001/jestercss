@@ -1,0 +1,362 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Karla:wght@300&display=swap');
+ 
+body {font-family: 'Karla', sans-serif;}
+ 
+.topbar {font-family: 'Karla', sans-serif;}
+ 
+.navbar {font-family: 'Cabin Sketch', cursive;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {color: #F2F2F2 !important;
+    font-size: 72px;
+text-align: center !important;
+text-transform: uppercase !important;
+text-shadow: 2px 1px #ABD4F1 !important;
+font-family: 'Cabin Sketch', cursive;}
+
+h2 {color: #F2F2F2 !important;
+    font-size: 24px;}
+
+h3 {color: #F2F2F2 !important;
+    font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+    color: #D3EBFC !important; }
+   
+a:hover {
+    color: #D3EBFC !important;
+text-decoration: underline;	}
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://cdn.imgchest.com/files/0f48a063f3b7.png') center center fixed;
+    background-size: 100%;
+    color: #F2F2F2 !important;	} }
+
+@media screen and (max-width: 600px){
+body {
+background: #595554;
+background-size: cover;
+color: #F2F2F2 !important; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+    background: rgba(89, 85, 84, 0.0);
+    border: none !important;
+    box-shadow: none;
+    border-radius: 0px; }
+.col-md-9 {
+    background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+    background: #8C8887 !important;
+    color: #F2F2F2 !important;
+border: 5px double #F2F2F2 !important;
+border-radius: 0px !important;
+border-top: none !important;  }
+.topbar a, .topbar a:hover {
+color: #F2F2F2 !important; }
+ 
+.navbar {
+   background: #ABD4F1 !important;
+    color: #595554 !important;
+border: 5px double #595554 !important;
+border-radius: 0px !important;
+font-family: 'Cabin Sketch', cursive; }
+.navbar a{
+color: #595554 !important; }
+ 
+.navbar li a:hover {
+   background: #D3EBFC !important;
+    color: #595554 !important;
+    text-decoration: underline !important;	}
+ 
+.breadcrumb {
+    background: #8C8887 !important;
+    color: #F2F2F2 !important;
+border: 2px solid #F2F2F2 !important;
+border-radius: 0px !important; } 
+.breadcrumb .active {
+    color: #F2F2F2 !important; }
+
+.breadcrumb a, .breadcrumb a:hover {
+color: #F2F2F2 !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger {
+    background: #8C8887 !important;
+    color: #F2F2F2 !important;
+border: 2px solid #F2F2F2 !important;
+border-radius: 0px !important;  }
+.alert, .alert-warning, .alert-danger, .alert-success a {
+    color: #F2F2F2 !important; }
+.alert, .alert-warning, .alert-danger, .alert-success a:hover {
+    color: #F2F2F2 !important; }
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+    background: #8C8887 !important;
+    color: #F2F2F2 !important;
+border: 5px double #F2F2F2 !important;
+border-radius: 0px !important;  }
+.feature,
+div.left {
+    background: #8C8887 !important;
+    color: #F2F2F2 !important;
+border: 5px double #F2F2F2 !important;
+border-radius: 0px !important;   }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+   background: #ABD4F1 !important;
+    color: #595554 !important;
+border: 5px double #595554 !important;
+border-radius: 0px !important;
+font-family: 'Karla', sans-serif;   }
+.panel a, .panel a:hover {
+color: #595554 !important; }
+   
+.progress {
+    background:  #ABD4F1;
+    color: #HEX !important;
+border-radius: 2px !important;  }
+   
+.progress div {
+    color: #595554 !important; }
+
+.progress-bar {
+    background: #D3EBFC !important; 
+border-radius: 2px !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #D3EBFC !important;
+    border: none !important;
+color: #595554 !important;	}
+.s-chat-message:nth-child(even) a, .s-chat-message:nth-child(even) a:hover,
+.s-chat-message:nth-child(odd) a, .s-chat-message:nth-child(odd) a:hover {
+color: #595554 !important;}
+.s-chat-message__pinned {
+    background: #HEX !important;
+    color: #HEX !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #595554 !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel, button.channelSwitcher  {
+    border: none !important;
+    background: #595554  !important; }
+ 
+/* LION INFO */
+ 
+.table {
+    background: rgba(89, 85, 84, 0.3) !important;
+    color: #F2F2F2 !important;
+border: none !important;
+border-radius: 0px !important; 
+    border-collapse: separate; }
+.top,
+.bottom,
+th {
+   background: #595554 !important;
+    color: #F2F2F2 !important;
+border: 5px double #F2F2F2 !important;
+border-radius: 0px !important;  }
+
+.top a,
+.bottom a,
+th a {   
+color: #F2F2F2 !important; }
+ 
+.table .left {
+    background: #ABD4F1;
+border-radius: 0px !important;
+color: #595554 !important; }
+.table .left a {
+background: none !important;
+color: #595554 !important; }
+.inner-table .left {
+    background: #ABD4F1 !important;
+border-radius: 0px !important; 
+color: #595554 !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+.inner-table .right {
+    background: #D3EBFC !important;
+border-radius: 0px !important; 
+color: #595554 !important;
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important; } 
+.right_odd {
+    background: none !important; }
+
+.inner-table .right a {
+color: #595554 !important; }
+ 
+/* ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: #8C8887 !important;
+    color: #D3EBFC !important; } 
+.item {
+    background: #D3EBFC !important;
+    border: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button {
+    background: #D3EBFC !important;
+    border: none !important;
+    border-radius: 1px solid #595554 !important;
+    color: #595554 !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+    background: #8C8887 !important;
+    color: #F2F2F2 !important;
+border: 5px double #F2F2F2 !important;
+border-radius: 0px !important;  }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #F2F2F2;}
+::-webkit-scrollbar-thumb {
+    background: #8C8887; }
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #F2F2F2;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+ 
+/* BOXES */
+
+.boxcontainer {
+    background: none;
+height: 150px;
+    padding: 0px;
+    display: block;
+    justify-content: center; 	
+	transition: 2s}
+   
+.Box1 {
+    float: left;
+    background: #D3EBFC !important;
+    color: #595554 !important;
+border: 2px solid #595554 !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: left;
+height: 150px;
+    width: 45%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+   
+.Box2 {
+    float: right;
+    background: #D3EBFC !important;
+    color: #595554 !important;
+border: 2px solid #595554 !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: right;
+height: 150px;
+    width: 45%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+
+.Box3 {
+    float: right;
+    background: #D3EBFC !important;
+    color: #595554 !important;
+border: 2px solid #595554 !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: right;
+height: 150px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+ 
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 1.0;
+border-radius: none;
+overflow: hidden; }   
+table#player img {
+    opacity: 1.0;
+border-radius: none; }
+
+/* LIODEN LOGO REPLACER */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://cdn.imgchest.com/files/7bfcfc914fb6.png'); }
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
