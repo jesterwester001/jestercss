@@ -1,0 +1,408 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&family=Sen&display=swap');
+ 
+body {font-family: 'Sen', sans-serif;}
+ 
+.topbar {font-family: 'Sen', sans-serif;}
+ 
+.navbar {font-family: 'Qwigley', cursive;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {color: #F2A007 !important;
+    font-size: 72px;
+	text-shadow: 7px 7px 7px #8C873A !important;
+text-align: center !important;
+font-family: 'Qwigley', cursive;}
+
+h2 {color: #F2A007 !important;
+	text-shadow: 5px 5px 5px #8C873A !important;
+    font-size: 24px;}
+
+h3 {color: #F2A007 !important;
+	text-shadow: 3px 3px 3px #8C873A !important;
+    font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+    color: #D9B779 !important;
+background: none !important; }
+   
+a:hover {
+    color: #F2A007 !important; }
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://cdn.imgchest.com/files/01949f9fa429.png') center center fixed;
+    background-size: 100%;
+    color: #D9B779; } }
+
+@media screen and (max-width: 600px){
+body {
+background: #F2A007;
+background-size: cover;
+color: #D9B779; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+    background: rgba(242, 130, 17, 0.2);
+    border: none;
+    box-shadow: none;
+    border-radius: 25px; }
+.col-md-9 {
+    background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+    background: #58592E !important;
+    color: #D9B779 !important;
+border: 2px outset #D9B779 !important;
+border-radius: 25px !important;  }
+ 
+.navbar {
+   background: #8C5845 !important;
+    color: #D9B779 !important;
+border: 2px outset #BF755A !important;
+border-radius: 25px !important; }
+ 
+.navbar li a:hover {
+    background: none !important;
+	    color: #D9B779 !important;
+font-size: 22px !important;
+text-shadow: 2px 2px 2px #BF755A !important; }
+ 
+.breadcrumb {
+    background: #58592E !important;
+    color: #D9B779 !important;
+border: 2px outset #D9B779 !important;
+border-radius: 25px !important; } 
+.breadcrumb .active {
+    color: #D9B779; }
+
+.breadcrumb a, .breadcrumb a:hover {
+color: #D9B779 !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger, .alert-success {
+   background: #F2A007 !important;
+    color: #392F20 !important;
+border: 2px outset #D9B779 !important;
+border-radius: 25px !important;  }
+.alert a, .alert-warning a, .alert-success a, .alert-danger a, .alert a:hover, .alert-warning a:hover, .alert-danger a:hover, .alert-success a:hover {
+color: #392F20 !important; }
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+   background: #8C5845 !important;
+    color: #D9B779 !important;
+border: 2px outset #BF755A !important;
+border-radius: 25px !important;  }
+.feature,
+div.left {
+   background: #8C5845 !important;
+    color: #D9B779 !important;
+border: 2px outset #BF755A !important;
+border-radius: 25px !important; }
+.left img {
+border-radius: 25px !important; }
+
+.feature h3, div.left h3, .left h3 {
+	text-shadow: none !important;
+color: #D9B779 !important; }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+   background: #8C5845 !important;
+    color: #D9B779 !important;
+border: 2px outset #BF755A !important;
+border-radius: 25px !important; }
+   
+.progress {
+    background:  #58592E;
+    color: #HEX !important;
+border-radius: 25px !important;  }
+   
+.progress div {
+    color: #F2A007 !important; }
+
+.progress-bar {
+    background: #8C873A !important; 
+border-radius: 25px !important; }
+
+/*COMMENT BOX */
+
+div#commentBox, div#makeComment, div#commentErrors {
+border: none !important;
+border-radius: 25px !important;
+text-align: center;}
+div#makeComment, div#commentErrors {
+border: none !important; }
+
+div#commentBox::-webkit-scrollbar {
+height: 0px;
+width: 0px; }
+div#commentBox::-webkit-scrollbar-track, div#commentBox::-webkit-scrollbar-thumb {
+background: none !important; }
+	
+.comment {     
+background: #BF815E !important;
+border: none !important;
+border-bottom: 1px solid #D9B779 !important;
+border-radius: 0px !important;
+color: #D9B779 !important;
+text-align: center !important;}
+.comment a, .comment a:visited {
+color: #D9B779 !important;  }
+.comment a:hover {
+color: #D9B779 !important; }
+
+img.floatleft.commentTag.clear {
+   border-radius: 25px !important; }
+
+.text-muted { color: #D9B779 !important; }
+
+input.bad {
+background: #58592E !important;
+color: #D9B779 !important;}
+input.bad a {
+color: #D9B779 !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #BF815E !important;
+    border: none !important;
+color: #58592E !important;	}
+.s-chat-message:nth-child(even) a, .s-chat-message:nth-child(even) a:visited, .s-chat-message:nth-child(odd) a,
+.s-chat-message:nth-child(odd) a:visited {
+color: #58592E !important; }
+.s-chat-message__pinned {
+    background: #58592E !important;
+    color: #D9B779 !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #58592E !important; }
+   
+div#chatMessageContainer {
+    border: none !important;
+border-radius: 25px !important;	}
+button#label_currentChannel {
+    border: none !important;
+	border-radius: 25px !important;
+background: #F2A007 !important;
+color: #58592E !important; }
+ 
+/* LION INFO */
+ 
+.table {
+    background: rgba(242, 130, 17, 0.2);
+    border: none !important;
+    border-collapse: separate;
+    border-radius: 25px; }
+.top,
+.bottom,
+th {
+   background: #8C5845 !important;
+    color: #D9B779 !important;
+border: 2px outset #D9B779 !important;
+border-radius: 25px !important; }
+
+.top, th {
+	border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+.bottom { 	border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important; }
+ 
+.table .left {
+    background: #BF815E;
+border-radius: 0px !important;
+color: #D9B779 !important; }
+.inner-table .left {
+    background: #BF815E !important;
+border-radius: 25px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+border: 2px outset #D9B779;
+border-right: none !important;
+color: #D9B779 !important;  }
+.inner-table .right {
+    background: #BF815E !important;
+border-radius: 25px !important; 
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+color: #D9B779 !important;
+border: 2px outset #D9B779;
+border-left: 1px solid #D9B779 !important; } 
+.right_odd {
+    background: none !important; }
+
+.inner-table .right a {
+color: #D9B779 !important; }
+ 
+/* ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: #58592E !important;
+    color: #F2A007 !important; } 
+.item {
+    background: #F2A007 !important;
+    border: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button {
+    background: #8C5845 !important;
+    border: 1px solid #D9B779 !important;
+    border-radius: 25px !important;
+    color: #D9B779 !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+   background: #8C5845 !important;
+    color: #D9B779 !important;
+border: 2px outset #D9B779 !important;
+border-radius: 25px !important;  }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #8C5845;}
+::-webkit-scrollbar-thumb {
+    background: #F2A007;
+border-radius: 25px !important;	}
+
+.Box1::-webkit-scrollbar-track, .Box2::-webkit-scrollbar-track, .Box3::-webkit-scrollbar-track {
+border-radius: 25px !important; }
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #HEX;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+ 
+/* BOXES */
+
+.boxcontainer {
+    background: none;
+    height: 150px;
+    padding: 0px;
+    display: block;
+    justify-content: center; }
+   
+.Box1 {
+    float: left;
+   background: #8C5845 !important;
+    color: #D9B779 !important;
+border: 2px outset #BF755A !important;
+border-radius: 25px !important;
+    padding: 5px;
+    float: left;
+    height: 150px;
+    width: 65%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box1:hover {
+    overflow-y: auto; }
+   
+.Box2 {
+    float: right;
+   background: #8C5845 !important;
+    color: #D9B779 !important;
+border: 2px outset #BF755A !important;
+border-radius: 25px !important;
+    padding: 5px;
+    float: right;
+    height: 150px;
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box2:hover {
+    overflow-y: auto; }
+	
+.Box3 {
+    float: right;
+   background: #8C5845 !important;
+    color: #D9B779 !important;
+border: 2px outset #BF755A !important;
+border-radius: 25px !important;
+    padding: 5px;
+    float: right;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box3:hover {
+    overflow-y: auto; }
+
+ 
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 1.0;
+border-radius: 50%;
+overflow: hidden; }   
+table#player img {
+    opacity: 1.0;
+border-radius: 50%; }
+
+/* LIODEN LOGO REPLACER */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://cdn.imgchest.com/files/7d0470f24db0.png'); }
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
