@@ -1,0 +1,332 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Raleway&display=swap');
+ 
+body {font-family: 'Raleway', sans-serif;}
+ 
+.topbar {font-family: 'Raleway', sans-serif;}
+ 
+.navbar {font-family: 'Dokdo', cursive;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {color: #F2E6D0 !important;
+    font-size: 72px;
+	text-shadow: 2px 1px #8C3E37 !important;
+text-align: left !important;
+text-transform: uppercase !important;
+font-family: 'Dokdo', cursive;}
+
+h2 {color: #F2E6D0 !important;
+    font-size: 24px;}
+
+h3 {color: #F2E6D0 !important;
+    font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+    color: #F2E6D0 !important;
+background: none !important; }
+   
+a:hover {
+    color: #F2E6D0 !important;
+background: none !important;	}
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://cdn.imgchest.com/files/93b8ae6dfd9d.png') center center fixed;
+    background-size: 100%;
+    color: #F2E6D0; } }
+
+@media screen and (max-width: 600px){
+body {
+background: #BF9E80;
+background-size: cover;
+color: #F2E6D0; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+    background: rgba(191, 158, 128, 0.4);
+    border: none;
+    box-shadow: none;
+    border-radius: 5px; }
+.col-md-9 {
+    background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+    background: #594E3F !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-top: none !important;
+border-radius: 0px !important;  }
+ 
+.navbar {
+   background: #8C3E37 !important;
+    color: #F2E6D0 !important;
+border: none !important;
+border-radius: 0px !important; }
+ 
+.navbar li a:hover {
+   background: #8C3E37 !important;
+    color: #F2E6D0 !important; }
+ 
+.breadcrumb {
+     background: #594E3F !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-radius: 0px !important;} 
+.breadcrumb .active {
+    color: #F2E6D0; }
+
+.breadcrumb a, .breadcrumb a:hover {
+color: #F2E6D0 !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger, .alert-success {
+     background: #594E3F !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-radius: 0px !important;  }
+.alert a, .alert-warning a, .alert-success a, .alert-danger a, .alert a:hover, .alert-warning a:hover, .alert-danger a:hover, .alert-success a:hover {
+color: #F2E6D0 !important; }
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+     background: #594E3F !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-radius: 0px !important;  }
+.feature,
+div.left {
+     background: #594E3F !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-radius: 0px !important; }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+     background: #594E3F !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-radius: 0px !important;  }
+   
+.progress {
+    background:  #F2E6D0;
+    color: #HEX !important;
+border-radius: 0px !important;  }
+   
+.progress div {
+    color: #594E3F !important; }
+
+.progress-bar {
+    background: #8A8C4A !important; 
+border-radius: 0px !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #F2E6D0 !important;
+    border: none !important;
+color: #594E3F !important; }
+.s-chat-message__pinned {
+    background: #HEX !important;
+    color: #HEX !important;
+    border: none !important; }
+.s-chat-message_timestamp, .s-chat-message:nth-child(odd) a, .s-chat-message:nth-child(even) a,
+.s-chat-message:nth-child(even) a:hover, .s-chat-message:nth-child(odd) a:hover {
+    color: #594E3F !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel, button.channelSwitcher {
+    border: none !important;
+    background: #8C3E37 !important; }
+ 
+/* LION INFO */
+ 
+.table {
+    background: rgba(55, 58, 39, 0.0);
+    border: none !important;
+    border-collapse: separate;
+    border-radius: 0px; }
+.top,
+.bottom,
+th {
+     background: #594E3F !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-radius: 0px !important; }
+ 
+.table .left {
+    background: #BF9E80;
+border-radius: 0px !important; }
+.inner-table .left {
+    background: #BF9E80 !important;
+border-radius: 0px !important;  }
+.inner-table .right {
+    background: #F2E6D0 !important;
+border-radius: 0px !important; 
+color: #594E3F !important; }
+.right_odd {
+    background: none !important; }
+
+.inner-table .right a {
+color: #594E3F !important; }
+ 
+/* ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: #594E3F  !important;
+    color: #F2E6D0 !important; } 
+.item {
+    background: #F2E6D0 !important;
+    border: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button {
+    background: #F2E6D0 !important;
+    border: 1px solid #594E3F !important;
+    border-radius: 0px !important;
+    color: #594E3F !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+     background: #594E3F !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-radius: 0px !important; }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #F2E6D0;}
+::-webkit-scrollbar-thumb {
+    background: #594E3F; }
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #F2E6D0;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+ 
+/* BOXES */
+
+.boxcontainer {
+    background: none;
+height: 150px;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+transition: 2s	}
+   
+.Box1 {
+    float: left;
+    background: #8C3E37 !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: left;
+height: 150px;
+    width: 65%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+.Box2 {
+    float: right;
+    background: #8C3E37 !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: right;
+height: 150px;
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+	
+.Box3 {
+    float: right;
+    background: #8C3E37 !important;
+    color: #F2E6D0 !important;
+border: 2px outset #F2E6D0 !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: right;
+height: 150px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+ 
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 1.0;
+border-radius: none;
+overflow: hidden; }   
+table#player img {
+    opacity: 1.0;
+border-radius: none; }
+
+/* LIODEN LOGO REPLACER */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://cdn.imgchest.com/files/577eaae491ce.png'); }
+		.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
