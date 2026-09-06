@@ -1,0 +1,340 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&family=Yellowtail&display=swap');
+ 
+body {font-family: 'Glegoo', serif;}
+ 
+.topbar {font-family: 'Glegoo', serif;}
+ 
+.navbar {font-family: 'Yellowtail', cursive;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {color: #F2B885 !important;
+    font-size: 64px;
+text-align: center !important;
+text-transform: lowercase !important;
+font-family: 'Yellowtail', cursive;}
+
+h2 {color: #F2B885 !important;
+    font-size: 24px;}
+
+h3 {color: #F2B885 !important;
+    font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+    color: #F2B885 !important;
+background: none !important; }
+   
+a:hover {
+    color: #F2B885 !important;
+font-size: 16px !important;	}
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://cdn.imgchest.com/files/56647521b258.png') center center fixed;
+    background-size: 100%;
+    color: #F2B885; } }
+
+@media screen and (max-width: 600px){
+body {
+background: #F28963;
+background-size: cover;
+color: #F2B885; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+    background: rgba(64, 36, 20, 0.2);
+    border: none;
+    box-shadow: none;
+    border-radius: 5px; }
+.col-md-9 {
+    background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+    background: rgba(64, 36, 20, 0.8) !important;
+    color: #F2B885 !important;
+border: none !important;
+border-radius: 3px !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;  }
+ 
+.navbar {
+   background: #736026 !important;
+    color: #F2B885 !important;
+border: none !important;
+border-radius: 0px !important; }
+ 
+.navbar li a:hover {
+    background: #BFA450 !important;
+color: #F2B885 !important;
+font-size: 20px !important; }
+ 
+.breadcrumb {
+    background: rgba(64, 36, 20, 0.8) !important;
+    color: #F2B885 !important;
+border: none !important;
+border-radius: 3px !important;} 
+.breadcrumb .active {
+    color: #F2B885; }
+
+.breadcrumb a, .breadcrumb a:hover, .breadcrumb a:visited {
+color: #F2B885 !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger, .alert-success {
+   background: rgba(191, 164, 80, 0.8) !important;
+    color: #402414 !important;
+border: none !important;
+border-radius: 3px !important;
+text-align: center !important;  }
+.alert a, .alert-warning a, .alert-success a, .alert-danger a, .alert a:hover, .alert-warning a:hover, .alert-danger a:hover, .alert-success a:hover {
+color: #402414 !important; }
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+    background: rgba(64, 36, 20, 0.8) !important;
+    color: #F2B885 !important;
+border: none !important;
+border-radius: 5px !important;  }
+.feature,
+div.left {
+    background: rgba(64, 36, 20, 0.8) !important;
+    color: #F2B885 !important;
+border: none !important;
+border-radius: 5px !important;   }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+    background: rgba(64, 36, 20, 0.8) !important;
+    color: #F2B885 !important;
+border: none !important;
+border-radius: 5px !important; 
+box-shadow: none !important;  }
+   
+.progress {
+    background:  rgba(115, 96, 38, 0.8);
+    color: #HEX !important;
+border-radius: 3px !important;  }
+   
+.progress div {
+    color: #402414 !important; }
+
+.progress-bar {
+    background: #BFA450 !important; 
+border-radius: 3px !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #BFA450 !important;
+    border: none !important;
+color: #402414 !important;	}
+.s-chat-message__pinned {
+    background: #402414 !important;
+    color: #F2B885 !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #402414 !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel {
+    border: none !important;
+    background: #402414 !important; }
+ 
+/* LION INFO */
+ 
+.table {
+    background: rgba(55, 58, 39, 0.0);
+    border: none !important;
+    border-collapse: separate;
+    border-radius: 0px; }
+.top,
+.bottom,
+th {
+    background: rgba(64, 36, 20, 0.8) !important;
+    color: #F2B885 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+
+ 
+.table .left {
+    background: rgba(115, 96, 38, 0.8);
+border-radius: 0px !important;
+color: #402414 !important; }
+.inner-table .left {
+    background: rgba(115, 96, 38, 0.8) !important;
+border-radius: 0px !important; 
+color: #402414 !important; }
+.inner-table .right {
+    background: rgba(191, 164, 80, 0.8) !important;
+border-radius: 0px !important; 
+color: #402414 !important; } 
+.right_odd {
+    background: none !important; }
+
+.inner-table .right a {
+color: #402414 !important; }
+ 
+/* ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: #402414 !important;
+    color: #F2B885 !important; } 
+.item {
+    background: #F2B885 !important;
+    border: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button {
+    background: rgba(191, 164, 80, 0.8) !important;
+    border: none !important;
+    border-radius: 3px !important;
+    color: #402414 !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+    background: rgba(64, 36, 20, 0.8) !important;
+    color: #F2B885 !important;
+border: none !important;
+border-radius: 5px !important;  }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #402414;}
+::-webkit-scrollbar-thumb {
+    background: #F2B885; }
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #F2B885;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+ 
+/* BOXES */
+
+.boxcontainer {
+    background: none;
+height: 150px;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+transition: 2s	}
+
+   
+.Box1 {
+    float: left;
+    background: rgba(191, 164, 80, 0.8) !important;
+    color: #402414 !important;
+border: none !important;
+border-radius: 5px !important;
+    padding: 5px;
+    float: left;
+height: 150px;
+    width: 65%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+   
+.Box2 {
+    float: right;
+    background: rgba(191, 164, 80, 0.8) !important;
+    color: #402414 !important;
+border: none !important;
+border-radius: 5px !important;
+    padding: 5px;
+    float: right;
+height: 150px;
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+.Box3 {
+    float: right;
+    background: rgba(191, 164, 80, 0.8) !important;
+    color: #402414 !important;
+border: none !important;
+border-radius: 5px !important;
+    padding: 5px;
+    float: right;
+height: 150px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+ 
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 1.0;
+border-radius: none;
+overflow: hidden; }   
+table#player img {
+    opacity: 1.0;
+border-radius: none; }
+
+/* LIODEN LOGO REPLACER */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://cdn.imgchest.com/files/8d8238ef41df.png'); }
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
