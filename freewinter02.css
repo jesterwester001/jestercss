@@ -1,0 +1,349 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Nunito:wght@200&display=swap');
+ 
+body {font-family: 'Nunito', sans-serif;}
+ 
+.topbar {font-family: 'Nunito', sans-serif;}
+ 
+.navbar {font-family: 'Moon Dance', cursive;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {color: #A69485 !important;
+    font-size: 72px;
+text-align: center !important;
+text-transform: uppercase !important;
+text-shadow: 2px 1px #F2EEB6 !important;
+font-family: 'Moon Dance', cursive;}
+
+h2 {color: #A69485 !important;
+    font-size: 24px;}
+
+h3 {color: #A69485 !important;
+    font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+    color: #F2E1D8 !important; }
+   
+a:hover {
+    color: #F2E1D8 !important;
+text-decoration: underline;	}
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://cdn.imgchest.com/files/c878e1901377.png') center center fixed;
+    background-size: 100%;
+    color: #A69485;	} }
+
+@media screen and (max-width: 600px){
+body {
+background: #A69485;
+background-size: cover;
+color: #A69485; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+    background: rgba(242, 225, 216, 0.4);
+    border: none !important;
+    box-shadow: none;
+    border-radius: 5px; }
+.col-md-9 {
+    background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+    background: #F2E4BB !important;
+    color: #A69485 !important;
+border: none !important;
+border-radius: 0px !important;
+border-top: none !important;  }
+.topbar a, .topbar a:hover {
+color: #A69485 !important; }
+ 
+.navbar {
+   background: #D99B66 !important;
+    color: #F2E1D8 !important;
+border: none !important;
+border-radius: 0px !important; }
+ 
+.navbar li a:hover {
+   background: #D99B66 !important;
+    color: #F2E1D8 !important;
+    text-decoration: underline !important;	}
+ 
+.breadcrumb {
+    background: #F2E4BB !important;
+    color: #A69485 !important;
+border: none !important;
+border-radius: 0px !important;
+border-top: none !important; } 
+.breadcrumb .active {
+    color: #A69485 !important; }
+
+.breadcrumb a, .breadcrumb a:hover {
+color: #A69485 !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger {
+   background: #D99B66 !important;
+    color: #F2E1D8 !important;
+border: none !important;
+border-radius: 0px !important;  }
+.alert, .alert-warning, .alert-danger, .alert-success a {
+color: #F2E1D8 !important; }
+.alert, .alert-warning, .alert-danger, .alert-success a:hover {
+color: #F2E1D8 !important; }
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+   background: #D99B66 !important;
+    color: #F2E1D8 !important;
+border: none !important;
+border-radius: 0px !important;  }
+.feature,
+div.left {
+   background: #D99B66 !important;
+    color: #F2E1D8 !important;
+border: none !important;
+border-radius: 0px !important;  }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+   background: #D99B66 !important;
+    color: #F2E1D8 !important;
+border: none !important;
+border-radius: 0px !important;   }
+.panel a, .panel a:hover {
+color: #F2E1D8 !important; }
+   
+.progress {
+    background:  #F2E4BB;
+    color: #HEX !important;
+border-radius: 2px !important;  }
+   
+.progress div {
+    color: #A69485 !important; }
+
+.progress-bar {
+    background: #F2EEB6 !important; 
+border-radius: 2px !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #F9E7DA !important;
+    border: none !important;
+color: #A69485 !important;	}
+.s-chat-message:nth-child(even) a,
+.s-chat-message:nth-child(odd) a {
+color: #A69485 !important;}
+.s-chat-message__pinned {
+    background: #HEX !important;
+    color: #HEX !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #A69485 !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel, button.channelSwitcher {
+    border: none !important;
+    background: #D99B66 !important; }
+ 
+/* LION INFO */
+ 
+.table {
+    background: rgba(140, 119, 101, 0.3) !important;
+    color: #F2E1D8 !important;
+border: none !important;
+border-radius: 0px !important; 
+    border-collapse: separate; }
+.top,
+.bottom,
+th {
+   background: #D99B66 !important;
+    color: #F2E1D8 !important;
+border: none !important;
+border-radius: 0px !important;  }
+ 
+.table .left {
+    background: #A69485;
+border-radius: 0px !important; }
+.table .left a {
+background: none !important; }
+.inner-table .left {
+    background: #A69485 !important;
+border-radius: 3px !important; 
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+.inner-table .right {
+    background: #F2E4DC !important;
+border-radius: 3px !important; 
+color: #D99B66 !important;
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important; } 
+.right_odd {
+    background: none !important; }
+
+.inner-table .right a {
+color: #D99B66 !important; }
+ 
+/* ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: #A69485 !important;
+    color: #F2E4BB !important; } 
+.item {
+    background: #F2E4BB !important;
+    border: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button {
+    background: #F2E4BB !important;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #A69485 !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+   background: #D99B66 !important;
+    color: #F2E1D8 !important;
+border: none !important;
+border-radius: 0px !important;  }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #F2E1D8;}
+::-webkit-scrollbar-thumb {
+    background: #A69485; }
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #A69485;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+ 
+/* BOXES */
+
+.boxcontainer {
+    background: none;
+height: 150px;
+    padding: 0px;
+    display: block;
+    justify-content: center; 	
+	transition: 2s}
+   
+.Box1 {
+    float: left;
+    background: #F2E4BB !important;
+    color: #A69485 !important;
+border: none !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: left;
+height: 150px;
+    width: 45%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+.Box2 {
+    float: right;
+    background: #F2E4BB !important;
+    color: #A69485 !important;
+border: none !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: right;
+height: 150px;
+    width: 45%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+.Box3 {
+    float: right;
+    background: #F2E4BB !important;
+    color: #A69485 !important;
+border: none !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: right;
+height: 150px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+
+ 
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 1.0;
+border-radius: none;
+overflow: hidden; }   
+table#player img {
+    opacity: 1.0;
+border-radius: none; }
+
+/* LIODEN LOGO REPLACER */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://cdn.imgchest.com/files/719382436216.png'); }
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
