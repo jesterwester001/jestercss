@@ -1,0 +1,394 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Varela+Round&display=swap');
+ 
+body {font-family: 'Varela Round', sans-serif;}
+ 
+.topbar {font-family: 'Varela Round', sans-serif;}
+ 
+.navbar {font-family: 'Homemade Apple', cursive;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {color: #F2EDD5 !important;
+    font-size: 54px;
+text-align: center !important;
+text-transform: lowercase !important;
+font-family: 'Homemade Apple', cursive;}
+
+h2 {color: #F2EDD5 !important;
+    font-size: 24px;}
+
+h3 {color: #F2EDD5 !important;
+    font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+    color: #F2EDD5 !important;
+background: none !important; }
+a:hover {
+    color: #F2EDD5 !important; }
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://cdn.imgchest.com/files/cfe34dc069fa.png') center center fixed;
+    background-size: 100%;
+    color: #F2EDD5; } }
+
+@media screen and (max-width: 600px){
+body {
+background: #3E400E;
+background-size: cover;
+color: #F2EDD5; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+    background: rgba(62, 64, 14, 0.2);
+    border: none;
+    box-shadow: none;
+    border-radius: 5px; }
+.col-md-9 {
+    background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+    background: rgba(115, 109, 29, 0.6) !important;
+    color: #F2EDD5 !important;
+border: 1px dotted #F2EDD5 !important;
+border-radius: 5px !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+border-top: none !important;  }
+ 
+.navbar {
+   background: rgba(142, 159, 167, 0.7) !important;
+    color: #F2EDD5# !important;
+border: 1px dotted #F2EDD5 !important;
+border-radius: 5px !important;
+font-size: 14px !important; }
+.navbar li a {
+font-size: 14px !important; }
+ 
+.navbar li a:hover {
+    background:rgba(242, 237, 213, 0.6) !important;
+color: 3E400E !important; }
+ 
+.breadcrumb {
+    background: rgba(115, 109, 29, 0.6) !important;
+    color: #F2EDD5 !important;
+border: 1px dotted #F2EDD5 !important;
+border-radius: 5px !important;} 
+.breadcrumb .active {
+    color: #F2EDD5; }
+
+.breadcrumb a, .breadcrumb a:hover {
+color: #F2EDD5 !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger, .alert-success {
+    background: rgba(115, 109, 29, 0.6) !important;
+    color: #F2EDD5 !important;
+border: 1px dotted #F2EDD5 !important;
+border-radius: 5px !important;  }
+.alert a, .alert-warning a, .alert-success a, .alert-danger a, .alert a:hover, .alert-warning a:hover, .alert-danger a:hover, .alert-success a:hover {
+color: #F2EDD5 !important; }
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+   background: rgba(142, 159, 167, 0.7) !important;
+    color: #F2EDD5 !important;
+border: 1px dotted #F2EDD5 !important;
+border-radius: 5px !important; }
+.feature,
+div.left {
+   background: rgba(142, 159, 167, 0.7) !important;
+    color: #F2EDD5 !important;
+border: 1px dotted #F2EDD5 !important;
+border-radius: 5px !important; }
+
+div.left img {
+border-radius: 5px !important; }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+    background: rgba(142, 159, 167, 0.7) !important;
+    color: #F2EDD5 !important;
+border: 1px dotted #F2EDD5 !important;
+border-radius: 5px !important;
+box-shadow: none !important;  }
+
+.panel a, .panel a:visited, .panel a:hover {
+color: #F2EDD5 !important; }
+   
+.progress {
+    background:  #CBD9D1;
+    color: #hex !important;
+border-radius: 25px !important;  }
+   
+.progress div {
+    color: #3E400E !important; }
+
+.progress-bar {
+    background: #F2EDD5 !important; 
+border-radius: 25px !important; }
+
+/*COMMENT BOX */
+
+div#commentBox, div#makeComment, div#commentErrors {
+border: 1px dotted #3E400E !important;
+border-radius: 5px !important;
+text-align: center;}
+div#makeComment, div#commentErrors {
+border: none !important; }
+div#makeComment {
+border-radius: 25px !important; }
+	
+.comment {     
+background: rgba(242, 237, 213, 0.6) !important;
+border: none !important;
+border-bottom: 1px dotted #3E400E !important;
+border-radius: 0px !important;
+color: #3E400E !important;
+text-align: center !important;}
+.comment a, .comment a:visited {
+color: #3E400E !important; }
+
+.text-muted { color: #3E400E !important; }
+
+input.bad {
+background: #3E400E !important;
+color: #F2EDD5 !important;
+border: none !important;}
+input.bad a {
+color: #F2EDD5 !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #8E9FA7 !important;
+    border: none !important; }
+.s-chat-message__pinned {
+    background: #CBD9D1 !important;
+    color: #3E400E !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #F2EDD5 !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel {
+    border: none !important;
+    background: #F2EDD5 !important;
+color: #3E400E !important;	}
+ 
+/* LION INFO */
+ 
+.table {
+    background: rgba(55, 58, 39, 0.0);
+border: 1px dotted #F2EDD5 !important;
+    border-collapse: separate;
+    border-radius: 5px; }
+.top,
+.bottom,
+th {
+    background: rgba(142, 159, 167, 0.7) !important;
+    color: #F2EDD5 !important;
+border: 1px dotted #F2EDD5 !important;
+border-radius: 5px !important; }
+
+th, .top {
+	border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+.bottom {
+	border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important; }
+ 
+.table .left {
+    background: rgba(242, 237, 213, 0.6) !important;
+border-radius: 0px !important;
+color: #3E400E !important; }
+.inner-table .left {
+    background: rgba(242, 237, 213, 0.6) !important;
+border-radius: 25px !important;
+color: #3E400E !important;
+border: 1px dotted #3E400E !important;
+border-right: none !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;  }
+.inner-table .right {
+    background: rgba(242, 237, 213, 0.6) !important;
+border-radius: 25px !important; 
+color: #3E400E !important;
+border: 1px dotted #3E400E !important;
+border-left: none !important;
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important;  } 
+.right_odd {
+    background: none !important; }
+
+.inner-table .right a {
+color: #3E400E !important; }
+ 
+/* ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: rgba(142, 159, 167, 0.6) !important;
+    color: #F2EDD5 !important; } 
+.item {
+    background: rgba(242, 237, 213, 0.6) !important;
+    border: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button {
+    background: rgba(242, 237, 213, 0.6) !important;
+border-radius: 25px !important; 
+color: #3E400E !important;
+border: 1px dotted #3E400E !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+    background: rgba(142, 159, 167, 0.7) !important;
+    color: #F2EDD5 !important;
+border: 1px dotted #F2EDD5 !important;
+border-radius: 5px !important; }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #3E400E;}
+::-webkit-scrollbar-thumb {
+    background: #F2EDD5;
+border-radius: 25px;	}
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #F2EDD5;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+ 
+/* BOXES */
+
+.boxcontainer {
+    background: none;
+    height: 150px;
+    padding: 0px;
+    display: block;
+    justify-content: center; }
+   
+.Box1 {
+    float: left;
+    background: rgba(242, 237, 213, 0.6) !important;
+border-radius: 5px !important; 
+color: #3E400E !important;
+border: 1px dotted #3E400E !important;
+    padding: 5px;
+    float: left;
+    height: 150px;
+    width: 65%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box1:hover {
+    overflow-y: auto; }
+   
+.Box2 {
+    float: right;
+    background: rgba(242, 237, 213, 0.6) !important;
+border-radius: 5px !important; 
+color: #3E400E !important;
+border: 1px dotted #3E400E !important;
+    padding: 5px;
+    float: right;
+    height: 150px;
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box2:hover {
+    overflow-y: auto; }
+	
+.Box3 {
+    float: right;
+    background: rgba(242, 237, 213, 0.6) !important;
+border-radius: 5px !important; 
+color: #3E400E !important;
+border: 1px dotted #3E400E !important;
+    padding: 5px;
+    float: right;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box3:hover {
+    overflow-y: auto; }
+
+ 
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 0.7;
+border-radius: 50%;
+overflow: hidden; }   
+table#player img {
+    opacity: 0.7;
+border-radius: 50%; }
+
+/* LIODEN LOGO REPLACER */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://cdn.imgchest.com/files/a20c5bc0c120.png'); }
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
