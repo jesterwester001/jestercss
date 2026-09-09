@@ -55,6 +55,9 @@ a[href$="167140"] > div.cave-grid > img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; }
 
+body {
+ cursor: url('https://cdn.imgchest.com/files/d1641d0661b9.png'), auto;}
+
 /* RAIN CODE - This goes into your CSS
 Optimized for use in Lioden by Austin #43750
 ANIMATED BY MARK GOLUS ON CODEPEN: https://codepen.io/mikegolus/pen/Jegvym */
