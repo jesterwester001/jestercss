@@ -1,0 +1,524 @@
+​/* jester and katie's free css template -
+made based off of katie's v2 free css template
+
+edited by jester for ease of production in free css requests
+
+template made by jester (#187561) & katie (#106445)
+
+there are a lot of other codes at use here randomly strewn throughout this and various other
+codes done by the both of us.
+below is a list of ids credited with other pieces/inspiration for various things in this template
+just because a user is credited it does not mean their code is used in one specific css made with this template,
+or even present in this template. however, these are all users who have made significant contributions to css coding
+and it's almost impossible to ignore what they've done. in some way or the other, they are present in this code
+Pandora #144118
+Kat  #94329
+tawny #251887
+Austin #43750 
+Bobcat (#79288)
+Tserin (#2230)
+Atticus (#198107)
+*/
+ 
+/* FONTS - Import from Google Fonts */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Story+Script&display=swap');
+ 
+body {font-family: "Cantarell", sans-serif;}
+ 
+.topbar {font-family: "Cantarell", sans-serif;}
+ 
+.navbar {font-family: "Story Script", sans-serif;}
+
+/* BACKGROUNDS  */
+ 
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://cdn.imgchest.com/files/2af731f0044f.jpg') bottom center fixed;
+background-size: 100%;
+color: #FEEFD6; } }
+
+@media screen and (max-width: 600px){
+body {
+background: url('https://cdn.imgchest.com/files/2af731f0044f.jpg') bottom center fixed;
+background-size: cover;
+color: #FEEFD6; } }
+
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #281406;}
+::-webkit-scrollbar-thumb {
+background: #9E4E1B; }
+:root {
+scrollbar-color: #9E4E1B #281406 !important;
+scrollbar-width: auto;}
+ 
+/* HEADERS */
+ 
+h1 {
+color: #FEEFD6 !important;
+font-size: 78px;
+text-shadow: 3px 0px 7px #281406 !important;
+text-align: center !important;
+font-family: "Story Script", sans-serif;}
+h1 small {
+    color: #FEEFD6 !important;
+}
+
+h2 {
+color: #FEEFD6 !important;
+font-size: 24px;}
+
+h3 {
+color: #FEEFD6 !important;
+font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+color: #FEEFD6 !important;
+background: none !important; }
+   
+a:hover {
+color: #fab23f !important; }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+background: rgba(158, 78, 27, 0.4);
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
+border-radius: 0px !important;  }
+ 
+.navbar {
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
+border-radius: 0px !important;   }
+
+.navbar li a:hover {
+background: #HEX !important;
+color: #9E4E1B !important; }
+
+/* This is mobile collapable navbar color changes.*/
+
+.navbar-toggle {
+border: none !important;
+background: none !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+ 
+/* Bookmark Bar */
+
+.breadcrumb {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;} 
+.breadcrumb .active {
+color: #281406; }
+.breadcrumb a:visited, .breadcrumb a {
+    color: #281406 !important;
+}
+.breadcrumb a:hover {
+    color: #fab23f !important;
+}
+ 
+/* ALERTS 
+.alert is all alerts, only set this one if you want all alerts to be the same color
+.alert-success is the green one you see for hunting, patrolling, etc.
+.alert-danger is red alerts, like inbox
+.alert-warning is also some other red alerts, but I can't remember which ones. keep this
+and danger the same color for best results
+(quick notice maybe? more research)*/
+ 
+.alert {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;  }
+ .alert a:hover {
+    color: #fab23f !important;
+}
+
+/*COMMENT BOX */
+
+div#commentBox {
+background: rgba(40,21,6,0.70) !important;
+border: none !important;
+border-radius: 0px !important;
+color: #FEEFD6 !important;}
+	
+.comment {     
+background: #HEX !important;
+border: none !important;
+border-bottom: none !important;
+border-radius: 0px !important;
+color: #HEX !important;
+text-align: center !important;}
+.text-muted { 
+color: #FEEFD6 !important; }
+
+input.bad {
+background: #FEEFD6 !important;
+color: #281406 !important;}
+input.bad a {
+color: #281406 !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
+ 
+/* SIDE PANELS 
+
+texture: 
+background-color: #1000f2;
+background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+*/
+ 
+.panel {
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
+border-radius: 0px !important;  }
+   
+/*IMPRESSION / ALL PROGRESS Bars */
+.progress-bar {
+background: #f7a24c !important; 
+border-radius: 0px !important; }
+
+.progress div {
+color: #FEEFD6 !important; }
+
+.progress {
+background:  #834016;
+color: #HEX !important;
+border-radius: 0px !important;  }
+
+ 
+/* CHAT */
+
+button#label_currentChannel {
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
+border-radius: 0px !important; }
+
+div#chatMessageContainer {
+border: none !important; }
+
+/* PINNED MESSAGES - This will change the background color of where staff pin news */
+
+.s-chat-message__pinned {
+background-color: #FEEFD6 !important;
+color: #281406 !important;
+border: none !important; }
+
+.s-chat-message:nth-child(even) {
+background: #281406 !important;
+border: none !important;
+color: #FEEFD6 !important;}
+.s-chat-message:nth-child(odd) {
+background: #281406 !important;
+border: none !important;
+color: #FEEFD6 !important;}
+
+.s-chat-message_timestamp {
+color: #FEEFD6 !important; }
+
+/* Channel Selector */ 
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+/* Emote List */
+
+div.emoteList.active {
+background: rgba(40,20,6,0.8) !important;
+  border: 1px solid #FEEFD6 !important;
+  box-shadow: none !important;
+}
+div.emoteList.active::before {
+background: rgba(40,20,6,0.8) !important;
+border-top: none !important;
+border: 1px solid #FEEFD6 !important; }
+
+	
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #703A16 !important;
+border-left: 6px solid #FEEFD6 !important;
+color: #FEEFD6 !important; }
+
+
+div#lblCharacterCounter {
+color: #FEEFD6 !important; }
+
+/* I can't remember what this does but I know things get weird if you touch it
+that means do NOT touch it.
+i'm being so fr stop touching this */
+html.nolayout {
+background: none !important; }
+
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;  }
+
+div.left {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important; }
+
+.xsmall {
+font-size: 14px !important; }
+ 
+/* LION INFO */
+ 
+.table {
+background: rgba(40,20,6,0.4) !important;;
+border: 1px solid #281406 !important;
+border-collapse: separate;
+border-radius: 0px; }
+
+.top, .bottom, th {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;  }
+.top a, .top a:visited, .bottom a, .bottom a:visited,
+.inner-table .right a, .inner-table .right a:visited {
+    color: #281406 !important;
+}
+.top a:hover, .bottom a:hover,
+.inner-table .right a:hover {
+      color: #703A16 !important;
+}
+
+.bottom a:visited, .bottom a {
+text-decoration: none !important;}
+ 
+.table .left {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;  }
+
+.inner-table .left {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;   }
+
+.inner-table .right {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;  } 
+
+.right_odd {
+background: none !important; }
+
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+opacity: 1.0;
+border-radius: none;
+    border: 1px solid #281406 !important;
+overflow: hidden; }   
+table#player img {
+opacity: 1.0;
+border-radius: none; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;  
+text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;   }
+
+div.cave-grid>img {
+content: url('https://cdn.imgchest.com/files/68614d336f13.gif')!important; }
+
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('https://cdn.imgchest.com/files/3b959f06ee36.gif')!important; }
+a[href$="unsorted.php?id=490296"]>div.cave-grid>img{
+content: url('https://cdn.imgchest.com/files/a95113bf8c93.gif')!important;}
+a[href*="lionoverview.php?id=490296"]>div.cave-grid>img {
+content: url('https://cdn.imgchest.com/files/64e9a500d4a4.gif')!important; }
+
+
+/* CAVE COMPATIBILITY */
+
+.featured-lion {
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;
+padding: 0;
+margin: 0 auto;
+max-width: 640px;
+font-weight: bold;
+font-size: 14px; }
+.featured-lion a, .featured-lion a:visited {
+    color: #281406 !important;
+}
+.featured-lion a:hover {
+    color: #703A16 !important;  
+}
+
+img[src*="cave/default"] {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/ChampionshipArenaSunrise.png') !important;}
+table#pride.table th a, table#pride.table th a:visited {
+    color: #281406 !important;
+}
+table#pride.table th a:hover {
+    color: #703A16 !important;  
+}
+
+
+table#pride.table .xsmall
+{font-size: 12px !important;}
+
+/* This changes the color of the 'badge', aka what displays inbox notifications &
+days till heat for lionesses */
+
+.badge {
+background: #FEEFD6 !important;
+color: #281406 !important; }
+	
+/ * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
+and removes link underlines from edit your details */
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+td.bottom a, th a {
+border-bottom: none !important; }
+
+/* BOXES */
+
+.boxcontainer {
+background: none;
+height: 250px;
+padding: 0px;
+display: block;
+justify-content: center;
+transition: 1s }
+
+   
+.Box1 {
+float: left;
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;
+padding: 5px;
+float: left;
+height: 250px;
+width: 100%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+   
+.Box2 {
+float: left;
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;
+padding: 5px;
+float: left;
+height: 250px;
+width: 49%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+	
+.Box3 {
+float: right;
+background: rgba(254,239,214,0.7) !important;
+color: #281406 !important;
+border: 1px solid #281406 !important;
+border-radius: 0px !important;
+padding: 5px;
+float: right;
+height: 250px;
+width: 49%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+
+
+	
+/* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
+AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
+DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
+	
+/* CREDIT - no touchy this part, the code will work just fine */
+ 
+.breadcrumb::after {
+content: "css by jester (#187561)";
+color: #HEX;
+position: absolute;
+right: 14%;
+z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
