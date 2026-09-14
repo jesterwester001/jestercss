@@ -1,0 +1,387 @@
+
+#commentBox::before {
+content: url('https://cdn.imgchest.com/files/c513bbd2b52a.png');
+   background: none !important;
+    color: #000 !important;
+width: 100%;
+height: 44px;
+display: block;
+border-radius: 10px;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; 
+padding-bottom: 3px !important;
+margin-bottom: 2px !important;}
+
+@media screen and (min-width: 601px){
+.boxcontainer {
+    background: none;
+    height: auto;
+    padding: 0px;
+    display: block;
+    justify-content: center; }
+.Box1 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 0px;
+    height: 70px;
+	width: 19.5%;
+	overflow: auto;
+	font-size: 12px; }
+.Box2 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 70px;
+   height: 70px;
+	width: 19.5%;
+        margin-bottom: 3px;
+	overflow: auto;
+	font-size: 12px; }
+.Box3 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 140px;
+    height: 70px;
+	width: 19.5%;
+        margin-bottom: 6px;
+	overflow: auto;
+	font-size: 12px; }
+.Box4 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 210px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 9px;
+	overflow: auto;
+	font-size: 12px; }
+.Box5 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 280px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 12px;
+	overflow: auto;
+	font-size: 12px; }
+.Box6 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 350px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 15px;
+	overflow: auto;
+	font-size: 12px; }
+.Box7 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 420px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 18px;
+	overflow: auto;
+	font-size: 12px; }
+.Box8 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 490px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 21px;
+	overflow: auto;
+	font-size: 12px; }
+.Box9 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 560px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 24px;
+	overflow: auto;
+	font-size: 12px; }
+.Box10 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 630px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 27px;
+	overflow: auto;
+	font-size: 12px; }
+.Box11 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 700px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 30px;
+	overflow: auto;
+	font-size: 12px; }
+.Box12 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 1px;
+	bottom: 770px;
+	width: 19.5%;
+    height: auto;
+        margin-bottom: 33px;
+	overflow: auto;
+	font-size: 12px; }
+    
+.Box13 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 0px;
+    height: 70px;
+	width: 19.5%;
+	overflow: auto;
+	font-size: 12px; }
+.Box14 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 70px;
+   height: 70px;
+	width: 19.5%;
+        margin-bottom: 3px;
+	overflow: auto;
+	font-size: 12px; }
+.Box15 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 140px;
+    height: 70px;
+	width: 19.5%;
+        margin-bottom: 6px;
+	overflow: auto;
+	font-size: 12px; }
+.Box16 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 210px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 9px;
+	overflow: auto;
+	font-size: 12px; }
+.Box17 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 280px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 12px;
+	overflow: auto;
+	font-size: 12px; }
+.Box18 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 350px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 15px;
+	overflow: auto;
+	font-size: 12px; }
+.Box19 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 420px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 18px;
+	overflow: auto;
+	font-size: 12px; }
+.Box20 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 490px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 21px;
+	overflow: auto;
+	font-size: 12px; }
+.Box21 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 560px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 24px;
+	overflow: auto;
+	font-size: 12px; }
+.Box22 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 630px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 27px;
+	overflow: auto;
+	font-size: 12px; }
+.Box23 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 700px;
+	width: 19.5%;
+    height: 70px;
+        margin-bottom: 30px;
+	overflow: auto;
+	font-size: 12px; }
+.Box24 {
+	background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+	padding: 0px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	right: 1px;
+	bottom: 770px;
+	width: 19.5%;
+    height: auto;
+        margin-bottom: 33px;
+	overflow: auto;
+    font-size: 12px; } }
+
+.breadcrumb::after {
+content: "gary's review boxes by jester (#187561)";
+color: #HEX;
+position: absolute;
+right: 13%;
+z-index: 100; }
