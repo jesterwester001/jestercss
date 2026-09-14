@@ -388,6 +388,18 @@ content: url('https://cdn.imgchest.com/files/a95113bf8c93.gif')!important;}
 a[href*="lionoverview.php?id=490296"]>div.cave-grid>img {
 content: url('https://cdn.imgchest.com/files/64e9a500d4a4.gif')!important; }
 
+a[href$="unsorted-beetles.php?id=490296"] img {
+content:url('https://cdn.imgchest.com/files/dc196089f93b.gif') !important;
+background-size: cover;
+width: 100%;
+height: auto; } 
+div.mound-grid>img[src$="beetlemound.png"] {
+	content:url('https://cdn.imgchest.com/files/dc196089f93b.gif') !important;
+	background-size: cover;
+width: 100%;
+height: auto; }
+
+
 
 /* CAVE COMPATIBILITY */
 
