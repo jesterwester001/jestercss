@@ -131,14 +131,14 @@ border-top: none !important;
 /* Bookmark Bar */
 
 .breadcrumb {
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
 border-radius: 0px !important;} 
 .breadcrumb .active {
-color: #281406; }
+color: #FEEFD6; }
 .breadcrumb a:visited, .breadcrumb a {
-    color: #281406 !important;
+    color: #FEEFD6 !important;
 }
 .breadcrumb a:hover {
     color: #fab23f !important;
@@ -153,9 +153,9 @@ and danger the same color for best results
 (quick notice maybe? more research)*/
  
 .alert {
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
 border-radius: 0px !important;  }
  .alert a:hover {
     color: #fab23f !important;
@@ -232,8 +232,8 @@ border: none !important; }
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: #FEEFD6 !important;
-color: #281406 !important;
+background-color: #281406 !important;
+color: #FEEFD6 !important;
 border: none !important; }
 
 .s-chat-message:nth-child(even) {
@@ -288,15 +288,15 @@ background: none !important; }
 /* FAPA, KING DYNASTY, ETC. */
  
 .feature {
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
 border-radius: 0px !important;  }
 
 div.left {
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
 border-radius: 0px !important; }
 
 .xsmall {
@@ -311,13 +311,13 @@ border-collapse: separate;
 border-radius: 0px; }
 
 .top, .bottom, th {
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
-border-radius: 0px !important;  }
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
+border-radius: 0px !important; }
 .top a, .top a:visited, .bottom a, .bottom a:visited,
 .inner-table .right a, .inner-table .right a:visited {
-    color: #281406 !important;
+    color: #FEEFD6 !important;
 }
 .top a:hover, .bottom a:hover,
 .inner-table .right a:hover {
@@ -328,21 +328,21 @@ border-radius: 0px !important;  }
 text-decoration: none !important;}
  
 .table .left {
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
 border-radius: 0px !important;  }
 
 .inner-table .left {
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
 border-radius: 0px !important;   }
 
 .inner-table .right {
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
 border-radius: 0px !important;  } 
 
 .right_odd {
@@ -373,10 +373,10 @@ text-shadow: none !important; }
  
 .cave-grid,
 .mound-grid {
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
-border-radius: 0px !important;   }
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
+border-radius: 0px !important;  }
 
 div.cave-grid>img {
 content: url('https://cdn.imgchest.com/files/68614d336f13.gif')!important; }
@@ -404,9 +404,9 @@ height: auto; }
 /* CAVE COMPATIBILITY */
 
 .featured-lion {
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FEEFD6 !important;
 border-radius: 0px !important;
 padding: 0;
 margin: 0 auto;
@@ -414,7 +414,7 @@ max-width: 640px;
 font-weight: bold;
 font-size: 14px; }
 .featured-lion a, .featured-lion a:visited {
-    color: #281406 !important;
+    color: #FEEFD6 !important;
 }
 .featured-lion a:hover {
     color: #703A16 !important;  
@@ -423,7 +423,7 @@ font-size: 14px; }
 img[src*="cave/default"] {
 content: url('https://static.lioden.com/images/dynamic/backgrounds/ChampionshipArenaSunrise.png') !important;}
 table#pride.table th a, table#pride.table th a:visited {
-    color: #281406 !important;
+    color: #FEEFD6 !important;
 }
 table#pride.table th a:hover {
     color: #703A16 !important;  
