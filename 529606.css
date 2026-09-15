@@ -1,16 +1,4 @@
-/* jester and katie's free css template -
-made based off of katie's v2 free css template / should be considered v3
-
-NOTE: THIS IS MADE TO BE AN ULTIMATE TEMPLATE
-what does this mean? this means there is a lot of stuff in here your average coder
-just getting into coding css will not use. anyone can use this template, regardless of skill level,
-but if you're unsure what something may be used for, it may not added with beginners in mind.
-
-if you're unsure of what something may do, or worried it may break something if you change it, feel free to leave it alone
-you can change stuff with inspect element to see if it'll help
-
-you can use this for commissions, for personal use, etc.
-please do not remove the credit of all the users who went into this, though.
+/* jester's commission template
 
 template made by jester (#187561) & katie (#106445)
 
@@ -27,13 +15,6 @@ Austin #43750
 Bobcat (#79288)
 Tserin (#2230)
 Atticus (#198107)
-
-some helpful terms to keep in mind
-element - the thing you're editing
-background - refers to the entire background of the element
-color - the TEXT color of the element 
-border-radius - the roundness of the borders, for circular elements, set to 50% 
-box-shadow - a shadow behind the element itself. you usually want this set to none. 
 */
  
 /* FONTS - Import from Google Fonts */
@@ -69,13 +50,13 @@ color: #b1bf9f; } }
 width: 7px;
 height: 7px; }
 ::-webkit-scrollbar-track {
-background: #HEX;}
+background: #1F221F;}
 ::-webkit-scrollbar-thumb {
-background: #HEX; } 
+background: #8A9F6E; } 
 
 /* first number is thumb, second is track, firefox only */
 :root {
-scrollbar-color: #3E3D1E #A28E6B !important;
+scrollbar-color: #8A9F6E #1F221F !important;
 scrollbar-width: auto;}
  
 /* HEADERS -
@@ -94,15 +75,24 @@ h1 small {
 
 h2 {
 color: #b1bf9f !important;
-font-size: 24px;
+font-size: 28px;
 font-family: "Road Rage", sans-serif;}
 
-h3 {
+.siderbar h3 {
 color: #b1bf9f !important;
 font-size: 28px !important;
 font-family: "Road Rage", sans-serif;}
-h3:hover {
+.siderbar h3:hover {
     color: #d8dfcf !important;
+}
+.feature h3, div.left h3 {
+color: #1F221F !important;
+font-size: 28px !important;
+font-family: "Road Rage", sans-serif;}
+.table h3 {
+color: #1F221F !important;
+font-size: 48px !important;
+font-family: "Road Rage", sans-serif;
 }
  
 /* LINKS
@@ -286,7 +276,7 @@ border-radius: 0px !important;  }
 
 button#label_currentChannel {
 border: none !important;
-background: #HEX !important; }
+background: #1e3721 !important; }
 
 div#chatMessageContainer {
 border: none !important;}
@@ -382,6 +372,12 @@ background: #b1bf9f !important;
 color: #1e3721 !important;
 border: 3px double #1e3721 !important;
 border-radius: 5px !important; }
+div.left a, div.left a:visited {
+    color: #1e3721 !important;
+}
+div.left a:hover {
+    color: #3c6e41 !important;
+}
 
 .xsmall {
 font-size: 14px !important; }
@@ -396,6 +392,17 @@ border: none !important;
 color: #1e3721 !important;
 border-collapse: separate;
 border-radius: 25px !important; }
+
+.table th {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.table .right a, .table .right a:visited {
+    color: #1e3721 !important;
+}
+.table .right a:hover {
+        color: #3c6e41 !important;
+}
 
 /* .top is where your king's name is displayed
 .bottom is where your number of mutations within your pride is displayed
@@ -445,6 +452,12 @@ border-radius: 5px !important;
 color: #b1bf9f !important;
 border-bottom-left-radius: 0px !important;
 border-top-left-radius: 0px !important;} 
+.inner-table .right a, .inner-table .right a:visited {
+    color: #b1bf9f !important;
+}
+.inner-table .right a:hover {
+    color: #d8dfcf !important;
+}
 
 .right_odd {
 background: none !important; }
