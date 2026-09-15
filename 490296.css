@@ -102,13 +102,13 @@ background: none; }
 .topbar {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;  }
  
 .navbar {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;   }
 
 .navbar li a:hover {
@@ -133,7 +133,7 @@ border-top: none !important;
 .breadcrumb {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;} 
 .breadcrumb .active {
 color: #FEEFD6; }
@@ -155,7 +155,7 @@ and danger the same color for best results
 .alert {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;  }
  .alert a:hover {
     color: #fab23f !important;
@@ -201,7 +201,7 @@ background-image: url("https://www.transparenttextures.com/patterns/cardboard.pn
 .panel {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;  }
    
 /*IMPRESSION / ALL PROGRESS Bars */
@@ -223,7 +223,7 @@ border-radius: 0px !important;  }
 button#label_currentChannel {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important; }
 
 div#chatMessageContainer {
@@ -253,7 +253,7 @@ color: #FEEFD6 !important; }
 button.channelSwitcher, button.channelSwitcher.active {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
 
@@ -261,18 +261,18 @@ box-shadow: none !important; }
 
 div.emoteList.active {
 background: rgba(40,20,6,0.8) !important;
-  border: 1px solid #FEEFD6 !important;
+  border: 1px solid #FABD4B !important;
   box-shadow: none !important;
 }
 div.emoteList.active::before {
 background: rgba(40,20,6,0.8) !important;
 border-top: none !important;
-border: 1px solid #FEEFD6 !important; }
+border: 1px solid #FABD4B !important; }
 
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
 background-color: #703A16 !important;
-border-left: 6px solid #FEEFD6 !important;
+border-left: 6px solid #FABD4B !important;
 color: #FEEFD6 !important; }
 
 
@@ -290,13 +290,13 @@ background: none !important; }
 .feature {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;  }
 
 div.left {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important; }
 
 .xsmall {
@@ -313,7 +313,7 @@ border-radius: 0px; }
 .top, .bottom, th {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important; }
 .top a, .top a:visited, .bottom a, .bottom a:visited,
 .inner-table .right a, .inner-table .right a:visited {
@@ -330,19 +330,19 @@ text-decoration: none !important;}
 .table .left {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;  }
 
 .inner-table .left {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;   }
 
 .inner-table .right {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;  } 
 
 .right_odd {
@@ -353,7 +353,7 @@ background: none !important; }
 div#lion_image {
 opacity: 1.0;
 border-radius: none;
-    border: 1px solid #281406 !important;
+    border: 1px solid #FABD4B !important;
 overflow: hidden; }   
 table#player img {
 opacity: 1.0;
@@ -365,7 +365,7 @@ input, textarea, select, button.button,
 a.btn.btn-default.button {
 background: rgba(254,239,214,0.7) !important;
 color: #281406 !important;
-border: 1px solid #281406 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;  
 text-shadow: none !important; }
  
@@ -375,7 +375,7 @@ text-shadow: none !important; }
 .mound-grid {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;  }
 
 div.cave-grid>img {
@@ -406,7 +406,7 @@ height: auto; }
 .featured-lion {
 background: rgba(40,20,6,0.8) !important;
 color: #FEEFD6 !important;
-border: 1px solid #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;
 padding: 0;
 margin: 0 auto;
@@ -462,13 +462,13 @@ transition: 1s }
    
 .Box1 {
 float: left;
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;
 padding: 5px;
 float: left;
-height: 250px;
+height: 200px;
 width: 100%;
 overflow: hidden;
 margin-bottom: 10px;
@@ -476,13 +476,13 @@ transition: 1s }
    
 .Box2 {
 float: left;
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;
 padding: 5px;
 float: left;
-height: 250px;
+height: 200px;
 width: 49%;
 overflow: hidden;
 margin-bottom: 10px;
@@ -490,13 +490,13 @@ transition: 1s }
 	
 .Box3 {
 float: right;
-background: rgba(254,239,214,0.7) !important;
-color: #281406 !important;
-border: 1px solid #281406 !important;
+background: rgba(40,20,6,0.8) !important;
+color: #FEEFD6 !important;
+border: 1px solid #FABD4B !important;
 border-radius: 0px !important;
 padding: 5px;
 float: right;
-height: 250px;
+height: 200px;
 width: 49%;
 overflow: hidden;
 margin-bottom: 10px;
