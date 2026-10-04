@@ -93,6 +93,8 @@ text-align: center !important;
 font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 400;
 text-shadow: 4px 4px 5px #43251B !important;}
+h1 small {
+color: #e5b386 !important; }
 
 h2 {
 color: #e5b386 !important;
