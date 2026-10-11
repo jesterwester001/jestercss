@@ -28,6 +28,13 @@ Bobcat (#79288)
 Tserin (#2230)
 Atticus (#198107)
 
+all images/gifs sourced from:
+harry potter wiki
+enola holmes movie
+various harry potter movies
+official harry potter websites
+national geographic (i was suprised too)
+
 some helpful terms to keep in mind
 element - the thing you're editing
 background - refers to the entire background of the element
@@ -69,14 +76,14 @@ color: #cbc5bc; } }
 width: 7px;
 height: 7px; }
 ::-webkit-scrollbar-track {
-background: #172024;}
+background: #1e2417;}
 ::-webkit-scrollbar-thumb {
 background: #cbc5bc;
 border-radius: none !important;} 
 
 /* first number is thumb, second is track, firefox only */
 :root {
-scrollbar-color: #cbc5bc #172024 !important;
+scrollbar-color: #cbc5bc #1d2417 !important;
 scrollbar-width: auto;}
  
 /* HEADERS -
@@ -128,25 +135,25 @@ background: none; }
 /* TOPBAR, NAVBAR, & BREADCRUMB */
  
 .topbar {
-background: #172024 !important;
+background: #1d2417 !important;
 color: #cbc5bc !important;
 border: 3px groove #BFB8AE !important;
 border-radius: 0px !important;  }
  
 .navbar {
 background: #BFB8AE !important;
-color: #172024 !important;
+color: #1d2417 !important;
     font-size: 16px !important;
-border: 3px groove #172024 !important;
+border: 3px groove #1d2417 !important;
 border-radius: 0px !important; }
 .navbar li a {
-color: #172024 !important;
+color: #1d2417 !important;
 font-size: 16px !important;
 }
 .navbar-default li a {font-size: 16px !important;}
 
 .navbar li a:hover {
-background: #172024 !important;
+background: #1d2417 !important;
 color: #BFB8AE !important; }
 
 /* This is mobile collapable navbar color changes.
@@ -169,7 +176,7 @@ border-top: none !important;
 /* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
 
 .breadcrumb {
-background: #172024 !important;
+background: #1d2417 !important;
 color: #BFB8AE !important;
 border: none !important;
 border-radius: 0px !important; } 
@@ -185,7 +192,7 @@ and danger the same color for best results
 (quick notice maybe? more research)*/
  
 .alert {
-background: #172024 !important;
+background: #1d2417 !important;
 color: #cbc5bc !important;
 border: 1px groove #BFB8AE !important;
 border-radius: 0px !important; 
@@ -204,7 +211,7 @@ If you want the flippy floppy colors, where one is a little darker than the othe
 */
 
 div#commentBox {
-background: #172024 !important;
+background: #1d2417 !important;
 color: #cbc5bc !important;
 border: none !important;
 border-radius: 0px !important;}
@@ -221,9 +228,9 @@ color: #cbc5bc !important; }
 
 input.bad {
 background: #cbc5bc !important;
-color: #172024 !important;}
+color: #1d2417 !important;}
 input.bad a {
-color: #172024 !important; }
+color: #1d2417 !important; }
 
 table#player.table hr {
 display: none !important; }
@@ -238,12 +245,12 @@ please note that the css provided by the site does NOT work on replaced images, 
  
 .panel {
 background: #BFB8AE !important;
-color: #172024 !important;
-border: 3px groove #172024 !important;
+color: #1d2417 !important;
+border: 3px groove #1d2417 !important;
 border-radius: 0px !important;
 box-shadow: none !important;  }
 .panel a, .panel a:visited {
-color: #172024 !important;
+color: #1d2417 !important;
 }
 .panel a:hover {
     color: #48514f !important;
@@ -261,7 +268,7 @@ border-radius: 0px !important; }
 
 /* This is the text that reads Energy: X% */
 .progress div {
-color: #172024 !important; }
+color: #1d2417 !important; }
 
 /* This is the background of the progress bars. */
 .progress {
@@ -273,7 +280,7 @@ border-radius: 0px !important;  }
 
 button#label_currentChannel {
 border: none !important;
-background: #172024 !important; }
+background: #1d2417 !important; }
 
 div#chatMessageContainer {
 border: none !important; }
@@ -281,7 +288,7 @@ border: none !important; }
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: #172024 !important;
+background-color: #1d2417 !important;
 color: #cbc5bc !important;
 border: none !important; }
 
@@ -301,7 +308,7 @@ color: #cbc5bc !important; }
 /* Channel Selector */ 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
-    background: #172024 !important;
+    background: #1d2417 !important;
 color: #cbc5bc !important;	
 border: none !important;
 border-radius: 0px !important;
@@ -312,13 +319,13 @@ Keep border-top on div.emoteList.active::before as none, otherwise you'll
 have a super weird gap between the emotelist and the little triangle*/
 
 div.emoteList.active {
-    background: #172024 !important;
+    background: #1d2417 !important;
 color: #cbc5bc !important;	
   border: 1px solid #cbc5bc !important;
   box-shadow: none !important;
 }
 div.emoteList.active::before {
-background: #172024
+background: #1d2417
 border-top: none !important;
 border: 1px solid #cbc5bc !important; }
 
@@ -351,14 +358,14 @@ view breeding requests, view user log, and view attack history buttons */
  
 .feature {
 background: #BFB8AE !important;
-color: #172024 !important;
-border: 3px groove #172024 !important;
+color: #1d2417 !important;
+border: 3px groove #1d2417 !important;
 border-radius: 0px !important; }
 
 div.left {
 background: #BFB8AE !important;
-color: #172024 !important;
-border: 3px groove #172024 !important;
+color: #1d2417 !important;
+border: 3px groove #1d2417 !important;
 border-radius: 0px !important; }
 
 .feature h3, div.left h3 {
@@ -373,7 +380,7 @@ Table - the background behind your table. You can make this a solid color by rep
 rgba(0, 0, 0, 0.0) with a HEX code, or by replacing the 0.0 with a 1.0 */
  
 .table {
-background: rgba(0, 0, 0, 0.0);
+background: rgba(30,30,27,0.5);
 border: none !important;
 border-collapse: separate;
 border-radius: 0px; }
@@ -384,7 +391,7 @@ th is every other header on your den, like sparring table, reclaim left lions,
 edit details, etc. */
 
 .top, .bottom, th {
-background: #172024 !important;
+background: #1d2417 !important;
 color: #BFB8AE !important;
 border: none !important;
 border-radius: 0px !important; }
@@ -447,7 +454,7 @@ input, textarea, select, button.button,
 a.btn.btn-default.button {
 background: #BFB8AE !important;
 border: none !important;
-color: #172024 !important;
+color: #1d2417 !important;
 border-radius: 0px !important;
 color: #HEX !important;
 text-shadow: none !important; }
@@ -456,7 +463,7 @@ text-shadow: none !important; }
  
 .cave-grid,
 .mound-grid {
-background: #172024 !important;
+background: #1d2417 !important;
 color: #BFB8AE !important;
 border: 3px groove #cbc5bc !important;
 border-radius: 0px !important; }
@@ -478,19 +485,17 @@ filter: grayscale(100%);}
 
 
 div.cave-grid>img[src$="nestingbanner.png"] {
-	content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png')!important;
-width: 75px;
-height: 75px;}
+	content: url('https://cdn.imgchest.com/files/b545fd1b5c27.gif')!important;
+filter: none !important;}
 a[href$="unsorted.php?id=382923"]>div.cave-grid>img{
-content: url('https://static.lioden.com/images/items/Amusement/feather_crow.png')!important;
-width: 75px;
-height: 75px;
+content: url('https://cdn.imgchest.com/files/ac8ff2e05ac3.gif')!important;
 filter: none !important;}
 a[href*="lionoverview.php?id=382923"]>div.cave-grid>img {
-content: url('https://static.lioden.com/images/items/Amusement/eaglefeatherblack.png') !important;
-width: 75px;
-height: 75px;
+content: url('https://cdn.imgchest.com/files/a97616f3f7a3.gif') !important;
 filter: none !important;}
+a[href$"unsorted.php?id=382923"]>div.cave-grid>#text {
+    display:none !important;
+}
 
 
 /* CAVE COMPATIBILITY
@@ -616,6 +621,25 @@ transition: 1s }
 .Box3:hover {
 overflow-y: auto;
 height: 250px; }
+.art {
+    content:url('https://cdn.imgchest.com/files/21a3155bf4e0.png') !important;
+    float:left;
+        width: 500px !important;
+}
+.Box4 {
+float: right;
+background: rgba(44,43,40,0.69) !important;
+color: #BFB8AE !important;
+border: 2px groove #BFB8AE !important;
+border-radius: 0px !important;
+padding: 5px;
+float: right;
+height: 285px;
+width: 50%;
+overflow: hidden;
+margin-bottom: 10px;
+        margin-top: -35% !important;
+transition: 1s }
 	
 /* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
 AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
@@ -756,47 +780,68 @@ div.cave-grid {
 div.cave-grid img:hover {
     filter: grayscale(80%); }
 
-a[href$="505476"] > div.cave-grid > img {
-  content: url('https://cdn.imgchest.com/files/d205722ca782.png') !important;
+a[href$="555028"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/bad391a4d71f.png') !important;
     width: 100% !important;
     margin-bottom: 0px !important;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+filter: none !important;}
+a[href$="505476"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/2cfac2886732.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+   border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 filter: none !important;}
 a[href$="518080"] > div.cave-grid > img {
-  content: url('https://cdn.imgchest.com/files/d2ae8bbc368e.png') !important;
+  content: url('https://cdn.imgchest.com/files/9a20263b0308.png') !important;
     width: 100% !important;
     margin-bottom: 0px !important;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+   border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+filter: none !important;}
+a[href$="555015"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/7f0e7b8395b1.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+   border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 filter: none !important;}
 a[href$="498685"] > div.cave-grid > img {
-  content: url('https://cdn.imgchest.com/files/0f6cc0c7cb16.png') !important;
+  content: url('https://cdn.imgchest.com/files/ae92eb78a337.png') !important;
     width: 100% !important;
     margin-bottom: 0px !important;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+   border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 filter: none !important;}
 a[href$="498609"] > div.cave-grid > img {
-  content: url('https://cdn.imgchest.com/files/4e073b998568.png') !important;
+  content: url('https://cdn.imgchest.com/files/2865d08ca254.png') !important;
     width: 100% !important;
     margin-bottom: 0px !important;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+filter: none !important;}
+a[href$="555027"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/512ef97bd0a9.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+   border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 filter: none !important;}
 a[href$="498608"] > div.cave-grid > img {
-  content: url('https://cdn.imgchest.com/files/415352469ccb.png') !important;
+  content: url('https://cdn.imgchest.com/files/e18fcce652e5.png') !important;
     width: 100% !important;
     margin-bottom: 0px !important;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+   border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 filter: none !important;}
 a[href$="307667"] > div.cave-grid > img {
-  content: url('https://cdn.imgchest.com/files/f5236823658c.png') !important;
+  content: url('https://cdn.imgchest.com/files/431edea41eeb.png') !important;
     width: 100% !important;
     margin-bottom: 0px !important;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+   border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 filter: none !important;}
 
 body{
