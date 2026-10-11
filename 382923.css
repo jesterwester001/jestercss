@@ -918,11 +918,11 @@ content: url('https://cdn.imgchest.com/files/b5c6d8df1af0.png') !important;
 width: 24px !important; }
 
 img[src$="icon_den_friend.png"] {
-content: url('imagelink') !important;
+content: url('https://cdn.imgchest.com/files/c673140b424e.png') !important;
 width: 24px !important; }
 
 img[src$="donator.png"] {
-content: url('imagelink') !important;
+content: url('https://cdn.imgchest.com/files/786a52ab6717.png') !important;
 width: 24px !important; }
 
 /* ALL CURRENCY ICONS - also by kat and pandora 
@@ -936,4 +936,6 @@ img[src$="gold.png"] {
 /* SILVER BEETLE */
 img[src$="silver.png"] {
     content:url('https://cdn.imgchest.com/files/db74fb0116a1.png')!important;
-    width:20px!important; }
+    width:20px!important; }#fraCaveList > div:nth-child(2) > div:nth-child(1) {
+    display: none;
+}
