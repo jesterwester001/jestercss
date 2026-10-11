@@ -498,10 +498,10 @@ a[href$"unsorted.php?id=382923"]>div.cave-grid>#text {
 }
 
 a[href$="unsorted-beetles.php?id=382923"] img {
-content:url('IMG LINK') !important;
+content:url('https://static.lioden.com/images/items/Amusement/nestingbundle.png') !important;
 background-size: cover;
-width: 100%;
-height: auto; } 
+width: 70px;
+height: 70px; } 
 
 a[href$="mound.php?id=266612"] img {
 content:url('https://cdn.imgchest.com/files/0f368cd6220a.gif') !important;
