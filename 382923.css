@@ -283,7 +283,7 @@ background: #4a4843 !important;
     border: none !important; }
 .s-chat-message:nth-child(odd) {
 background: #4a4843 !important; 
-   border: none !important;}
+   border: none !important; }
 .s-chat-message__pinned {
 background-color: #1d2417 !important;
 color: #cbc5bc !important;
