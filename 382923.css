@@ -275,46 +275,57 @@ color: #1d2417 !important; }
 background:  #897d6c;
 color: #HEX !important;
 border-radius: 0px !important;  }
- 
+
 /* CHAT */
-
-button#label_currentChannel {
-border: none !important;
-background: #1d2417 !important; }
-
-div#chatMessageContainer {
-border: none !important; }
-
-/* PINNED MESSAGES - This will change the background color of where staff pin news */
-
+ 
+.s-chat-message:nth-child(even) {
+background: #4a4843 !important;
+    border: none !important; }
+.s-chat-message:nth-child(odd) {
+background: #4a4843 !important;
 .s-chat-message__pinned {
 background-color: #1d2417 !important;
 color: #cbc5bc !important;
-border: none !important; }
-
-/* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, just copy and
-paste the code for each option*/ 
-
-.s-chat-message:nth-child(even) {
-background: #4a4843 !important;
-border: none !important; }
-.s-chat-message:nth-child(odd) {
-background: #4a4843 !important;
-border: none !important; }
-
+    border: none !important; }
 .s-chat-message_timestamp {
+    color: #cbc5bc !important; }
+
+	#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #4a4843 !important;
+border-left: 6px solid #cbc5bc !important;
+color: #cbc5bc !important;
+		border-top-right-radius: 5px !important;
+		border-bottom-right-radius: 5px !important;
+	}
+.s-chat-message.s-chat-message_mention a, .s-chat-message.s-chat-message_mention a:visited {
+color: #cbc5bc !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel {
+    background: #1d2417 !important;
+    color: #e0dace !important;
+border: none !important;
+border-radius: 5px !important; }
+
+div#lblCharacterCounter {
 color: #cbc5bc !important; }
 
-/* Channel Selector */ 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
     background: #1d2417 !important;
 color: #cbc5bc !important;	
 border: none !important;
-border-radius: 0px !important;
+border-radius: 5px !important;
 box-shadow: none !important; }
 
-/* Emote List
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+		background: #1d2417;}
+html.nolayout {
+background: none !important; }
+
+	/* Emote List
 Keep border-top on div.emoteList.active::before as none, otherwise you'll
 have a super weird gap between the emotelist and the little triangle*/
 
@@ -329,27 +340,6 @@ background: #1d2417
 border-top: none !important;
 border: 1px solid #cbc5bc !important; }
 
-
-
-/* This changes the color of pinged messages. Yes, it has to say background-color
-no it doesn't work if you just do background.
-may 8th: stop touchy */
-	
-#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-background-color: #4a4843 !important;
-border-left: 6px solid #cbc5bc !important;
-color: #cbc5bc !important; }
-
-/* This is the character counter, that displays X/150 */
-
-div#lblCharacterCounter {
-color: #cbc5bc !important; }
-
-/* I can't remember what this does but I know things get weird if you touch it
-that means do NOT touch it.
-i'm being so fr stop touching this */
-html.nolayout {
-background: none !important; }
 
 /* FAPA, KING DYNASTY, ETC.
 The .xsmall makes it where FAPA boxes are the same length.
