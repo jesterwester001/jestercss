@@ -1,0 +1,2011 @@
+/* 
+there are a lot of other codes at use here randomly strewn throughout this and various other
+codes done by the both of us.
+below is a list of ids credited with other pieces/inspiration for various things in this template
+just because a user is credited it does not mean their code is used in one specific css made with this template,
+or even present in this template. however, these are all users who have made significant contributions to css coding
+and it's almost impossible to ignore what they've done. in some way or the other, they are present in this code
+Pandora #144118
+Kat  #94329
+tawny #251887
+Austin #43750 
+Bobcat (#79288)
+Tserin (#2230)
+Atticus (#198107)
+*/
+ 
+/* FONTS - Import from Google Fonts */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Englebert&display=swap');
+ 
+body {font-family: "Englebert", cursive;}
+ 
+.topbar {font-family: "Englebert", cursive;}
+ 
+.navbar {font-family: "Englebert", cursive;}
+
+/* BACKGROUNDS 
+The first one is for PC, the second is for mobile. You can also use an image in the second one
+via replacing #HEX with url('IMG LINK') center center fixed;
+BUT I recommend repeating patterns rather than full images. */
+ 
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://cdn.imgchest.com/files/c3a90a10645f.png') top center fixed;
+background-size: 100%;
+color: #37283E; } }
+
+@media screen and (max-width: 600px){
+body {
+background: #HEX;
+background-size: cover;
+color: #37283E; } }
+
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #432C40;}
+::-webkit-scrollbar-thumb {
+background: #e1bbad; } 
+
+/* first number is thumb, second is track, firefox only */
+:root {
+scrollbar-color: #b57d80 #432C40 !important;
+scrollbar-width: auto;}
+ 
+/* HEADERS -
+H1 is the big header that says 'X's Den'
+H2 is not used anywhere in the default look unless you want to use it.
+H3 is used in the side bar (above the energy panel, achievement panel, etc. */
+ 
+h1 {
+color: #37283E !important;
+font-size: 64px;
+text-align: center !important;
+font-family: "Englebert", cursive;}
+
+h2 {
+color: #37283E !important;
+font-size: 24px;}
+
+h3 {
+color: #37283E !important;
+font-size: 18px;}
+ 
+/* LINKS
+Color of links. This will affect all links on your page.
+Plan accordingly. */
+ 
+a:link,
+a:visited {
+color: #37283E !important;
+background: none !important; }
+   
+a:hover {
+text-decoration: underline !important; }
+ 
+/* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
+You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
+   
+.container.main {
+background: rgba(239,216,206,0.3);
+border: none;
+box-shadow: none;
+border-radius: 10px; }
+.col-md-9 {
+background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+background: #b57d80 !important;
+color: #37283E !important;
+border: 3px groove #37283E !important;
+    border-top: none !important;
+border-radius: 10px !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;}
+ 
+.navbar {
+background: #37283E !important;
+color: #b57d80 !important;
+border: 3px groove #b57d80 !important;
+border-radius: 10px !important; }
+.navbar li a, .navbar li a:visited {
+    color: #b57d80 !important;
+}
+
+.navbar li a:hover {
+font-size: 22px !important;
+text-decoration: none !important;}
+
+/* This is mobile collapable navbar color changes.
+toggle is the button that opens the navbar
+leave .navbar-toggle background set to #HEX to have it inherit the color of the navbar
+navbar-collapse is just there to hide the white line 
+*/
+
+.navbar-toggle {
+border: none !important;
+background: #HEX !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+ 
+/* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
+
+.breadcrumb {
+background: #b57d80 !important;
+color: #37283E !important;
+border: 3px groove #37283E !important;
+border-radius: 10px !important;} 
+.breadcrumb .active {
+color: #37283E; }
+.breadcrumb > li + li::before {
+    color: #37283E;
+}
+ 
+/* ALERTS 
+.alert is all alerts, only set this one if you want all alerts to be the same color
+.alert-success is the green one you see for hunting, patrolling, etc.
+.alert-danger is red alerts, like inbox
+.alert-warning is also some other red alerts, but I can't remember which ones. keep this
+and danger the same color for best results
+(quick notice maybe? more research)*/
+ 
+.alert {
+background: #b57d80 !important;
+color: #37283E !important;
+border: 3px groove #37283E !important;
+border-radius: 10px !important;
+text-align: center !important;  }
+ 
+
+/*COMMENT BOX 
+This is a complicated one. please read carefully
+div#CommentBox is the color of the ENTIRE BOX, without comments in it. it is also the container
+.comment is the COMMENTS THEMSELVES
+If you want the flippy floppy colors, where one is a little darker than the other, DO NOT FILL IN ANYTHING FOR
+.comment ONLY FILL IN div#commentBox
+
+.input.bad is the icon to delete comments. you will be the only one to see this
+.input.bad a is the color of the x inside of it
+*/
+
+div#commentBox {
+background: #37283E !important;
+border: 3px groove #b57d80 !important;
+border-radius: 10px !important;
+color: #HEX !important;
+height: 30px;
+transition: 1s}
+#commentBox::before {
+    content: 'leave a comment!';
+    background: #37283E !important;
+    color: #b57d80 !important;
+    font-size: 18px;
+}
+div#commentBox:hover {
+background: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+color: #HEX !important;
+height: 300px;
+transition: 1s}
+
+	
+.comment {     
+background: #b57d80 !important;
+    color: #37283E !important;
+border: none !important;
+border-bottom: none !important;
+border-radius: 0px !important;
+color: #HEX !important;
+text-align: center !important;}
+.comment a, .comment a:visited {
+    color: #37283E !important;
+}
+.text-muted { 
+color: #37283E !important; }
+
+input.bad {
+background: #HEX !important;
+color: #HEX !important;}
+input.bad a {
+color: #HEX !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
+ 
+/* SIDE PANELS 
+
+you can use https://www.transparenttextures.com/ to have your panel bgs, your progress bars, almost any element in your css have a texture!
+please note that the css provided by the site does NOT work on replaced images, you have to do something weird for those. */
+ 
+.panel {
+background: #b57d80 !important;
+color: #37283E !important;
+border: 3px groove #37283E !important;
+border-radius: 10px !important;
+box-shadow: none !important;  }
+   
+/*IMPRESSION / ALL PROGRESS Bars
+Unless you color the progress bars below, all progress bars will default
+to the colors you put here.
+Bars will also inherit the border-radius value from this one, so it's
+not needed to specify border-radius for all bars. */
+.progress-bar {
+background: #6c4767 !important; 
+border-radius: 0px !important; }
+
+/* This is the text that reads Energy: X% */
+.progress div {
+color: #efd7ce !important; }
+
+/* This is the background of the progress bars. */
+.progress {
+background:  #432C40;
+color: #HEX !important;
+border-radius: 25px !important;  }
+ 
+/* CHAT 
+i had to change this due to issues.
+.s-chat-message controls backgrounds of chat, both even and odd, odd is the first
+.s-chat-message_mention controls when you get pinged.
+.s-chat-message__pinned is the pinned message
+s-chat-message_timestamp is the text that says how recently a message was posted
+*/
+ 
+.s-chat-message:nth-child(even) {
+    background: #6c4767 !important;
+    color: #efd7ce !important;
+    border: none !important; }
+.s-chat-message:nth-child(odd) {
+background-color: #432C40 !important;
+color: #efd7ce !important;}
+.s-chat-message:nth-child(even) a, .s-chat-message:nth-child(even) a:visited,
+.s-chat-message:nth-child(odd) a, .s-chat-message:nth-child(odd) a:visited {
+    color: #efd7ce !important;
+}
+.s-chat-message__pinned {
+background-color: #b57d80 !important;
+color: #37283E !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #efd7ce !important; }
+
+	#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+		border-left: 6px solid #efd7ce !important;
+		color: #HEX !important;
+		border-top-right-radius: 5px !important;
+		border-bottom-right-radius: 5px !important;
+	}
+.s-chat-message.s-chat-message_mention a, .s-chat-message.s-chat-message_mention a:visited {
+color: #efd7ce !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel {
+background-color: #b57d80 !important;
+color: #37283E !important;
+border: none !important;
+border-radius: 25px !important; }
+
+div#lblCharacterCounter {
+color: #37283E !important; }
+
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+background: #37283E !important;
+color: #b57d80 !important;
+border: none !important;
+border-radius: 5px !important;
+box-shadow: none !important; }
+
+/* FAPA, KING DYNASTY, ETC.
+The .xsmall makes it where FAPA boxes are the same length.
+div.left controls BOTH the dynasty, achievements, showcase, beetle book AND
+view breeding requests, view user log, and view attack history buttons */
+ 
+.feature {
+background: #37283E !important;
+color: #b57d80 !important;
+border: 3px groove #b57d80 !important;
+border-radius: 10px !important;  }
+
+div.left {
+background: #37283E !important;
+color: #b57d80 !important;
+border: 3px groove #b57d80 !important;
+border-radius: 10px !important; }
+.feature h3, div.left h3 {
+  color: #b57d80 !important; 
+}
+
+.xsmall {
+font-size: 14px !important; }
+ 
+/* LION INFO 
+Table - the background behind your table. You can make this a solid color by replacing
+rgba(0, 0, 0, 0.0) with a HEX code, or by replacing the 0.0 with a 1.0 */
+ 
+.table {
+background: rgba(0, 0, 0, 0.0);
+border: none !important;
+border-collapse: separate;
+border-radius: 0px; }
+
+/* .top is where your king's name is displayed
+.bottom is where your number of mutations within your pride is displayed
+th is every other header on your den, like sparring table, reclaim left lions,
+edit details, etc. */
+
+.top, .bottom, th {
+background: #37283E !important;
+color: #b57d80 !important;
+border: 3px groove #b57d80 !important;
+border-radius: 10px !important; }
+.top a, .top a:visited, .bottom a, .bottom a:visited,
+th a, th a:visited {
+    color: #b57d80 !important;
+}
+
+/* This removes the underline under the 'X mutations in your pride' link
+if you like it, you can just delete the code under this */
+
+.bottom a:visited, .bottom a {
+text-decoration: none !important;}
+
+/* table.left will be used by the sections on the left of the edit your details panel once open
+.inner-table .left is used by the table that displays the names of the sections of
+info about your den, like your territory, your king's stats, etc. 
+.inner-table .right is used by the boxes next to the king's info, that displays the actual info. */
+ 
+.table .left {
+background: #b57d80;
+border-radius: 25px !important;
+border: 1px solid #37283E;}
+
+.inner-table .left {
+background: #b57d80 !important;
+border-radius: 25px !important;
+    border: 3px groove #37283E;
+    border-right: 1px solid !important;
+border-bottom-right-radius: 0px !important;
+border-top-right-radius: 0px !important;}
+
+.inner-table .right {
+background: #b57d80 !important;
+border-radius: 25px !important; 
+color: #37283E !important;
+    border: 3px groove #37283E;
+    border-left: none !important;
+border-bottom-left-radius: 0px !important;
+border-top-left-radius: 0px !important;} 
+
+.right_odd {
+background: none !important; }
+
+
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+opacity: 1.0;
+border-radius: 0px;
+overflow: hidden; }   
+table#player img {
+opacity: 1.0;
+border-radius: 50%; }
+
+/* LIODEN LOGO REPLACER - You can use any image, but the 192x120 size works best.
+otherwise it can make your navbar look weird.
+192x120 */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+content: url('https://cdn.imgchest.com/files/6a23dc61cf96.png'); }
+ 
+/* TEXT BOXES & BUTTONS -
+all text boxes and buttons will be whatever color you put in here
+you can separate them, just by copy and pasting names and the css code behind it
+for example, for input to be red while everything else is white, it would look like this
+input {background: red !important;}
+textarea, select, button.button, a.btn.btn-default.button {background: white !important;} */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: #37283E !important;
+color: #b57d80 !important;
+border: 1px solid #b57d80 !important;
+border-radius: 25px !important;
+text-shadow: none !important; }
+ 
+/* CAVE NAMES - changes the color of of where cave names are displayed */
+ 
+.cave-grid,
+.mound-grid {
+background: #b57d80 !important;
+color: #37283E !important;
+border: 3px groove #37283E !important;
+border-radius: 10px !important; }
+
+/* CAVE & MOUND COVERS
+width: 240
+height: 120 (60 for half size - like the nesting banner)
+first one controls all cave slots - even empty ones.
+If you want big cave icons (like the ones here: https://images2.imgbox.com/26/21/3qjfGg8U_o.png), simply use a lioden
+bg or an image equal in size (640x500) 
+you can change the sizes on the nesting, unsorted, etc, to be the same as the other sizes, as well.
+beetle mounds are 130x80px 
+you can copy and paste for more caves or mounds than what's provided
+*/
+
+div.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png')!important;
+width: 75px;
+height: 75px; }
+
+
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('https://static.lioden.com/images/items/Other/GrainOfParadise.png')!important; }
+a[href$="unsorted.php?id=49771"]>div.cave-grid>img{
+content: url('https://static.lioden.com/images/items/Other/app-marks-flamingo.png')!important;
+width: 75px;
+height: 75px;}
+a[href*="lionoverview.php?id=49771"]>div.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Other/sweetmerlot.png')!important;
+width: 75px;
+height: 75px; }
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+
+.badge {
+background: #432C40 !important;
+color: #D1876D !important; }
+	
+/ * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
+and removes link underlines from edit your details */
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+td.bottom a, th a {
+border-bottom: none !important; }
+
+/* BOXES
+do not give the box container a background.
+Box1, Box2, & Box3 can be repeated as many times as possible, just make sure you properly close them.
+box html should look like this
+<div class="boxcontainer"><div class="Box1">text</div></div>
+<div class="boxcontainer"><div class="Box3">text</div><div class="Box2">text</div></div> */
+
+.boxcontainer {
+background: none;
+height: 75px;
+padding: 0px;
+    margin-bottom: 10px;
+display: block;
+justify-content: center;
+transition: 1s }
+.boxcontainer:hover {
+height: 250px; }
+ 
+   
+.Box2 {
+float: left;
+background: #432C40 !important;
+color: #D1876D !important;
+border: 3px groove !important;
+border-radius: 10px !important;
+padding: 5px;
+float: left;
+height: 75px;
+width: 40%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box2:hover {
+overflow-y: auto;
+height: 250px; }
+	
+.Box3 {
+float: right;
+background: #432C40 !important;
+color: #D1876D !important;
+border: 3px groove !important;
+border-radius: 10px !important;
+padding: 5px;
+float: right;
+height: 75px;
+width: 58%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box3:hover {
+overflow-y: auto;
+height: 250px; }
+
+.Box2 h3, .Box3 h3 {
+    color: #D1876D !important;
+    padding: 0px !important;
+    margin-top: 5px;
+}
+	
+/* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
+AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
+DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
+	
+/* CREDIT - no touchy this part, the code will work just fine */
+ 
+.breadcrumb::after {
+content: "css by jester (#187561)";
+color: #HEX;
+position: absolute;
+right: 13%;
+z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+
+/* code for full sized king portraits
+these are centered on all devices
+code by jester (#187561) and katie (#106445)
+please retain credit, you are free to edit as you wish */
+
+form > table#about > tbody > tr.right {
+  display: flex !important;
+  flex-direction: column !important;
+    text-align: center !important; }
+form > table#about > tbody > tr.right > td[style] {
+  display: block !important;
+  width: 100% !important;
+  padding: 0 !important;
+    margin: 0 !important; }
+div.lion-image-block[data-image-type="headshot"] img {
+    display: none !important; }
+div.lion-image-block[data-image-type="headshot"] {
+  background-image: url('https://cdn.imgchest.com/files/2150a2d20b09.png') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  width: 640px !important;
+  height: 500px !important;
+  display: grid !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  margin-top: 10px !important;
+  border: none !important;
+    box-sizing: border-box !important;
+  overflow: visible !important;
+    border-radius: 25px; }
+form > table#about > tbody > tr.right > td[style] > a,
+form > table#about > tbody > tr.right > td[style] #lion_image,
+form > table#about > tbody > tr.right > td[style] #lion_image > a {
+  display: block !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+    font-size: 0 !important; }
+/* disconnects from associated columns */
+form > table#about > tbody > tr.right > td[style] > a,
+form > table#about > tbody > tr.right > td[style] #lion_image,
+form > table#about > tbody > tr.right > td[style] #lion_image > a {
+  display: block !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+    font-size: 0 !important; }
+	
+@media (max-width: 768px) {
+	form > table#about > tbody > tr.right {
+  display: flex !important;
+  flex-direction: column !important;
+    text-align: center !important; }
+form > table#about > tbody > tr.right > td[style] {
+  display: block !important;
+  width: 100% !important;
+  padding: 0 !important;
+    margin: 0 !important; }
+div.lion-image-block[data-image-type="headshot"] img {
+    display: none !important; }
+div.lion-image-block[data-image-type="headshot"] {
+  background-image: url('https://cdn.imgchest.com/files/2150a2d20b09.png') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  width: 500px !important;
+  height: auto !important;
+  display: grid !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  margin-top: 10px !important;
+  border: none !important;
+    box-sizing: border-box !important;
+  overflow: visible !important;
+    border-radius: 25px; }
+form > table#about > tbody > tr.right > td[style] > a,
+form > table#about > tbody > tr.right > td[style] #lion_image,
+form > table#about > tbody > tr.right > td[style] #lion_image > a {
+  display: block !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+    font-size: 0 !important; }
+/* disconnects from associated columns */
+form > table#about > tbody > tr.right > td[style] > a,
+form > table#about > tbody > tr.right > td[style] #lion_image,
+form > table#about > tbody > tr.right > td[style] #lion_image > a {
+  display: block !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+font-size: 0 !important; } }
+
+/* alternate cave display
+  code by jester [#187561]
+  free to use/edit as you wish, please just retain credit */
+#fraCaveList > div:nth-child(n) {
+    width: 100% !important;
+    max-width: none !important; }
+
+div.cave-grid {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+a[href$="542828"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/da4e2f4db49b.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="111698"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/f64e1d3117f3.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="9360"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/b29aa667d0f6.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="542212"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/0336978a94f5.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="542824"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/7f70a6ce3117.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="542825"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/1b346be776c0.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+a[href$="542826"] > div.cave-grid > img {
+  content: url('https://cdn.imgchest.com/files/ead26a6d9e3d.png') !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+
+/* ANIMATED FIREFLIES: EDITED FOR LIODEN, BY PLAYER =Austin= #43750 */
+/* ANIMATED BY MARK GOLUS ON CODEPEN: https://codepen.io/mikegolus/pen/Jegvym */
+ 
+.firefly {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 0.4vw;
+  height: 0.4vw;
+  margin: -0.2vw 0 0 9.8vw;
+  animation: ease 200s alternate infinite;
+  pointer-events: none;
+}
+.firefly::before, .firefly::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transform-origin: -10vw;
+}
+.firefly::before {
+  background: #37283E;
+  opacity: 0.4;
+  animation: drift ease alternate infinite;
+}
+.firefly::after {
+  background: white;
+  opacity: 0;
+  box-shadow: 0 0 0vw 0vw pink;
+  animation: drift ease alternate infinite, flash ease infinite;
+}
+ 
+.firefly:nth-child(1) {
+  animation-name: move1;
+}
+.firefly:nth-child(1)::before {
+  animation-duration: 10s;
+}
+.firefly:nth-child(1)::after {
+  animation-duration: 10s, 10540ms;
+  animation-delay: 0ms, 6067ms;
+}
+ 
+@keyframes move1 {
+  0% {
+    transform: translateX(-10vw) translateY(-14vh) scale(0.59);
+  }
+  3.8461538462% {
+    transform: translateX(45vw) translateY(24vh) scale(0.32);
+  }
+  7.6923076923% {
+    transform: translateX(12vw) translateY(41vh) scale(0.66);
+  }
+  11.5384615385% {
+    transform: translateX(45vw) translateY(-21vh) scale(0.57);
+  }
+  15.3846153846% {
+    transform: translateX(-28vw) translateY(-27vh) scale(0.74);
+  }
+  19.2307692308% {
+    transform: translateX(34vw) translateY(40vh) scale(0.53);
+  }
+  23.0769230769% {
+    transform: translateX(11vw) translateY(45vh) scale(0.8);
+  }
+  26.9230769231% {
+    transform: translateX(-1vw) translateY(-32vh) scale(0.94);
+  }
+  30.7692307692% {
+    transform: translateX(-16vw) translateY(-41vh) scale(0.48);
+  }
+  34.6153846154% {
+    transform: translateX(4vw) translateY(-17vh) scale(0.95);
+  }
+  38.4615384615% {
+    transform: translateX(23vw) translateY(-12vh) scale(0.34);
+  }
+  42.3076923077% {
+    transform: translateX(30vw) translateY(-12vh) scale(0.47);
+  }
+  46.1538461538% {
+    transform: translateX(-18vw) translateY(-42vh) scale(0.31);
+  }
+  50% {
+    transform: translateX(26vw) translateY(25vh) scale(0.77);
+  }
+  53.8461538462% {
+    transform: translateX(-2vw) translateY(21vh) scale(0.74);
+  }
+  57.6923076923% {
+    transform: translateX(10vw) translateY(-6vh) scale(0.79);
+  }
+  61.5384615385% {
+    transform: translateX(-10vw) translateY(46vh) scale(0.37);
+  }
+  65.3846153846% {
+    transform: translateX(5vw) translateY(5vh) scale(0.6);
+  }
+  69.2307692308% {
+    transform: translateX(-44vw) translateY(39vh) scale(0.99);
+  }
+  73.0769230769% {
+    transform: translateX(-35vw) translateY(-36vh) scale(0.6);
+  }
+  76.9230769231% {
+    transform: translateX(-39vw) translateY(21vh) scale(0.81);
+  }
+  80.7692307692% {
+    transform: translateX(41vw) translateY(30vh) scale(0.28);
+  }
+  84.6153846154% {
+    transform: translateX(0vw) translateY(9vh) scale(0.27);
+  }
+  88.4615384615% {
+    transform: translateX(-42vw) translateY(-42vh) scale(0.61);
+  }
+  92.3076923077% {
+    transform: translateX(27vw) translateY(-4vh) scale(0.92);
+  }
+  96.1538461538% {
+    transform: translateX(48vw) translateY(1vh) scale(0.62);
+  }
+  100% {
+    transform: translateX(7vw) translateY(-35vh) scale(0.31);
+  }
+}
+.firefly:nth-child(2) {
+  animation-name: move2;
+}
+.firefly:nth-child(2)::before {
+  animation-duration: 9s;
+}
+.firefly:nth-child(2)::after {
+  animation-duration: 9s, 6460ms;
+  animation-delay: 0ms, 4145ms;
+}
+ 
+@keyframes move2 {
+  0% {
+    transform: translateX(44vw) translateY(-39vh) scale(0.85);
+  }
+  3.7037037037% {
+    transform: translateX(47vw) translateY(49vh) scale(0.73);
+  }
+  7.4074074074% {
+    transform: translateX(-28vw) translateY(-44vh) scale(0.68);
+  }
+  11.1111111111% {
+    transform: translateX(19vw) translateY(2vh) scale(0.44);
+  }
+  14.8148148148% {
+    transform: translateX(-15vw) translateY(-31vh) scale(0.43);
+  }
+  18.5185185185% {
+    transform: translateX(11vw) translateY(-11vh) scale(0.47);
+  }
+  22.2222222222% {
+    transform: translateX(-40vw) translateY(25vh) scale(1);
+  }
+  25.9259259259% {
+    transform: translateX(38vw) translateY(6vh) scale(0.62);
+  }
+  29.6296296296% {
+    transform: translateX(7vw) translateY(44vh) scale(0.28);
+  }
+  33.3333333333% {
+    transform: translateX(34vw) translateY(-9vh) scale(0.56);
+  }
+  37.037037037% {
+    transform: translateX(-45vw) translateY(-26vh) scale(0.26);
+  }
+  40.7407407407% {
+    transform: translateX(12vw) translateY(10vh) scale(1);
+  }
+  44.4444444444% {
+    transform: translateX(42vw) translateY(5vh) scale(0.78);
+  }
+  48.1481481481% {
+    transform: translateX(-24vw) translateY(50vh) scale(0.36);
+  }
+  51.8518518519% {
+    transform: translateX(-14vw) translateY(-37vh) scale(0.49);
+  }
+  55.5555555556% {
+    transform: translateX(-45vw) translateY(-46vh) scale(0.65);
+  }
+  59.2592592593% {
+    transform: translateX(-8vw) translateY(-19vh) scale(0.82);
+  }
+  62.962962963% {
+    transform: translateX(27vw) translateY(5vh) scale(0.38);
+  }
+  66.6666666667% {
+    transform: translateX(7vw) translateY(16vh) scale(0.97);
+  }
+  70.3703703704% {
+    transform: translateX(-14vw) translateY(16vh) scale(0.88);
+  }
+  74.0740740741% {
+    transform: translateX(-36vw) translateY(36vh) scale(0.56);
+  }
+  77.7777777778% {
+    transform: translateX(-31vw) translateY(-27vh) scale(0.55);
+  }
+  81.4814814815% {
+    transform: translateX(37vw) translateY(21vh) scale(0.46);
+  }
+  85.1851851852% {
+    transform: translateX(25vw) translateY(20vh) scale(0.65);
+  }
+  88.8888888889% {
+    transform: translateX(34vw) translateY(37vh) scale(0.54);
+  }
+  92.5925925926% {
+    transform: translateX(24vw) translateY(-3vh) scale(0.6);
+  }
+  96.2962962963% {
+    transform: translateX(-30vw) translateY(37vh) scale(0.64);
+  }
+  100% {
+    transform: translateX(8vw) translateY(-7vh) scale(0.99);
+  }
+}
+.firefly:nth-child(3) {
+  animation-name: move3;
+}
+.firefly:nth-child(3)::before {
+  animation-duration: 9s;
+}
+.firefly:nth-child(3)::after {
+  animation-duration: 9s, 6410ms;
+  animation-delay: 0ms, 4219ms;
+}
+ 
+@keyframes move3 {
+  0% {
+    transform: translateX(28vw) translateY(13vh) scale(0.47);
+  }
+  5.5555555556% {
+    transform: translateX(45vw) translateY(34vh) scale(0.36);
+  }
+  11.1111111111% {
+    transform: translateX(-25vw) translateY(-6vh) scale(0.87);
+  }
+  16.6666666667% {
+    transform: translateX(-40vw) translateY(40vh) scale(0.46);
+  }
+  22.2222222222% {
+    transform: translateX(40vw) translateY(-49vh) scale(0.54);
+  }
+  27.7777777778% {
+    transform: translateX(-15vw) translateY(33vh) scale(0.69);
+  }
+  33.3333333333% {
+    transform: translateX(-26vw) translateY(-47vh) scale(0.39);
+  }
+  38.8888888889% {
+    transform: translateX(45vw) translateY(-5vh) scale(0.56);
+  }
+  44.4444444444% {
+    transform: translateX(-49vw) translateY(24vh) scale(0.98);
+  }
+  50% {
+    transform: translateX(30vw) translateY(24vh) scale(0.72);
+  }
+  55.5555555556% {
+    transform: translateX(-34vw) translateY(39vh) scale(0.78);
+  }
+  61.1111111111% {
+    transform: translateX(-33vw) translateY(12vh) scale(0.66);
+  }
+  66.6666666667% {
+    transform: translateX(18vw) translateY(39vh) scale(0.91);
+  }
+  72.2222222222% {
+    transform: translateX(42vw) translateY(-30vh) scale(0.37);
+  }
+  77.7777777778% {
+    transform: translateX(28vw) translateY(-28vh) scale(0.86);
+  }
+  83.3333333333% {
+    transform: translateX(-7vw) translateY(14vh) scale(0.67);
+  }
+  88.8888888889% {
+    transform: translateX(-2vw) translateY(-42vh) scale(0.64);
+  }
+  94.4444444444% {
+    transform: translateX(-44vw) translateY(-22vh) scale(0.93);
+  }
+  100% {
+    transform: translateX(35vw) translateY(-28vh) scale(0.45);
+  }
+}
+.firefly:nth-child(4) {
+  animation-name: move4;
+}
+.firefly:nth-child(4)::before {
+  animation-duration: 17s;
+}
+.firefly:nth-child(4)::after {
+  animation-duration: 17s, 9484ms;
+  animation-delay: 0ms, 6352ms;
+}
+ 
+@keyframes move4 {
+  0% {
+    transform: translateX(41vw) translateY(23vh) scale(0.54);
+  }
+  3.5714285714% {
+    transform: translateX(14vw) translateY(-5vh) scale(0.55);
+  }
+  7.1428571429% {
+    transform: translateX(41vw) translateY(-24vh) scale(0.95);
+  }
+  10.7142857143% {
+    transform: translateX(-25vw) translateY(8vh) scale(1);
+  }
+  14.2857142857% {
+    transform: translateX(48vw) translateY(-20vh) scale(0.73);
+  }
+  17.8571428571% {
+    transform: translateX(1vw) translateY(-18vh) scale(0.42);
+  }
+  21.4285714286% {
+    transform: translateX(30vw) translateY(29vh) scale(0.84);
+  }
+  25% {
+    transform: translateX(9vw) translateY(29vh) scale(0.65);
+  }
+  28.5714285714% {
+    transform: translateX(-33vw) translateY(-45vh) scale(0.78);
+  }
+  32.1428571429% {
+    transform: translateX(34vw) translateY(46vh) scale(0.34);
+  }
+  35.7142857143% {
+    transform: translateX(15vw) translateY(45vh) scale(0.49);
+  }
+  39.2857142857% {
+    transform: translateX(50vw) translateY(18vh) scale(0.76);
+  }
+  42.8571428571% {
+    transform: translateX(-39vw) translateY(35vh) scale(0.32);
+  }
+  46.4285714286% {
+    transform: translateX(-6vw) translateY(11vh) scale(0.45);
+  }
+  50% {
+    transform: translateX(-43vw) translateY(-3vh) scale(0.74);
+  }
+  53.5714285714% {
+    transform: translateX(4vw) translateY(-45vh) scale(0.74);
+  }
+  57.1428571429% {
+    transform: translateX(-46vw) translateY(-38vh) scale(0.27);
+  }
+  60.7142857143% {
+    transform: translateX(-8vw) translateY(2vh) scale(0.69);
+  }
+  64.2857142857% {
+    transform: translateX(49vw) translateY(-33vh) scale(0.86);
+  }
+  67.8571428571% {
+    transform: translateX(23vw) translateY(48vh) scale(0.43);
+  }
+  71.4285714286% {
+    transform: translateX(25vw) translateY(42vh) scale(0.32);
+  }
+  75% {
+    transform: translateX(-2vw) translateY(48vh) scale(0.48);
+  }
+  78.5714285714% {
+    transform: translateX(40vw) translateY(20vh) scale(0.37);
+  }
+  82.1428571429% {
+    transform: translateX(-18vw) translateY(-40vh) scale(0.93);
+  }
+  85.7142857143% {
+    transform: translateX(22vw) translateY(-22vh) scale(0.85);
+  }
+  89.2857142857% {
+    transform: translateX(-13vw) translateY(3vh) scale(0.55);
+  }
+  92.8571428571% {
+    transform: translateX(26vw) translateY(-21vh) scale(0.84);
+  }
+  96.4285714286% {
+    transform: translateX(32vw) translateY(-30vh) scale(0.79);
+  }
+  100% {
+    transform: translateX(23vw) translateY(47vh) scale(0.61);
+  }
+}
+.firefly:nth-child(5) {
+  animation-name: move5;
+}
+.firefly:nth-child(5)::before {
+  animation-duration: 15s;
+}
+.firefly:nth-child(5)::after {
+  animation-duration: 15s, 6024ms;
+  animation-delay: 0ms, 1015ms;
+}
+ 
+@keyframes move5 {
+  0% {
+    transform: translateX(-11vw) translateY(35vh) scale(0.39);
+  }
+  5.8823529412% {
+    transform: translateX(40vw) translateY(24vh) scale(0.73);
+  }
+  11.7647058824% {
+    transform: translateX(1vw) translateY(25vh) scale(0.6);
+  }
+  17.6470588235% {
+    transform: translateX(-14vw) translateY(5vh) scale(0.39);
+  }
+  23.5294117647% {
+    transform: translateX(-41vw) translateY(-29vh) scale(0.82);
+  }
+  29.4117647059% {
+    transform: translateX(38vw) translateY(36vh) scale(0.47);
+  }
+  35.2941176471% {
+    transform: translateX(-27vw) translateY(48vh) scale(0.32);
+  }
+  41.1764705882% {
+    transform: translateX(6vw) translateY(20vh) scale(0.43);
+  }
+  47.0588235294% {
+    transform: translateX(-25vw) translateY(27vh) scale(0.48);
+  }
+  52.9411764706% {
+    transform: translateX(-15vw) translateY(-8vh) scale(0.78);
+  }
+  58.8235294118% {
+    transform: translateX(4vw) translateY(41vh) scale(0.46);
+  }
+  64.7058823529% {
+    transform: translateX(50vw) translateY(20vh) scale(0.7);
+  }
+  70.5882352941% {
+    transform: translateX(-13vw) translateY(7vh) scale(0.5);
+  }
+  76.4705882353% {
+    transform: translateX(29vw) translateY(-15vh) scale(0.89);
+  }
+  82.3529411765% {
+    transform: translateX(-36vw) translateY(29vh) scale(0.46);
+  }
+  88.2352941176% {
+    transform: translateX(-7vw) translateY(24vh) scale(0.82);
+  }
+  94.1176470588% {
+    transform: translateX(-43vw) translateY(46vh) scale(0.34);
+  }
+  100% {
+    transform: translateX(18vw) translateY(46vh) scale(0.67);
+  }
+}
+.firefly:nth-child(6) {
+  animation-name: move6;
+}
+.firefly:nth-child(6)::before {
+  animation-duration: 9s;
+}
+.firefly:nth-child(6)::after {
+  animation-duration: 9s, 7072ms;
+  animation-delay: 0ms, 6412ms;
+}
+ 
+@keyframes move6 {
+  0% {
+    transform: translateX(-45vw) translateY(3vh) scale(0.66);
+  }
+  5% {
+    transform: translateX(-39vw) translateY(18vh) scale(0.41);
+  }
+  10% {
+    transform: translateX(-37vw) translateY(11vh) scale(0.61);
+  }
+  15% {
+    transform: translateX(19vw) translateY(10vh) scale(0.68);
+  }
+  20% {
+    transform: translateX(-43vw) translateY(-44vh) scale(0.72);
+  }
+  25% {
+    transform: translateX(-13vw) translateY(33vh) scale(0.69);
+  }
+  30% {
+    transform: translateX(-39vw) translateY(-43vh) scale(0.29);
+  }
+  35% {
+    transform: translateX(-48vw) translateY(-43vh) scale(0.55);
+  }
+  40% {
+    transform: translateX(14vw) translateY(34vh) scale(0.47);
+  }
+  45% {
+    transform: translateX(-24vw) translateY(-29vh) scale(0.26);
+  }
+  50% {
+    transform: translateX(-6vw) translateY(12vh) scale(0.52);
+  }
+  55% {
+    transform: translateX(43vw) translateY(32vh) scale(0.35);
+  }
+  60% {
+    transform: translateX(5vw) translateY(39vh) scale(0.43);
+  }
+  65% {
+    transform: translateX(-20vw) translateY(8vh) scale(0.85);
+  }
+  70% {
+    transform: translateX(37vw) translateY(-15vh) scale(0.77);
+  }
+  75% {
+    transform: translateX(-2vw) translateY(-38vh) scale(0.27);
+  }
+  80% {
+    transform: translateX(-45vw) translateY(39vh) scale(0.56);
+  }
+  85% {
+    transform: translateX(7vw) translateY(28vh) scale(0.76);
+  }
+  90% {
+    transform: translateX(42vw) translateY(15vh) scale(1);
+  }
+  95% {
+    transform: translateX(23vw) translateY(-42vh) scale(0.99);
+  }
+  100% {
+    transform: translateX(3vw) translateY(44vh) scale(0.65);
+  }
+}
+.firefly:nth-child(7) {
+  animation-name: move7;
+}
+.firefly:nth-child(7)::before {
+  animation-duration: 11s;
+}
+.firefly:nth-child(7)::after {
+  animation-duration: 11s, 8190ms;
+  animation-delay: 0ms, 7869ms;
+}
+ 
+@keyframes move7 {
+  0% {
+    transform: translateX(29vw) translateY(12vh) scale(0.81);
+  }
+  5.8823529412% {
+    transform: translateX(48vw) translateY(-42vh) scale(0.67);
+  }
+  11.7647058824% {
+    transform: translateX(-15vw) translateY(1vh) scale(0.58);
+  }
+  17.6470588235% {
+    transform: translateX(2vw) translateY(-26vh) scale(0.71);
+  }
+  23.5294117647% {
+    transform: translateX(26vw) translateY(-29vh) scale(0.47);
+  }
+  29.4117647059% {
+    transform: translateX(29vw) translateY(-45vh) scale(0.67);
+  }
+  35.2941176471% {
+    transform: translateX(21vw) translateY(44vh) scale(0.61);
+  }
+  41.1764705882% {
+    transform: translateX(-9vw) translateY(9vh) scale(0.94);
+  }
+  47.0588235294% {
+    transform: translateX(-39vw) translateY(-17vh) scale(0.59);
+  }
+  52.9411764706% {
+    transform: translateX(-38vw) translateY(1vh) scale(0.66);
+  }
+  58.8235294118% {
+    transform: translateX(-14vw) translateY(-21vh) scale(0.92);
+  }
+  64.7058823529% {
+    transform: translateX(30vw) translateY(3vh) scale(0.9);
+  }
+  70.5882352941% {
+    transform: translateX(43vw) translateY(-31vh) scale(0.72);
+  }
+  76.4705882353% {
+    transform: translateX(-6vw) translateY(27vh) scale(0.28);
+  }
+  82.3529411765% {
+    transform: translateX(-26vw) translateY(-26vh) scale(0.45);
+  }
+  88.2352941176% {
+    transform: translateX(-21vw) translateY(-15vh) scale(0.82);
+  }
+  94.1176470588% {
+    transform: translateX(-18vw) translateY(28vh) scale(0.36);
+  }
+  100% {
+    transform: translateX(47vw) translateY(-42vh) scale(0.91);
+  }
+}
+.firefly:nth-child(8) {
+  animation-name: move8;
+}
+.firefly:nth-child(8)::before {
+  animation-duration: 12s;
+}
+.firefly:nth-child(8)::after {
+  animation-duration: 12s, 7616ms;
+  animation-delay: 0ms, 4804ms;
+}
+ 
+@keyframes move8 {
+  0% {
+    transform: translateX(24vw) translateY(-6vh) scale(0.3);
+  }
+  5.2631578947% {
+    transform: translateX(-23vw) translateY(-16vh) scale(0.67);
+  }
+  10.5263157895% {
+    transform: translateX(50vw) translateY(-21vh) scale(0.38);
+  }
+  15.7894736842% {
+    transform: translateX(-8vw) translateY(0vh) scale(0.77);
+  }
+  21.0526315789% {
+    transform: translateX(-47vw) translateY(-26vh) scale(0.89);
+  }
+  26.3157894737% {
+    transform: translateX(36vw) translateY(36vh) scale(0.72);
+  }
+  31.5789473684% {
+    transform: translateX(14vw) translateY(-47vh) scale(0.5);
+  }
+  36.8421052632% {
+    transform: translateX(38vw) translateY(-8vh) scale(0.27);
+  }
+  42.1052631579% {
+    transform: translateX(-31vw) translateY(40vh) scale(0.3);
+  }
+  47.3684210526% {
+    transform: translateX(-10vw) translateY(-21vh) scale(0.34);
+  }
+  52.6315789474% {
+    transform: translateX(-17vw) translateY(32vh) scale(0.36);
+  }
+  57.8947368421% {
+    transform: translateX(47vw) translateY(-14vh) scale(0.98);
+  }
+  63.1578947368% {
+    transform: translateX(-28vw) translateY(-7vh) scale(0.79);
+  }
+  68.4210526316% {
+    transform: translateX(9vw) translateY(-45vh) scale(0.63);
+  }
+  73.6842105263% {
+    transform: translateX(-12vw) translateY(-32vh) scale(0.59);
+  }
+  78.9473684211% {
+    transform: translateX(-23vw) translateY(-17vh) scale(0.34);
+  }
+  84.2105263158% {
+    transform: translateX(-6vw) translateY(-6vh) scale(0.34);
+  }
+  89.4736842105% {
+    transform: translateX(-35vw) translateY(42vh) scale(0.38);
+  }
+  94.7368421053% {
+    transform: translateX(29vw) translateY(-42vh) scale(0.89);
+  }
+  100% {
+    transform: translateX(36vw) translateY(-21vh) scale(0.28);
+  }
+}
+.firefly:nth-child(9) {
+  animation-name: move9;
+}
+.firefly:nth-child(9)::before {
+  animation-duration: 14s;
+}
+.firefly:nth-child(9)::after {
+  animation-duration: 14s, 9357ms;
+  animation-delay: 0ms, 8445ms;
+}
+ 
+@keyframes move9 {
+  0% {
+    transform: translateX(22vw) translateY(15vh) scale(0.77);
+  }
+  4% {
+    transform: translateX(-49vw) translateY(3vh) scale(0.76);
+  }
+  8% {
+    transform: translateX(-48vw) translateY(16vh) scale(0.51);
+  }
+  12% {
+    transform: translateX(-35vw) translateY(-29vh) scale(0.26);
+  }
+  16% {
+    transform: translateX(-21vw) translateY(-15vh) scale(0.79);
+  }
+  20% {
+    transform: translateX(-22vw) translateY(40vh) scale(0.58);
+  }
+  24% {
+    transform: translateX(-30vw) translateY(-24vh) scale(0.89);
+  }
+  28% {
+    transform: translateX(9vw) translateY(19vh) scale(0.79);
+  }
+  32% {
+    transform: translateX(32vw) translateY(35vh) scale(0.84);
+  }
+  36% {
+    transform: translateX(11vw) translateY(-32vh) scale(0.69);
+  }
+  40% {
+    transform: translateX(7vw) translateY(-9vh) scale(0.79);
+  }
+  44% {
+    transform: translateX(-18vw) translateY(-3vh) scale(0.59);
+  }
+  48% {
+    transform: translateX(-15vw) translateY(-13vh) scale(0.6);
+  }
+  52% {
+    transform: translateX(-22vw) translateY(-1vh) scale(1);
+  }
+  56% {
+    transform: translateX(44vw) translateY(47vh) scale(0.29);
+  }
+  60% {
+    transform: translateX(-9vw) translateY(35vh) scale(0.89);
+  }
+  64% {
+    transform: translateX(38vw) translateY(-18vh) scale(0.99);
+  }
+  68% {
+    transform: translateX(8vw) translateY(35vh) scale(0.95);
+  }
+  72% {
+    transform: translateX(20vw) translateY(15vh) scale(0.92);
+  }
+  76% {
+    transform: translateX(12vw) translateY(28vh) scale(0.74);
+  }
+  80% {
+    transform: translateX(0vw) translateY(-34vh) scale(0.54);
+  }
+  84% {
+    transform: translateX(29vw) translateY(-40vh) scale(0.35);
+  }
+  88% {
+    transform: translateX(34vw) translateY(15vh) scale(0.35);
+  }
+  92% {
+    transform: translateX(22vw) translateY(-38vh) scale(0.27);
+  }
+  96% {
+    transform: translateX(-13vw) translateY(27vh) scale(0.53);
+  }
+  100% {
+    transform: translateX(-18vw) translateY(4vh) scale(0.85);
+  }
+}
+.firefly:nth-child(10) {
+  animation-name: move10;
+}
+.firefly:nth-child(10)::before {
+  animation-duration: 16s;
+}
+.firefly:nth-child(10)::after {
+  animation-duration: 16s, 9281ms;
+  animation-delay: 0ms, 820ms;
+}
+ 
+@keyframes move10 {
+  0% {
+    transform: translateX(29vw) translateY(-14vh) scale(0.36);
+  }
+  4.1666666667% {
+    transform: translateX(-37vw) translateY(10vh) scale(0.89);
+  }
+  8.3333333333% {
+    transform: translateX(47vw) translateY(43vh) scale(0.41);
+  }
+  12.5% {
+    transform: translateX(3vw) translateY(34vh) scale(0.62);
+  }
+  16.6666666667% {
+    transform: translateX(-4vw) translateY(-23vh) scale(0.59);
+  }
+  20.8333333333% {
+    transform: translateX(-45vw) translateY(7vh) scale(0.35);
+  }
+  25% {
+    transform: translateX(-33vw) translateY(-2vh) scale(0.8);
+  }
+  29.1666666667% {
+    transform: translateX(8vw) translateY(2vh) scale(0.33);
+  }
+  33.3333333333% {
+    transform: translateX(-35vw) translateY(-7vh) scale(0.66);
+  }
+  37.5% {
+    transform: translateX(-49vw) translateY(-31vh) scale(0.9);
+  }
+  41.6666666667% {
+    transform: translateX(28vw) translateY(-21vh) scale(0.4);
+  }
+  45.8333333333% {
+    transform: translateX(4vw) translateY(2vh) scale(0.34);
+  }
+  50% {
+    transform: translateX(8vw) translateY(9vh) scale(0.31);
+  }
+  54.1666666667% {
+    transform: translateX(-19vw) translateY(38vh) scale(0.81);
+  }
+  58.3333333333% {
+    transform: translateX(-48vw) translateY(42vh) scale(0.47);
+  }
+  62.5% {
+    transform: translateX(-23vw) translateY(5vh) scale(0.92);
+  }
+  66.6666666667% {
+    transform: translateX(-14vw) translateY(-12vh) scale(0.99);
+  }
+  70.8333333333% {
+    transform: translateX(8vw) translateY(-47vh) scale(0.92);
+  }
+  75% {
+    transform: translateX(-19vw) translateY(-39vh) scale(0.86);
+  }
+  79.1666666667% {
+    transform: translateX(30vw) translateY(-23vh) scale(0.4);
+  }
+  83.3333333333% {
+    transform: translateX(6vw) translateY(4vh) scale(0.73);
+  }
+  87.5% {
+    transform: translateX(-1vw) translateY(12vh) scale(0.6);
+  }
+  91.6666666667% {
+    transform: translateX(18vw) translateY(-24vh) scale(0.29);
+  }
+  95.8333333333% {
+    transform: translateX(-29vw) translateY(-7vh) scale(0.52);
+  }
+  100% {
+    transform: translateX(15vw) translateY(6vh) scale(0.44);
+  }
+}
+.firefly:nth-child(11) {
+  animation-name: move11;
+}
+.firefly:nth-child(11)::before {
+  animation-duration: 13s;
+}
+.firefly:nth-child(11)::after {
+  animation-duration: 13s, 7352ms;
+  animation-delay: 0ms, 6206ms;
+}
+ 
+@keyframes move11 {
+  0% {
+    transform: translateX(-45vw) translateY(43vh) scale(0.85);
+  }
+  5.5555555556% {
+    transform: translateX(-26vw) translateY(-18vh) scale(0.43);
+  }
+  11.1111111111% {
+    transform: translateX(-8vw) translateY(40vh) scale(0.34);
+  }
+  16.6666666667% {
+    transform: translateX(28vw) translateY(-16vh) scale(0.74);
+  }
+  22.2222222222% {
+    transform: translateX(-6vw) translateY(-45vh) scale(0.48);
+  }
+  27.7777777778% {
+    transform: translateX(29vw) translateY(37vh) scale(0.27);
+  }
+  33.3333333333% {
+    transform: translateX(33vw) translateY(46vh) scale(0.49);
+  }
+  38.8888888889% {
+    transform: translateX(35vw) translateY(-10vh) scale(0.78);
+  }
+  44.4444444444% {
+    transform: translateX(-37vw) translateY(-28vh) scale(0.73);
+  }
+  50% {
+    transform: translateX(-24vw) translateY(-45vh) scale(0.45);
+  }
+  55.5555555556% {
+    transform: translateX(42vw) translateY(19vh) scale(0.72);
+  }
+  61.1111111111% {
+    transform: translateX(-44vw) translateY(22vh) scale(0.47);
+  }
+  66.6666666667% {
+    transform: translateX(-15vw) translateY(-12vh) scale(0.85);
+  }
+  72.2222222222% {
+    transform: translateX(-18vw) translateY(-13vh) scale(0.69);
+  }
+  77.7777777778% {
+    transform: translateX(9vw) translateY(-48vh) scale(0.96);
+  }
+  83.3333333333% {
+    transform: translateX(-4vw) translateY(-18vh) scale(0.82);
+  }
+  88.8888888889% {
+    transform: translateX(22vw) translateY(34vh) scale(0.36);
+  }
+  94.4444444444% {
+    transform: translateX(-22vw) translateY(-42vh) scale(0.69);
+  }
+  100% {
+    transform: translateX(-48vw) translateY(7vh) scale(0.58);
+  }
+}
+.firefly:nth-child(12) {
+  animation-name: move12;
+}
+.firefly:nth-child(12)::before {
+  animation-duration: 16s;
+}
+.firefly:nth-child(12)::after {
+  animation-duration: 16s, 8698ms;
+  animation-delay: 0ms, 2658ms;
+}
+ 
+@keyframes move12 {
+  0% {
+    transform: translateX(44vw) translateY(17vh) scale(0.51);
+  }
+  3.5714285714% {
+    transform: translateX(1vw) translateY(6vh) scale(0.41);
+  }
+  7.1428571429% {
+    transform: translateX(49vw) translateY(12vh) scale(0.53);
+  }
+  10.7142857143% {
+    transform: translateX(34vw) translateY(18vh) scale(0.97);
+  }
+  14.2857142857% {
+    transform: translateX(-39vw) translateY(-13vh) scale(0.65);
+  }
+  17.8571428571% {
+    transform: translateX(-3vw) translateY(-16vh) scale(0.69);
+  }
+  21.4285714286% {
+    transform: translateX(48vw) translateY(-18vh) scale(0.89);
+  }
+  25% {
+    transform: translateX(-9vw) translateY(-11vh) scale(0.46);
+  }
+  28.5714285714% {
+    transform: translateX(12vw) translateY(-48vh) scale(0.91);
+  }
+  32.1428571429% {
+    transform: translateX(38vw) translateY(29vh) scale(0.88);
+  }
+  35.7142857143% {
+    transform: translateX(-46vw) translateY(-13vh) scale(0.65);
+  }
+  39.2857142857% {
+    transform: translateX(39vw) translateY(42vh) scale(0.5);
+  }
+  42.8571428571% {
+    transform: translateX(26vw) translateY(-24vh) scale(0.39);
+  }
+  46.4285714286% {
+    transform: translateX(45vw) translateY(-12vh) scale(0.29);
+  }
+  50% {
+    transform: translateX(28vw) translateY(26vh) scale(0.37);
+  }
+  53.5714285714% {
+    transform: translateX(30vw) translateY(-32vh) scale(0.7);
+  }
+  57.1428571429% {
+    transform: translateX(-32vw) translateY(8vh) scale(0.88);
+  }
+  60.7142857143% {
+    transform: translateX(11vw) translateY(-19vh) scale(0.41);
+  }
+  64.2857142857% {
+    transform: translateX(3vw) translateY(-25vh) scale(0.29);
+  }
+  67.8571428571% {
+    transform: translateX(-35vw) translateY(9vh) scale(0.94);
+  }
+  71.4285714286% {
+    transform: translateX(21vw) translateY(-48vh) scale(0.27);
+  }
+  75% {
+    transform: translateX(-31vw) translateY(-48vh) scale(0.75);
+  }
+  78.5714285714% {
+    transform: translateX(33vw) translateY(-20vh) scale(0.98);
+  }
+  82.1428571429% {
+    transform: translateX(-4vw) translateY(27vh) scale(0.27);
+  }
+  85.7142857143% {
+    transform: translateX(-49vw) translateY(-34vh) scale(0.7);
+  }
+  89.2857142857% {
+    transform: translateX(-38vw) translateY(-1vh) scale(0.31);
+  }
+  92.8571428571% {
+    transform: translateX(2vw) translateY(-13vh) scale(0.47);
+  }
+  96.4285714286% {
+    transform: translateX(21vw) translateY(2vh) scale(0.51);
+  }
+  100% {
+    transform: translateX(31vw) translateY(-3vh) scale(0.53);
+  }
+}
+.firefly:nth-child(13) {
+  animation-name: move13;
+}
+.firefly:nth-child(13)::before {
+  animation-duration: 11s;
+}
+.firefly:nth-child(13)::after {
+  animation-duration: 11s, 9638ms;
+  animation-delay: 0ms, 1928ms;
+}
+ 
+@keyframes move13 {
+  0% {
+    transform: translateX(22vw) translateY(23vh) scale(0.43);
+  }
+  4.5454545455% {
+    transform: translateX(44vw) translateY(30vh) scale(0.77);
+  }
+  9.0909090909% {
+    transform: translateX(29vw) translateY(14vh) scale(0.83);
+  }
+  13.6363636364% {
+    transform: translateX(47vw) translateY(-35vh) scale(0.56);
+  }
+  18.1818181818% {
+    transform: translateX(30vw) translateY(10vh) scale(0.93);
+  }
+  22.7272727273% {
+    transform: translateX(7vw) translateY(-9vh) scale(0.7);
+  }
+  27.2727272727% {
+    transform: translateX(-43vw) translateY(37vh) scale(0.78);
+  }
+  31.8181818182% {
+    transform: translateX(-34vw) translateY(5vh) scale(0.54);
+  }
+  36.3636363636% {
+    transform: translateX(-20vw) translateY(24vh) scale(0.93);
+  }
+  40.9090909091% {
+    transform: translateX(6vw) translateY(-45vh) scale(0.73);
+  }
+  45.4545454545% {
+    transform: translateX(11vw) translateY(-47vh) scale(0.58);
+  }
+  50% {
+    transform: translateX(28vw) translateY(-42vh) scale(0.95);
+  }
+  54.5454545455% {
+    transform: translateX(-48vw) translateY(-8vh) scale(0.38);
+  }
+  59.0909090909% {
+    transform: translateX(-7vw) translateY(16vh) scale(0.41);
+  }
+  63.6363636364% {
+    transform: translateX(-20vw) translateY(-8vh) scale(0.8);
+  }
+  68.1818181818% {
+    transform: translateX(-36vw) translateY(-10vh) scale(0.92);
+  }
+  72.7272727273% {
+    transform: translateX(40vw) translateY(31vh) scale(0.71);
+  }
+  77.2727272727% {
+    transform: translateX(-13vw) translateY(5vh) scale(0.61);
+  }
+  81.8181818182% {
+    transform: translateX(-10vw) translateY(2vh) scale(0.88);
+  }
+  86.3636363636% {
+    transform: translateX(9vw) translateY(-21vh) scale(0.9);
+  }
+  90.9090909091% {
+    transform: translateX(12vw) translateY(41vh) scale(0.83);
+  }
+  95.4545454545% {
+    transform: translateX(6vw) translateY(47vh) scale(0.42);
+  }
+  100% {
+    transform: translateX(15vw) translateY(25vh) scale(0.52);
+  }
+}
+.firefly:nth-child(14) {
+  animation-name: move14;
+}
+.firefly:nth-child(14)::before {
+  animation-duration: 16s;
+}
+.firefly:nth-child(14)::after {
+  animation-duration: 16s, 9552ms;
+  animation-delay: 0ms, 8281ms;
+}
+ 
+@keyframes move14 {
+  0% {
+    transform: translateX(15vw) translateY(-28vh) scale(0.81);
+  }
+  5.2631578947% {
+    transform: translateX(49vw) translateY(46vh) scale(0.81);
+  }
+  10.5263157895% {
+    transform: translateX(32vw) translateY(41vh) scale(0.37);
+  }
+  15.7894736842% {
+    transform: translateX(30vw) translateY(35vh) scale(0.96);
+  }
+  21.0526315789% {
+    transform: translateX(-28vw) translateY(26vh) scale(0.6);
+  }
+  26.3157894737% {
+    transform: translateX(-39vw) translateY(-14vh) scale(0.98);
+  }
+  31.5789473684% {
+    transform: translateX(-48vw) translateY(-11vh) scale(0.92);
+  }
+  36.8421052632% {
+    transform: translateX(-16vw) translateY(-45vh) scale(0.47);
+  }
+  42.1052631579% {
+    transform: translateX(-3vw) translateY(-14vh) scale(0.65);
+  }
+  47.3684210526% {
+    transform: translateX(-28vw) translateY(7vh) scale(0.97);
+  }
+  52.6315789474% {
+    transform: translateX(16vw) translateY(-10vh) scale(0.67);
+  }
+  57.8947368421% {
+    transform: translateX(26vw) translateY(32vh) scale(0.58);
+  }
+  63.1578947368% {
+    transform: translateX(34vw) translateY(37vh) scale(0.32);
+  }
+  68.4210526316% {
+    transform: translateX(15vw) translateY(5vh) scale(0.34);
+  }
+  73.6842105263% {
+    transform: translateX(-24vw) translateY(35vh) scale(0.63);
+  }
+  78.9473684211% {
+    transform: translateX(-32vw) translateY(46vh) scale(0.32);
+  }
+  84.2105263158% {
+    transform: translateX(-17vw) translateY(-9vh) scale(0.5);
+  }
+  89.4736842105% {
+    transform: translateX(-24vw) translateY(3vh) scale(0.59);
+  }
+  94.7368421053% {
+    transform: translateX(21vw) translateY(35vh) scale(0.79);
+  }
+  100% {
+    transform: translateX(-49vw) translateY(-9vh) scale(0.52);
+  }
+}
+.firefly:nth-child(15) {
+  animation-name: move15;
+}
+.firefly:nth-child(15)::before {
+  animation-duration: 17s;
+}
+.firefly:nth-child(15)::after {
+  animation-duration: 17s, 6277ms;
+  animation-delay: 0ms, 8444ms;
+}
+ 
+@keyframes move15 {
+  0% {
+    transform: translateX(-7vw) translateY(-24vh) scale(0.77);
+  }
+  4.347826087% {
+    transform: translateX(-14vw) translateY(23vh) scale(0.54);
+  }
+  8.6956521739% {
+    transform: translateX(-8vw) translateY(-21vh) scale(0.27);
+  }
+  13.0434782609% {
+    transform: translateX(43vw) translateY(-14vh) scale(0.85);
+  }
+  17.3913043478% {
+    transform: translateX(-34vw) translateY(-33vh) scale(0.33);
+  }
+  21.7391304348% {
+    transform: translateX(-33vw) translateY(-41vh) scale(0.84);
+  }
+  26.0869565217% {
+    transform: translateX(46vw) translateY(-17vh) scale(0.63);
+  }
+  30.4347826087% {
+    transform: translateX(-18vw) translateY(27vh) scale(0.6);
+  }
+  34.7826086957% {
+    transform: translateX(-16vw) translateY(-49vh) scale(0.59);
+  }
+  39.1304347826% {
+    transform: translateX(-38vw) translateY(-21vh) scale(0.77);
+  }
+  43.4782608696% {
+    transform: translateX(-28vw) translateY(37vh) scale(0.8);
+  }
+  47.8260869565% {
+    transform: translateX(-3vw) translateY(-23vh) scale(0.77);
+  }
+  52.1739130435% {
+    transform: translateX(-18vw) translateY(-35vh) scale(0.5);
+  }
+  56.5217391304% {
+    transform: translateX(-17vw) translateY(-17vh) scale(0.7);
+  }
+  60.8695652174% {
+    transform: translateX(17vw) translateY(-45vh) scale(0.31);
+  }
+  65.2173913043% {
+    transform: translateX(-21vw) translateY(32vh) scale(0.84);
+  }
+  69.5652173913% {
+    transform: translateX(32vw) translateY(30vh) scale(0.56);
+  }
+  73.9130434783% {
+    transform: translateX(-13vw) translateY(6vh) scale(0.89);
+  }
+  78.2608695652% {
+    transform: translateX(17vw) translateY(39vh) scale(0.53);
+  }
+  82.6086956522% {
+    transform: translateX(-12vw) translateY(23vh) scale(0.9);
+  }
+  86.9565217391% {
+    transform: translateX(-40vw) translateY(22vh) scale(0.94);
+  }
+  91.3043478261% {
+    transform: translateX(-5vw) translateY(-37vh) scale(0.91);
+  }
+  95.652173913% {
+    transform: translateX(42vw) translateY(21vh) scale(0.37);
+  }
+  100% {
+    transform: translateX(18vw) translateY(48vh) scale(0.99);
+  }
+}
+@keyframes drift {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes flash {
+  0%, 30%, 100% {
+    opacity: 0;
+    box-shadow: 0 0 0vw 0vw pink;
+  }
+  5% {
+    opacity: 1;
+    box-shadow: 0 0 2vw 0.4vw pink;
+  }
+}
