@@ -375,7 +375,9 @@ info about your den, like your territory, your king's stats, etc.
  
 .table .left {
 background: #e5b386;
-border-radius: 0px !important; }
+border-radius: 0px !important;
+color: #43251B !important;}
+.table .left a, .table .left a:visited { color: #43251B !important; }
 
 .inner-table .left {
 background: #e5b386 !important;
