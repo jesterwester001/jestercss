@@ -58,6 +58,24 @@ a[href$="167140"] > div.cave-grid > img {
 body {
  cursor: url('https://cdn.imgchest.com/files/8e8746df5ed7.png'), auto;}
 
+/* CODE INSPIRED BY MAYHEM #225921 F2U Cave QOL
+coded by hand by me, just referenced for the selectors */
+
+td.left.b {
+    border-radius: 0px !important;}
+td.right_cub {
+    background: rgba(162,143,107,0.4) !important;
+}
+#pride tr:has(img[src*="hungry.png"]) {
+    background: rgba(170,155,9,0.3) !important;
+}
+#pride tr:has(img[src*="overcrowding.png"]) {
+    background: rgba(175,66,66,0.3) !important;
+}
+#pride tr:has(img[src*="inheat.png"]) {
+    background:rgba(122,67,175,0.3) !important;
+}
+
 /* RAIN CODE - This goes into your CSS
 Optimized for use in Lioden by Austin #43750
 ANIMATED BY MARK GOLUS ON CODEPEN: https://codepen.io/mikegolus/pen/Jegvym */
