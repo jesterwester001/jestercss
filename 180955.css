@@ -595,6 +595,12 @@ max-width: 640px;
 font-weight: bold;
 font-size: 14px;
     text-transform: lowercase !important;}
+.featured-lion a, .featured-lion a:visited {
+    color: #ECE6C4 !important;
+}
+.featured-lion a:hover {
+        color: #c9b858 !important;
+}
 
 img[src*="cave/default"] {
 content: url('https://static.lioden.com/images/dynamic/backgrounds/Bloukrans_River.png') !important;}
@@ -691,6 +697,12 @@ overflow-y: auto;
 height: 250px; }
 .Box1 h3, .Box2 h3, .Box3 h3 {
     color: #ECE6C4 !important;
+}
+.Box1 a, .Box2 a, .Box3 a, .Box1 a:visited, .Box2 a:visited, .Box3 a:visited {
+   color: #ECE6C4 !important; 
+}
+.Box1 a:hover, .Box2 a:hover, .Box3 a:hover {
+        color: #c9b858 !important;
 }
 	
 /* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
