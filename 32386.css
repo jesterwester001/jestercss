@@ -317,6 +317,7 @@ rgba(0, 0, 0, 0.0) with a HEX code, or by replacing the 0.0 with a 1.0 */
 .table {
 background: rgba(101,40,62,0.5);
 border: none !important;
+    color: #FDF2CE !important;
 border-collapse: separate;
 border-radius: 10px; }
 
