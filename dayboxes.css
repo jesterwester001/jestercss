@@ -1,0 +1,61 @@
+.bcontainhover {
+    height: 50px;
+    background: none;
+    margin-bottom: 10px;
+    width: auto;
+    transition: 1s
+}
+.bcontainhover:hover {
+    height: 250px;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 7.5px;
+}
+.smallbox {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    float: left;
+    width: 34%;
+    height: 50px;
+    overflow: hidden;
+    transition: 1s
+}
+.smallbox:hover {
+    height: 250px;
+}
+
+.medbox {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    float: right;
+    width: 65%;
+    height: 50px;
+    overflow: hidden;
+    transition: 1s
+}
+.medbox:hover {
+    height: 250px;
+}
+
+.widebox {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    float: left;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    transition: 1s
+}
+.widebox:hover {
+    height: 250px;
+}
