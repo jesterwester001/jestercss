@@ -4,7 +4,8 @@
 --heat: indigo;
 --hungry: yellow;
 --running: red;
---unnested: black; }
+--unnested: maroon;
+--cubdeath: black;}
 
 /* cave qol */
 
@@ -20,6 +21,11 @@
     background: color-mix(var(--lionbg) 75%, var(--heat)) !important;}
 #pride tr:has(img[src*="inheat.png"]) td.right {
     background: color-mix(var(--lionbg2) 75%, var(--heat)) !important;}
+
+#pride tr:has(img[src*="danger.png"]) td.right_odd {
+    background: color-mix(var(--lionbg) 50%, var(--cubdeath)) !important;}
+#pride tr:has(img[src*="danger.png"]) td.right {
+    background: color-mix(var(--lionbg2) 50%, var(--cubdeath)) !important;}
 
 #pride tr:has(img[src*="nonest.png"]):has(img[src*="preg3.png"]) td.right_odd {
     background: color-mix(var(--lionbg) 25%, var(--unnested)); }
