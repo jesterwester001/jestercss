@@ -16,7 +16,7 @@ h2 {
     background: #EBEFF0;
     border: 1px solid #ddd;
     box-shadow: 1px 1px 1px #ddd;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-bottom: 5px;
     float: left;
     width: 34%;
@@ -32,7 +32,7 @@ h2 {
     background: #EBEFF0;
     border: 1px solid #ddd;
     box-shadow: 1px 1px 1px #ddd;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-bottom: 5px;
     float: right;
     width: 65%;
@@ -48,7 +48,7 @@ h2 {
     background: #EBEFF0;
     border: 1px solid #ddd;
     box-shadow: 1px 1px 1px #ddd;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-bottom: 5px;
     float: left;
     width: 100%;
