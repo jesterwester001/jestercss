@@ -1,0 +1,41 @@
+:root {
+--lionbg: #FFEBD1;
+--lionbg2: #fff;
+--heat: indigo;
+--hungry: yellow;
+--running: red;
+--unnested: maroon;
+--cubdeath: black; }
+
+/* cave qol */
+
+#pride tr:has(img[src*="hungry.png"]) td.right_odd {
+    background: color-mix(var(--lionbg) 75%, var(--hungry));}
+#pride tr:has(img[src*="hungry.png"]) td.right {
+    background: color-mix(var(--lionbg2) 75%, var(--hungry));}
+#pride tr:has(img[src*="overcrowding.png"]) td.right_odd {
+    background: color-mix(var(--lionbg) 75%, var(--running)) !important;}
+#pride tr:has(img[src*="overcrowding.png"]) td.right {
+    background: color-mix(var(--lionbg2) 75%, var(--running)) !important;}
+#pride tr:has(img[src*="inheat.png"]) td.right_odd {
+    background: color-mix(var(--lionbg) 75%, var(--heat)) !important;}
+#pride tr:has(img[src*="inheat.png"]) td.right {
+    background: color-mix(var(--lionbg2) 75%, var(--heat)) !important;}
+
+#pride tr:has(img[src*="danger.png"]) td.right_odd {
+    background: color-mix(var(--lionbg) 50%, var(--cubdeath)) !important;}
+#pride tr:has(img[src*="danger.png"]) td.right {
+    background: color-mix(var(--lionbg2) 50%, var(--cubdeath)) !important;}
+
+#pride tr:has(img[src*="nonest.png"]):has(img[src*="preg3.png"]) td.right_odd {
+    background: color-mix(var(--lionbg) 25%, var(--unnested)); }
+#pride tr:has(img[src*="nonest.png"]):has(img[src*="preg3.png"]) td.right {
+    background: color-mix(var(--lionbg2) 25%, var(--unnested)); }
+#pride tr:has(img[src*="nonest.png"]):has(img[src*="preg2.png"]) td.right_odd {
+    background: color-mix(var(--lionbg) 50%, var(--unnested)) !important; }
+#pride tr:has(img[src*="nonest.png"]):has(img[src*="preg2.png"]) td.right {
+      background: color-mix(var(--lionbg2) 50%, var(--unnested)) !important; }
+#pride tr:has(img[src*="nonest.png"]):has(img[src*="preg1.png"]) td.right_odd {
+    background: color-mix(var(--lionbg) 75%, var(--unnested)); }
+#pride tr:has(img[src*="nonest.png"]):has(img[src*="preg1.png"]) td.right {
+    background: color-mix(var(--lionbg2) 75%, var(--unnested)); }
