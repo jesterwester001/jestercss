@@ -8,7 +8,7 @@ Feel free to edit, share, or otherwise use as you see fit. */
 --heat: indigo;
 --hungry: yellow;
 --running: red;
---unnested: maroon;
+--unnested: orange;
 --cubdeath: black; }
 
 /* cave qol */
@@ -27,14 +27,22 @@ Feel free to edit, share, or otherwise use as you see fit. */
     background: color-mix(var(--lionbg2) 75%, var(--heat)) !important;}
 
 #pride tr:has(img[src*="danger.png"]) td.right_odd {
-    background: color-mix(var(--lionbg) 50%, var(--cubdeath)) !important;}
+    background: color-mix(var(--lionbg) 40%, var(--cubdeath)) !important;
+    color: #fff;}
 #pride tr:has(img[src*="danger.png"]) td.right {
-    background: color-mix(var(--lionbg2) 50%, var(--cubdeath)) !important;}
+    background: color-mix(var(--lionbg2) 40%, var(--cubdeath)) !important;
+    color: #fff;}
+#pride tr:has(img[src*="danger.png"]) td.right_odd a, #pride tr:has(img[src*="danger.png"]) td.right_odd a:visited,
+#pride tr:has(img[src*="danger.png"]) td.right a, #pride tr:has(img[src*="danger.png"]) td.right a:visited {
+    color: #fff; }
 
 #pride tr:has(img[src*="nonest.png"]):has(img[src*="preg3.png"]) td.right_odd {
     background: color-mix(var(--lionbg) 25%, var(--unnested)); }
 #pride tr:has(img[src*="nonest.png"]):has(img[src*="preg3.png"]) td.right {
     background: color-mix(var(--lionbg2) 25%, var(--unnested)); }
+#pride tr:has(img[src*="nonest.png"]):has(img[src*="preg3.png"]):hover,
+#pride tr:has(img[src*="nonest.png"]):has(img[src*="preg3.png"]):hover {
+    box-shadow: 5px 5px 5px orange; }
 #pride tr:has(img[src*="nonest.png"]):has(img[src*="preg2.png"]) td.right_odd {
     background: color-mix(var(--lionbg) 50%, var(--unnested)) !important; }
 #pride tr:has(img[src*="nonest.png"]):has(img[src*="preg2.png"]) td.right {
