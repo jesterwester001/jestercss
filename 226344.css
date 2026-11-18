@@ -1,0 +1,472 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+ 
+/* FONTS */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+ 
+body {font-family: "Josefin Sans", sans-serif;}
+ 
+.topbar {font-family: "Josefin Sans", sans-serif;}
+ 
+.navbar {font-family: "Josefin Sans", sans-serif;}
+ 
+ 
+/* HEADERS */
+ 
+h1 {color: #FFFDD0 !important;
+    font-size: 42px;
+text-align: center !important;
+text-transform: uppercase !important;
+font-family: "Josefin Sans", sans-serif;}
+
+h2 {color: #FFFDD0 !important;
+    font-size: 24px;}
+
+h3 {color: #FFFDD0 !important;
+    font-size: 18px;}
+ 
+/* LINKS */
+ 
+a:link,
+a:visited {
+    color: #FFFDD0 !important;
+background: none !important;
+border-bottom: none !important; }
+   
+a:hover {
+ color: #5A6640 !important; }
+ 
+/* BACKGROUNDS */
+ 
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://cdn.imgchest.com/files/07ed8a1b68b2.jpg') center center fixed !important;
+    background-size: 100%;
+    color: #5A6640; } }
+
+@media screen and (max-width: 600px){
+body {
+background: url('https://cdn.imgchest.com/files/196f72df27d6.png') center center fixed !important;
+background-size: 100%;
+color: #5A6640; } }
+ 
+/* MAIN PANEL */
+   
+.container.main {
+    background: rgba(55, 58, 39, 0.0);
+    border: none;
+    box-shadow: none;
+    border-radius: 0px; }
+.col-md-9 {
+    background: none; } 
+ 
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+    background: #283314 !important;
+    color: #5A6640 !important;
+border: none !important;
+border-radius: 0px !important;  }
+ 
+.navbar {
+    background: #283314 !important;
+    color: #FFFDD0 !important;
+border: none !important;
+border-radius: 0px !important; }
+.navbar-toggle {
+	border-radius: 0px !important;
+background: #5A6640 !important}
+
+.navbar-default, .navbar-collapse: {
+border: none !important; }
+ 
+.navbar li a:hover {
+    background: #HEX !important;
+color: #HEX !important; }
+ 
+.breadcrumb {
+    background: #283314 !important;
+    color: #FFFDD0 !important;
+	border: 1px solid #5A6640 !important;
+border-radius: 5px !important;} 
+.breadcrumb .active {
+    color: #5A6640; }
+
+.breadcrumb a {
+color: #FFFDD0 !important; }
+.breadcrumb a:hover {
+color: #5A6640 !important; }
+
+.input.floatright submit {
+	background: #FFFDD0 !important;
+color: #5A6640 !important;
+border-radius: 5px !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger, .alert-success {
+    background: #283314 !important;
+    color: #FFFDD0 !important;
+border: none !important;
+border-radius: 5px !important;  }
+.alert a, .alert-warning a, .alert-success a, .alert-danger a {
+color: #FFFDD0 !important; }
+.alert a:hover, .alert-warning a:hover, .alert-danger a:hover, .alert-success a:hover {
+color: #5A6640 !important; }
+
+/*COMMENT BOX */
+
+div#commentBox {
+    background: #2A3C10 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    color: #FFFDD0 !important;}
+div#comment {
+text-align: center !important; }
+
+div#commentBox, div#makeComment, div#commentErrors {
+        border: 1px solid #FFFDD0 !important;
+		border-radius: 5px !important;
+		text-align: center;}
+div#commentBox {
+background: #HEX !important; }
+div#makeComment, div#commentErrors {
+border: none !important; }
+
+div#commentBox::-webkit-scrollbar {
+	background: none;
+	width: 0px;
+	height: 0px;
+}
+
+div#commentBox::-webkit-scrollbar-track {
+	background: none;
+}
+
+div#commentBox::-webkit-scrollbar-thumb {
+	background: none;
+}
+
+img.floatleft.commentTag.clear {
+border-radius: 0px !important;}
+	
+.comment {     background: #HEX !important;
+border: none !important;
+    border-bottom: none !important;
+    border-radius: 0px !important;
+    color: #FFFDD0 !important;
+	text-align: center !important;}
+.text-muted { color: #FFFDD0 !important; }
+
+input.bad {
+	background: #FFFDD0 !important;
+color: #2A3C10 !important;
+border-radius: 50% !important;}
+input.bad a {
+color: #2A3C10 !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+    background: #283314 !important;
+    color: #FFFDD0 !important;
+border: none !important;
+border-radius: 10px !important;  }
+.feature,
+div.left {
+    background: #283314 !important;
+    color: #FFFDD0 !important;
+border: none !important;
+border-radius: 10px !important;  }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+    background: #283314 !important;
+    color: #FFFDD0 !important;
+border: none !important;
+border-radius: 10px !important;
+box-shadow: none !important; }
+   
+.progress {
+    background:  #364914;
+    color: #HEX !important;
+border-radius: 25px !important;  }
+   
+.progress div {
+    color: #FFFDD0 !important; }
+
+.progress-bar {
+    background: #5A6640 !important; 
+border-radius: 25px !important; }
+ 
+/* CHAT */
+
+html.nolayout {
+background: none !important; }
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #353E23 !important;
+    border: none !important;
+color: #FFFDD0 !important;	}
+.s-chat-message__pinned {
+    background: #283314 !important;
+    color: #FFFDD0  !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #FFFDD0  !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel {
+    border: none !important;
+    background: #HEX !important; }
+	
+	div#lblCharacterCounter {
+color: #FFFDD0 !important; }
+ 
+/* LION INFO */
+ 
+.table {
+    background: #FFFDD0;
+    border: none !important;
+    border-collapse: separate;
+    border-radius: 25px; }
+.top,
+.bottom,
+th {
+    background: #283314 !important;
+    color: #FFFDD0 !important;
+border: none !important;
+border-radius: 10px !important; }
+
+.bottom {
+	border-top-right-radius: 0px !important;
+border-top-left-radius: 0px !important; }
+
+th, .top {
+	border-bottom-right-radius: 0px !important;
+border-bottom-left-radius: 0px !important; }
+ 
+ 
+.table .left {
+    background: #283314;
+border-radius: 10px !important;}
+.inner-table .left {
+    background: #283314 !important;
+border-radius: 10px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+.inner-table .right {
+    background: #353E23 !important;
+border-radius: 10px !important; 
+color: #FFFDD0 !important;
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important; } 
+.right_odd {
+    background: none !important; }
+	
+table#reclaim.table td.left.b.center {
+border-radius: 0px !important; }
+
+table#reclaim.table submit, td.right.center input, td.right_odd select, td.right_odd input, 
+table#reclaim.table select, table#sparring.table post, table#sparring.table submit {
+	    background: #283314 !important;
+    color: #FFFDD0 !important;
+border: none !important;
+border-radius: 5px !important; }
+
+table#allies.table bottom a {
+color: #FFFDD0 !important; }
+table#allies.table bottom a:hover {
+color: #353E23 !important; }
+
+table#allies.table, table#allies.table a, table#clans.table a, td.right a {
+color: #353E23 !important; }
+table#allies.table a:hover, table#clans.table a:hover, td.right a:hover {
+color: #283314 !important; }
+
+td.left.b {
+border-radius: 0px !important; }
+
+p.center:nth-child(4) a {
+color: #353E23 !important; }
+	
+
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 1.0;
+border-radius: 50%;
+overflow: hidden; }   
+table#player img {
+    opacity: 1.0;
+border-radius: 50%; }
+
+/* LIODEN LOGO REPLACER 192x120 */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://cdn.imgchest.com/files/5233a287557d.png'); }
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+.inner-table .right a {
+color: #FFFDD0 !important; }
+ 
+/* ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: #283314 !important;
+    color: #FFFDD0 !important; } 
+.item {
+    background: #353E23 !important;
+    border: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button, button, button#label_currentchannel, .channelMenu, a.btn.btn-default.button {
+    background: #FFFDD0 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    color: #283314 !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+    background: #283314 !important;
+    color: #FFFDD0 !important;
+border: none !important;
+border-radius: 10px !important;
+box-shadow: none !important; }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #HEX;}
+::-webkit-scrollbar-thumb {
+    background: #HEX; }
+
+/* first number is track, second is thumb, firefox only */
+:root {
+scrollbar-color: #FFFDD0 #283314 !important;
+scrollbar-width: auto;}
+	
+.mobilebox::-webkit-scrollbar, .Box3::-webkit-scrollbar, .Box1::-webkit-scrollbar, .Box2::-webkit-scrollbar {
+    width: 0px;
+    height: 0px; }
+.mobilebox::-webkit-scrollbar-track, .Box3::-webkit-scrollbar-track, 
+.Box1::-webkit-scrollbar-track, .Box2::-webkit-scrollbar-track {
+    background: none;}
+.mobilebox::-webkit-scrollbar-thumb, .Box3::-webkit-scrollbar-thumb, 
+.Box1::-webkit-scrollbar-thumb, .Box2::-webkit-scrollbar-thumb {
+    background: none; }
+
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #HEX;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+
+
+/* MOBILE ONLY BOXES */
+
+.mobilebox {
+float: center;
+    background: #283314 !important;
+    color: #FFFDD0 !important;
+border: none !important;
+border-radius: 10px !important;
+box-shadow: none !important;
+    margin: 10px;
+	padding: 10px;
+	float: center;
+	height: 155px;
+	width: 80%;
+	overflow: auto;
+	transition: 1s }
+	
+.mobcontainer {
+	    background: none;
+    height: 155px;
+    padding: 0px;
+    display: flex;
+justify-content: center; }
+
+/* CAVE COVERS
+width: 240
+height: 120 (60 for half size)
+first one controls nesting/empty cave slot looks 
+Cave 3 image sourced from Gary Randall, find here: https://www.gary-randall.com/oregon-rain-forest/
+Other images sourced from Unsplash and Bioteach.com, as well as DepositPhotos.com and Stockcake.com*/
+
+div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/d2d4ce466a54.gif');}
+
+a[href$="cave.php?id=412428"]>div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/12506983d175.gif')!important; }
+a[href$="cave.php?id=167227"]>div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/1e416dc52673.jpg')!important;
+height: 126px !important;		}
+a[href$="cave.php?id=194290"]>div.cave-grid>img {
+        content: url('https://cdn.imgchest.com/files/12d6b1524c97.png')!important; }
+
+a[href$="unsorted.php?id=226344"]>div.cave-grid>img{
+	content: url('https://cdn.imgchest.com/files/d2d4ce466a54.gif')!important;}
+a[href*="lionoverview.php?id=226344"]>div.cave-grid>img {
+	content: url('https://cdn.imgchest.com/files/d2de677268ae.png')!important; }
+
+
+a[href$="unsorted-beetles.php?id=226344"] > div.mound-grid > img {
+	content: url('https://cdn.imgchest.com/files/7b01ee112749.gif')!important;
+	border-radius: 5px !important;}
+a[href$="mound.php?id=84428"] > div.mound-grid > img {
+	content: url('https://cdn.imgchest.com/files/244e628cc5c2.gif')!important;
+		border-radius: 5px !important;}
+
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
